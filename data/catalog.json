@@ -1,0 +1,99 @@
+{
+  "A001": {
+    "title_it": "Consolle intarsiata in stile Luigi XV",
+    "title_en": "Italian Louis XV Style Inlaid Console",
+    "title_fr": "Console italienne de style Louis XV marquetée",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "price_it": "€700",
+    "price_en": "€700",
+    "price_fr": "700 €",
+    "dimensions": "80 × 40 × H 70 cm",
+    "description_it": "Elegante consolle italiana dalle linee mosse, decorata con intarsi vegetali e volute. Il piano sagomato cela una pratica mensola estraibile; il fronte presenta un cassetto centrale con serratura.",
+    "description_en": "An elegant Italian console with shaped lines, floral marquetry and scrolling motifs. The shaped top conceals a practical pull-out shelf, while the front features a central drawer with lock.",
+    "description_fr": "Élégante console italienne aux lignes galbées, ornée de marqueteries végétales et de volutes. Le plateau dissimule une tablette coulissante pratique et la façade présente un tiroir central avec serrure.",
+    "condition_it": "Buone condizioni generali, con normali segni del tempo e dell’uso.",
+    "condition_en": "Good overall condition, with expected signs of age and use.",
+    "condition_fr": "Bon état général, avec des traces normales d’âge et d’usage.",
+    "images": [
+      "assets/images/A001/a001-01.jpg",
+      "assets/images/A001/a001-03.jpg",
+      "assets/images/A001/a001-04.jpg",
+      "assets/images/A001/a001-05.jpg",
+      "assets/images/A001/a001-06.jpg"
+    ]
+  },
+  "A002": {
+    "title_it": "Specchio antico con cornice dorata",
+    "title_en": "Antique Giltwood Mirror",
+    "title_fr": "Miroir ancien en bois doré",
+    "category_it": "Specchi",
+    "category_en": "Mirrors",
+    "category_fr": "Miroirs",
+    "price_it": "Prezzo su richiesta",
+    "price_en": "Price upon request",
+    "price_fr": "Prix sur demande",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Grande specchio decorativo con cornice dorata a motivi floreali e volute, sormontato da un’importante cimasa traforata con piccoli inserti specchianti.",
+    "description_en": "A large decorative mirror with a gilt frame of floral motifs and scrolls, surmounted by an elaborate pierced crest with small mirrored inserts.",
+    "description_fr": "Grand miroir décoratif avec cadre doré à motifs floraux et volutes, surmonté d’un important fronton ajouré avec petits éléments miroir.",
+    "condition_it": "Doratura con usure e piccole mancanze; specchio con ossidazioni e segni del tempo.",
+    "condition_en": "Wear and small losses to the gilding; mirror plate with oxidation and age-related marks.",
+    "condition_fr": "Usures et petits manques à la dorure ; glace présentant oxydation et marques du temps.",
+    "images": [
+      "assets/images/A002/a002-01.jpg",
+      "assets/images/A002/a002-02.jpg",
+      "assets/images/A002/a002-03.jpg",
+      "assets/images/A002/a002-04.jpg",
+      "assets/images/A002/a002-05.jpg"
+    ]
+  },
+  "A003": {
+    "title_it": "Coppia di poltroncine antiche ricamate",
+    "title_en": "Pair of Antique Embroidered Armchairs",
+    "title_fr": "Paire de fauteuils anciens brodés",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "price_it": "€300–800 la coppia",
+    "price_en": "€300–800 the pair",
+    "price_fr": "300–800 € la paire",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Coppia di poltroncine avvolgenti con schienale sagomato e rivestimento a motivo geometrico. La vendita comprende entrambe le sedute.",
+    "description_en": "A pair of enveloping armchairs with shaped backs and geometric-pattern upholstery. Offered as a pair.",
+    "description_fr": "Paire de fauteuils enveloppants à dossier galbé et tissu à motif géométrique. Vendus par paire.",
+    "condition_it": "Una gamba è rotta e necessita di restauro; rivestimento con normali segni del tempo.",
+    "condition_en": "One leg is broken and requires restoration; upholstery shows normal age-related wear.",
+    "condition_fr": "Un pied est cassé et nécessite une restauration ; le revêtement présente des traces normales du temps.",
+    "images": [
+      "assets/images/A003/a003-01.jpg"
+    ]
+  },
+  "A004": {
+    "title_it": "Coppia di nature morte floreali",
+    "title_en": "Pair of Floral Still Lifes",
+    "title_fr": "Paire de natures mortes florales",
+    "category_it": "Dipinti",
+    "category_en": "Paintings",
+    "category_fr": "Peintures",
+    "price_it": "€600 la coppia",
+    "price_en": "€600 the pair",
+    "price_fr": "600 € la paire",
+    "dimensions": "Circa 60 × 50 cm ciascuna",
+    "description_it": "Due composizioni floreali in vaso, dipinte con una tavolozza calda e luminosa su fondo scuro. Entrambe le opere recano la firma «A. Persico».",
+    "description_en": "Two floral arrangements in vases, painted in a warm luminous palette against a dark ground. Both works bear the signature “A. Persico”.",
+    "description_fr": "Deux compositions florales en vase, peintes dans une palette chaude et lumineuse sur fond sombre. Les deux œuvres portent la signature « A. Persico ».",
+    "condition_it": "Condizioni vintage con segni del tempo visibili; cornici originali.",
+    "condition_en": "Vintage condition with visible age-related wear; original frames.",
+    "condition_fr": "État ancien avec marques du temps visibles ; cadres d’origine.",
+    "images": [
+      "assets/images/A004/a004-01.jpg",
+      "assets/images/A004/a004-02.jpg",
+      "assets/images/A004/a004-03.jpg",
+      "assets/images/A004/a004-04.jpg",
+      "assets/images/A004/a004-05.jpg",
+      "assets/images/A004/a004-06.jpg"
+    ]
+  }
+}
