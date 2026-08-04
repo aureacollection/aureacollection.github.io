@@ -12,11 +12,7 @@ window.AUREA_CATALOG = {
     "description_en": "Italian Louis XV style console with floral marquetry, a central drawer and a practical pull-out shelf.",
     "description_fr": "Console italienne de style Louis XV avec marqueterie florale, tiroir central et tablette coulissante.",
     "images": [
-      "assets/images/A001/a001-01.jpg",
-      "assets/images/A001/a001-03.jpg",
-      "assets/images/A001/a001-04.jpg",
-      "assets/images/A001/a001-05.jpg",
-      "assets/images/A001/a001-06.jpg"
+      "assets/images/A001/a001-01.jpg"
     ],
     "status": "available"
   },
@@ -33,11 +29,7 @@ window.AUREA_CATALOG = {
     "description_en": "Large decorative mirror with a gilt floral and scroll frame, crowned by an elaborate pierced crest.",
     "description_fr": "Grand miroir décoratif à cadre doré de motifs floraux et volutes, surmonté d’un fronton ajouré.",
     "images": [
-      "assets/images/A002/a002-01.jpg",
-      "assets/images/A002/a002-02.jpg",
-      "assets/images/A002/a002-03.jpg",
-      "assets/images/A002/a002-04.jpg",
-      "assets/images/A002/a002-05.jpg"
+      "assets/images/A002/a002-01.jpg"
     ],
     "status": "available"
   },
@@ -71,12 +63,7 @@ window.AUREA_CATALOG = {
     "description_en": "Pair of floral oil paintings signed A. Persico and presented in their original frames.",
     "description_fr": "Paire de compositions florales à l’huile, signées A. Persico et présentées dans leurs cadres d’origine.",
     "images": [
-      "assets/images/A004/a004-01.jpg",
-      "assets/images/A004/a004-02.jpg",
-      "assets/images/A004/a004-03.jpg",
-      "assets/images/A004/a004-04.jpg",
-      "assets/images/A004/a004-05.jpg",
-      "assets/images/A004/a004-06.jpg"
+      "assets/images/A004/a004-01.jpg"
     ],
     "status": "available"
   },
@@ -93,12 +80,7 @@ window.AUREA_CATALOG = {
     "description_en": "Louis XV style table with a natural alabaster top and a richly worked bronze frame.",
     "description_fr": "Table de style Louis XV avec plateau en albâtre naturel et structure en bronze richement ouvragée.",
     "images": [
-      "assets/images/A005/a005-01.jpg",
-      "assets/images/A005/a005-02.jpg",
-      "assets/images/A005/a005-03.jpg",
-      "assets/images/A005/a005-04.jpg",
-      "assets/images/A005/a005-05.jpg",
-      "assets/images/A005/a005-06.jpg"
+      "assets/images/A005/a005-01.jpg"
     ],
     "status": "available"
   },
@@ -115,13 +97,7 @@ window.AUREA_CATALOG = {
     "description_en": "French “A Paris” clock in white and black marble, enriched with gilt-bronze mounts.",
     "description_fr": "Pendule française « A Paris » en marbre blanc et noir, ornée de bronzes dorés.",
     "images": [
-      "assets/images/A006/a006-01.jpg",
-      "assets/images/A006/a006-02.jpg",
-      "assets/images/A006/a006-03.jpg",
-      "assets/images/A006/a006-04.jpg",
-      "assets/images/A006/a006-05.jpg",
-      "assets/images/A006/a006-06.jpg",
-      "assets/images/A006/a006-07.jpg"
+      "assets/images/A006/a006-01.jpg"
     ],
     "status": "available"
   },
@@ -138,20 +114,7 @@ window.AUREA_CATALOG = {
     "description_en": "Set of six Italian Louis XVI style chairs, green-painted and upholstered in Cannetta Milano floral needlework.",
     "description_fr": "Suite de six chaises italiennes de style Louis XVI, laquées vert et garnies d’une broderie florale Cannetta Milan.",
     "images": [
-      "assets/images/A007/a007-01.jpg",
-      "assets/images/A007/a007-02.jpg",
-      "assets/images/A007/a007-03.jpg",
-      "assets/images/A007/a007-04.jpg",
-      "assets/images/A007/a007-05.jpg",
-      "assets/images/A007/a007-06.jpg",
-      "assets/images/A007/a007-07.jpg",
-      "assets/images/A007/a007-08.jpg",
-      "assets/images/A007/a007-09.jpg",
-      "assets/images/A007/a007-10.jpg",
-      "assets/images/A007/a007-11.jpg",
-      "assets/images/A007/a007-12.jpg",
-      "assets/images/A007/a007-13.jpg",
-      "assets/images/A007/a007-14.jpg"
+      "assets/images/A007/a007-01.jpg"
     ],
     "status": "available"
   },
@@ -168,22 +131,7 @@ window.AUREA_CATALOG = {
     "description_en": "Set of three large painted canvas panels depicting classical landscapes, figures and trompe-l’œil floral borders, originally integrated into the family residence.",
     "description_fr": "Ensemble de trois grands panneaux peints sur toile représentant des paysages classiques, des personnages et des bordures florales en trompe-l’œil, autrefois intégrés à la résidence familiale.",
     "images": [
-      "assets/images/A008/a008-01.jpg",
-      "assets/images/A008/a008-02.jpg",
-      "assets/images/A008/a008-03.jpg",
-      "assets/images/A008/a008-04.jpg",
-      "assets/images/A008/a008-05.jpg",
-      "assets/images/A008/a008-06.jpg",
-      "assets/images/A008/a008-07.jpg",
-      "assets/images/A008/a008-08.jpg",
-      "assets/images/A008/a008-09.jpg",
-      "assets/images/A008/a008-10.jpg",
-      "assets/images/A008/a008-11.jpg",
-      "assets/images/A008/a008-12.jpg",
-      "assets/images/A008/a008-13.jpg",
-      "assets/images/A008/a008-14.jpg",
-      "assets/images/A008/a008-15.jpg",
-      "assets/images/A008/a008-16.jpg"
+      "assets/images/A008/a008-01.jpg"
     ],
     "status": "available"
   },
@@ -200,11 +148,7 @@ window.AUREA_CATALOG = {
     "description_en": "Large adjustable wrought iron wall lamp with an accordion scissor mechanism and floral details at the joints. A functional and striking decorative piece.",
     "description_fr": "Grande applique murale extensible en fer forgé, dotée d’un mécanisme en accordéon et de détails floraux aux articulations. Une pièce fonctionnelle et décorative de caractère.",
     "images": [
-      "assets/images/A009/a009-01.jpg",
-      "assets/images/A009/a009-02.jpg",
-      "assets/images/A009/a009-03.jpg",
-      "assets/images/A009/a009-04.jpg",
-      "assets/images/A009/a009-05.jpg"
+      "assets/images/A009/a009-01.jpg"
     ],
     "status": "available"
   },
@@ -221,10 +165,7 @@ window.AUREA_CATALOG = {
     "description_en": "Large executive desk of restrained design, with a wooden top, metal structure and integrated drawers, shown in its original study setting.",
     "description_fr": "Grand bureau de direction aux lignes sobres, avec plateau en bois, structure métallique et caissons intégrés, présenté dans son cadre d’origine.",
     "images": [
-      "assets/images/A010/a010-01.jpg",
-      "assets/images/A010/a010-02.jpg",
-      "assets/images/A010/a010-03.jpg",
-      "assets/images/A010/a010-04.jpg"
+      "assets/images/A010/a010-01.jpg"
     ],
     "status": "available"
   },
@@ -258,8 +199,7 @@ window.AUREA_CATALOG = {
     "description_en": "Grand statement mirror with a richly carved and gilded wooden frame, decorated with scrolls, foliage and an elaborate Rocaille-style crest.",
     "description_fr": "Grand miroir spectaculaire à cadre en bois richement sculpté et doré, orné de volutes, feuillages et d’un important fronton de goût rocaille.",
     "images": [
-      "assets/images/A012/a012-01.png",
-      "assets/images/A012/a012-02.jpg"
+      "assets/images/A012/a012-01.png"
     ],
     "status": "available"
   },
@@ -276,12 +216,7 @@ window.AUREA_CATALOG = {
     "description_en": "Elegant pair of two-arm wall sconces with gilt-bronze frames, shaped glass drip pans and abundant faceted crystal drops.",
     "description_fr": "Élégante paire d’appliques à deux bras, en bronze doré, avec bobèches en verre moulé et riche pendeloquerie en cristal taillé.",
     "images": [
-      "assets/images/A013/a013-01.png",
-      "assets/images/A013/a013-02.jpg",
-      "assets/images/A013/a013-03.jpg",
-      "assets/images/A013/a013-04.jpg",
-      "assets/images/A013/a013-05.jpg",
-      "assets/images/A013/a013-06.jpg"
+      "assets/images/A013/a013-01.png"
     ],
     "status": "available"
   },
@@ -301,11 +236,7 @@ window.AUREA_CATALOG = {
     "subtitle_en": "Published as a work attributed to Giuseppe Cesari, called Cavaliere d’Arpino",
     "subtitle_fr": "Œuvre publiée comme attribuée à Giuseppe Cesari, dit le Cavalier d’Arpin",
     "images": [
-      "assets/images/A014/a014-01.jpg",
       "assets/images/A014/a014-02.png",
-      "assets/images/A014/a014-03.jpg",
-      "assets/images/A014/a014-04.jpg",
-      "assets/images/A014/a014-05.jpg",
       "assets/images/A014/a014-bibliografia-01.jpg"
     ],
     "status": "available",
@@ -406,6 +337,252 @@ window.AUREA_CATALOG = {
         "title": "Provenance",
         "paragraphs": [
           "Collection familiale privée italienne ; la publication situe l’œuvre dans une collection privée milanaise."
+        ]
+      }
+    ]
+  },
+  "A015": {
+    "category_key": "architectural",
+    "title_it": "Coppia di porte italiane in legno con pannelli intagliati a raggiera",
+    "title_en": "Pair of Italian Carved Wood Doors with Sunburst Panels",
+    "title_fr": "Paire de portes italiennes en bois à panneaux sculptés en rayons",
+    "category_it": "Elementi architettonici",
+    "category_en": "Architectural Elements",
+    "category_fr": "Éléments architecturaux",
+    "dimensions": "",
+    "description_it": "Coppia di porte interne italiane in legno massello, con pannelli scanalati e motivo centrale a raggiera finemente intagliato. Conservano ferramenta antica e una calda patina d’uso.",
+    "description_en": "Pair of Italian solid-wood interior doors with fluted panels and finely carved central sunburst motifs. Retaining period hardware and a warm aged patina.",
+    "description_fr": "Paire de portes intérieures italiennes en bois massif, à panneaux cannelés et motifs rayonnants sculptés. Ferrures anciennes et belle patine d’usage.",
+    "images": [
+      "assets/images/A015/a015-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La decorazione geometrica a raggiera, la costruzione in massello e la presenza della ferramenta antica trasformano queste porte in veri elementi architettonici, particolarmente adatti a restauri e progetti d’interior design."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "The carved sunburst decoration, solid construction and surviving period hardware make these doors distinctive architectural elements, ideal for restoration and interior-design projects."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Le décor rayonnant sculpté, la construction massive et les ferrures anciennes font de ces portes de véritables éléments architecturaux, adaptés aux restaurations et aux projets d’architecture intérieure."
+        ]
+      }
+    ]
+  },
+  "A016": {
+    "category_key": "seating",
+    "title_it": "Divano italiano in noce intagliato con braccioli a voluta",
+    "title_en": "Italian Carved Walnut Sofa with Scroll Arms",
+    "title_fr": "Canapé italien en noyer sculpté à accotoirs en volute",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "dimensions": "",
+    "description_it": "Elegante divano italiano in noce intagliato, con importante cimasa sagomata, grandi braccioli a voluta e piedi riccamente scolpiti. Rivestimento floreale di epoca successiva.",
+    "description_en": "Elegant Italian carved-walnut sofa with a shaped crest, generous scroll arms and richly carved feet. Later floral upholstery.",
+    "description_fr": "Élégant canapé italien en noyer sculpté, à fronton chantourné, grands accotoirs en volute et pieds richement travaillés. Tissu floral postérieur.",
+    "images": [
+      "assets/images/A016/a016-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "L’ampiezza dei braccioli scolpiti, la cimasa ondulata e la forte presenza della struttura lignea conferiscono al divano un carattere scenografico, adatto sia ad ambienti storici sia a interni contemporanei."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "Its deeply carved scroll arms, shaped crest and substantial wooden frame give the sofa a striking presence suited to historic and contemporary interiors alike."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Les grands accotoirs sculptés, le fronton ondulé et la forte présence de la structure en bois donnent au canapé un caractère spectaculaire."
+        ]
+      }
+    ]
+  },
+  "A017": {
+    "category_key": "furniture",
+    "title_it": "Grande console rustica italiana in legno massello",
+    "title_en": "Large Italian Rustic Solid-Wood Console",
+    "title_fr": "Grande console rustique italienne en bois massif",
+    "category_it": "Consolle",
+    "category_en": "Consoles",
+    "category_fr": "Consoles",
+    "dimensions": "",
+    "description_it": "Grande console italiana in legno massello, caratterizzata da proporzioni architettoniche, piano di forte spessore, robuste gambe rettangolari e una marcata patina d’uso.",
+    "description_en": "Large Italian solid-wood console with architectural proportions, a thick top, robust rectangular legs and a pronounced aged patina.",
+    "description_fr": "Grande console italienne en bois massif, aux proportions architecturales, avec plateau épais, pieds robustes et patine ancienne marquée.",
+    "images": [
+      "assets/images/A017/a017-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La semplicità della costruzione mette in primo piano la materia e i segni del tempo. È un mobile autentico e versatile, utilizzabile come console, banco espositivo o tavolo da parete."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "Its restrained construction highlights the material and natural signs of age. It is an authentic and versatile piece for use as a console, display counter or wall table."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "La sobriété de la construction met en valeur la matière et les traces du temps. Une pièce authentique et polyvalente."
+        ]
+      }
+    ]
+  },
+  "A018": {
+    "category_key": "desks",
+    "title_it": "Scrivania italiana in noce con piano in pelle e due cassetti",
+    "title_en": "Italian Walnut Desk with Leather Writing Surface and Two Drawers",
+    "title_fr": "Bureau italien en noyer à plateau gainé de cuir et deux tiroirs",
+    "category_it": "Scrivanie",
+    "category_en": "Desks",
+    "category_fr": "Bureaux",
+    "dimensions": "",
+    "description_it": "Elegante scrivania italiana in noce con inserto centrale in pelle scura, due cassetti frontali, gambe tornite e traverse di irrigidimento.",
+    "description_en": "Elegant Italian walnut desk with a dark leather writing surface, two front drawers, turned legs and stabilising stretchers.",
+    "description_fr": "Élégant bureau italien en noyer, avec écritoire en cuir sombre, deux tiroirs, pieds tournés et entretoises.",
+    "images": [
+      "assets/images/A018/a018-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "Unisce la calda patina del noce alla praticità del piano in pelle e dei due cassetti. Le quattro facce e le proporzioni equilibrate la rendono ideale anche come scrivania da centro stanza."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "It combines warm walnut patina with the practicality of a leather writing surface and two drawers, making it particularly suitable as a freestanding desk."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Elle associe la patine chaleureuse du noyer à la fonctionnalité d’un plateau en cuir et de deux tiroirs."
+        ]
+      }
+    ]
+  },
+  "A019": {
+    "category_key": "furniture",
+    "title_it": "Grande vetrina pensile italiana a quattro ante",
+    "title_en": "Large Italian Wall-Mounted Glazed Cabinet with Four Doors",
+    "title_fr": "Grande vitrine murale italienne à quatre portes",
+    "category_it": "Vetrine e librerie",
+    "category_en": "Glazed Cabinets and Bookcases",
+    "category_fr": "Vitrines et bibliothèques",
+    "dimensions": "",
+    "description_it": "Grande vetrina pensile italiana in legno, composta da quattro ante vetrate e ripiani interni. Le linee sobrie valorizzano la venatura e la funzionalità del mobile.",
+    "description_en": "Large Italian wall-mounted wooden cabinet with four glazed doors and internal shelves. Its restrained design highlights the wood grain and practical storage.",
+    "description_fr": "Grande vitrine murale italienne en bois, à quatre portes vitrées et étagères intérieures. Ses lignes sobres mettent en valeur le bois et sa fonctionnalité.",
+    "images": [
+      "assets/images/A019/a019-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La grande larghezza e le quattro ante vetrate offrono una notevole capacità espositiva senza appesantire visivamente l’ambiente. Ideale per libri, porcellane e collezioni."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "Its generous width and four glazed doors provide substantial display capacity without visually overwhelming a room."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Sa grande largeur et ses quatre portes vitrées offrent une importante capacité d’exposition tout en conservant une présence sobre."
+        ]
+      }
+    ]
+  },
+  "A020": {
+    "category_key": "seating",
+    "title_it": "Salotto veneziano in noce con ricamo a punto cannetta",
+    "title_en": "Venetian Walnut Salon Suite with Handworked Needlepoint",
+    "title_fr": "Salon vénitien en noyer à broderie au petit point",
+    "category_it": "Salotti",
+    "category_en": "Salon Suites",
+    "category_fr": "Salons",
+    "dimensions": "",
+    "description_it": "Salotto composto da un divano a tre posti e quattro poltroncine pendant in noce, con raffinato rivestimento floreale interamente ricamato a mano a punto cannetta.",
+    "description_en": "Salon suite comprising a three-seat sofa and four matching walnut armchairs, upholstered with refined floral handworked needlepoint.",
+    "description_fr": "Salon composé d’un canapé trois places et de quatre fauteuils assortis en noyer, garnis d’une fine broderie florale réalisée à la main au petit point.",
+    "images": [
+      "assets/images/A020/a020-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La completezza dell’insieme e l’esteso ricamo floreale a punto cannetta, eseguito a mano sul divano e sulle quattro poltroncine, costituiscono il principale elemento di rarità e pregio."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "The completeness of the suite and the extensive handworked floral needlepoint covering both the sofa and four armchairs are its principal marks of rarity and quality."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "La complétude de l’ensemble et l’importante broderie florale au petit point réalisée à la main constituent ses principaux éléments de rareté."
         ]
       }
     ]

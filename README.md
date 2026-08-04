@@ -76,3 +76,10 @@ Questa versione corregge il pacchetto precedente:
 - scheda speciale e dettagliata per A014;
 - pagina bibliografica del volume inserita nella galleria di A014;
 - pulsante dedicato per richiedere informazioni e documentazione sull'opera.
+
+
+## Aggiornamento A001–A020
+- aggiunti A015–A020;
+- sul sito pubblico sono mostrate esclusivamente fotografie selezionate/ottimizzate;
+- aggiunta la sezione “Perché questo pezzo è speciale” ai nuovi articoli;
+- nessun prezzo è pubblicato sul sito.
