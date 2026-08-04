@@ -21,7 +21,7 @@ const ui = {
     artCopy: "AUREA Collection nasce dal desiderio di valorizzare mobili, dipinti e oggetti decorativi appartenuti alla nostra famiglia. Ogni pezzo è presentato con fotografie accurate e descrizioni essenziali, nel rispetto della sua storia e della sua bellezza.",
     title: "La collezione",
     intro: "Una selezione privata di mobili, dipinti, specchi, sedute e oggetti decorativi.",
-    all: "Tutti", dimensions: "Misure", request: "Richiedi informazioni",
+    all: "Tutti", dimensions: "Misure", request: "Richiedi informazioni su questo oggetto",
     furniture: "Mobili", mirrors: "Specchi", paintings: "Dipinti", seating: "Sedute", decorative: "Oggetti decorativi",
     available: "Disponibile", reserved: "Riservato", sold: "Venduto",
     allStatuses: "Tutti gli stati",
@@ -34,7 +34,9 @@ const ui = {
     message: "Messaggio", send: "Invia richiesta", close: "Chiudi",
     defaultMessage: "Vorrei ricevere informazioni sull’oggetto",
     phoneRequired: "Inserisca il numero di cellulare.",
-    sentNote: "La richiesta sarà inviata a Carolina e Grazia."
+    labelRole: "Lei è", rolePlaceholder: "Seleziona", rolePrivate: "Privato", roleCollector: "Collezionista", roleAntiqueDealer: "Antiquario", roleGallery: "Galleria", roleInteriorDesigner: "Interior Designer", roleArchitect: "Architetto", roleOther: "Altro", labelOtherRole: "Specificare",
+    otherRoleRequired: "Specifichi la tipologia.",
+    sentNote: ""
   },
   en: {
     collection: "Collection", about: "About", contact: "Contact",
@@ -45,7 +47,7 @@ const ui = {
     artCopy: "AUREA Collection was created to preserve and present furniture, paintings and decorative objects belonging to our family. Each piece is shown through accurate photography and concise descriptions, with respect for its history and beauty.",
     title: "The Collection",
     intro: "A private selection of furniture, paintings, mirrors, seating and decorative objects.",
-    all: "All", dimensions: "Dimensions", request: "Request information",
+    all: "All", dimensions: "Dimensions", request: "Request information about this object",
     furniture: "Furniture", mirrors: "Mirrors", paintings: "Paintings", seating: "Seating", decorative: "Decorative Objects",
     available: "Available", reserved: "Reserved", sold: "Sold",
     allStatuses: "All statuses",
@@ -58,7 +60,9 @@ const ui = {
     message: "Message", send: "Send request", close: "Close",
     defaultMessage: "I would like to receive information about",
     phoneRequired: "Please enter your mobile number.",
-    sentNote: "The request will be sent to Carolina and Grazia."
+    labelRole: "You are", rolePlaceholder: "Select", rolePrivate: "Private individual", roleCollector: "Collector", roleAntiqueDealer: "Antique dealer", roleGallery: "Gallery", roleInteriorDesigner: "Interior Designer", roleArchitect: "Architect", roleOther: "Other", labelOtherRole: "Please specify",
+    otherRoleRequired: "Please specify your role.",
+    sentNote: ""
   },
   fr: {
     collection: "Collection", about: "À propos", contact: "Contact",
@@ -69,7 +73,7 @@ const ui = {
     artCopy: "AUREA Collection est née du désir de valoriser des meubles, peintures et objets décoratifs appartenant à notre famille. Chaque pièce est présentée avec des photographies soignées et des descriptions essentielles, dans le respect de son histoire et de sa beauté.",
     title: "La collection",
     intro: "Une sélection privée de meubles, peintures, miroirs, sièges et objets décoratifs.",
-    all: "Tout", dimensions: "Dimensions", request: "Demander des informations",
+    all: "Tout", dimensions: "Dimensions", request: "Demander des informations sur cet objet",
     furniture: "Mobilier", mirrors: "Miroirs", paintings: "Peintures", seating: "Sièges", decorative: "Objets décoratifs",
     available: "Disponible", reserved: "Réservé", sold: "Vendu",
     allStatuses: "Tous les statuts",
@@ -82,7 +86,9 @@ const ui = {
     message: "Message", send: "Envoyer la demande", close: "Fermer",
     defaultMessage: "Je souhaite recevoir des informations sur",
     phoneRequired: "Veuillez saisir votre numéro de portable.",
-    sentNote: "La demande sera envoyée à Carolina et Grazia."
+    labelRole: "Vous êtes", rolePlaceholder: "Sélectionner", rolePrivate: "Particulier", roleCollector: "Collectionneur", roleAntiqueDealer: "Antiquaire", roleGallery: "Galerie", roleInteriorDesigner: "Décorateur d’intérieur", roleArchitect: "Architecte", roleOther: "Autre", labelOtherRole: "Veuillez préciser",
+    otherRoleRequired: "Veuillez préciser votre activité.",
+    sentNote: ""
   }
 };
 
@@ -115,6 +121,8 @@ function init() {
   }));
 
   $("#contactPreference").addEventListener("change", updatePhoneField);
+  $("#clientRole").addEventListener("change", updateOtherRoleField);
+  $$("[data-open-contact='true']").forEach(link => link.addEventListener("click", e => { e.preventDefault(); openGeneralInquiry(); }));
   $("#inquiryForm").addEventListener("submit", validateInquiry);
   $("#modalClose").addEventListener("click", closeInquiry);
   $("#inquiryModal").addEventListener("click", e => {
@@ -156,9 +164,18 @@ function render() {
   $("#phoneOptionText").textContent = t("byPhone");
   $("#labelPhone").textContent = t("phone");
   $("#labelMessage").textContent = t("message");
+  $("#labelRole").textContent = t("labelRole");
+  $("#rolePlaceholder").textContent = t("rolePlaceholder");
+  $("#rolePrivate").textContent = t("rolePrivate");
+  $("#roleCollector").textContent = t("roleCollector");
+  $("#roleAntiqueDealer").textContent = t("roleAntiqueDealer");
+  $("#roleGallery").textContent = t("roleGallery");
+  $("#roleInteriorDesigner").textContent = t("roleInteriorDesigner");
+  $("#roleArchitect").textContent = t("roleArchitect");
+  $("#roleOther").textContent = t("roleOther");
+  $("#labelOtherRole").textContent = t("labelOtherRole");
   $("#formSubmit").textContent = t("send");
   $("#modalClose").setAttribute("aria-label", t("close"));
-  $("#sentNote").textContent = t("sentNote");
 
   const grid = $("#catalogGrid");
   const details = $("#details");
@@ -251,6 +268,29 @@ function move(step) {
   $("#lbImage").src = images[currentIndex];
 }
 
+
+function openGeneralInquiry() {
+  currentInquiry = null;
+  $("#itemCode").value = "";
+  $("#itemTitle").value = "";
+  $("#formSubject").value = t("formTitle");
+  $("#message").value = "";
+  $("#contactPreference").value = "";
+  $("#clientRole").value = "";
+  $("#otherRole").value = "";
+  $("#phone").value = "";
+  updatePhoneField();
+  updateOtherRoleField();
+  $("#inquiryModal").classList.add("open");
+  $("#name").focus();
+}
+
+function updateOtherRoleField() {
+  const isOther = $("#clientRole").value === "other";
+  $("#otherRoleWrap").hidden = !isOther;
+  $("#otherRole").required = isOther;
+}
+
 function openInquiry(code) {
   const item = catalog[code];
   if (!item) return;
@@ -259,9 +299,12 @@ function openInquiry(code) {
   $("#itemTitle").value = field(item, "title");
   $("#formSubject").value = `${t("formTitle")} – ${itemCode(code)} – ${field(item, "title")}`;
   $("#message").value = `${t("defaultMessage")} ${itemCode(code)} – ${field(item, "title")}.`;
-  $("#contactPreference").value = "email";
+  $("#contactPreference").value = "";
+  $("#clientRole").value = "";
+  $("#otherRole").value = "";
   $("#phone").value = "";
   updatePhoneField();
+  updateOtherRoleField();
   $("#inquiryModal").classList.add("open");
   $("#name").focus();
 }
@@ -274,6 +317,12 @@ function updatePhoneField() {
   $("#phone").required = isPhone;
 }
 function validateInquiry(event) {
+  if ($("#clientRole").value === "other" && !$("#otherRole").value.trim()) {
+    event.preventDefault();
+    alert(t("otherRoleRequired"));
+    $("#otherRole").focus();
+    return;
+  }
   if ($("#contactPreference").value === "phone" && !$("#phone").value.trim()) {
     event.preventDefault();
     alert(t("phoneRequired"));

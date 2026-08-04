@@ -34,3 +34,18 @@ Per nasconderli anche dal codice pubblico serve in futuro un piccolo servizio se
 5. Controlla le modifiche.
 6. Scrivi un messaggio, per esempio: `Aggiornamento sito AUREA`.
 7. Premi **Commit to main** e poi **Push origin**.
+
+
+## Modifiche V2
+- stato più piccolo;
+- logo collegato alla homepage;
+- sottotitolo “Private Italian Family Collection” sotto il logo;
+- menu Contatti apre direttamente il modulo;
+- rimossi i blocchi Authenticity, Italy & Europe e Personal Service;
+- pulsante “Richiedi informazioni su questo oggetto”;
+- modulo con tutti i campi obbligatori;
+- scelta tipologia: Privato, Collezionista, Antiquario, Galleria, Interior Designer, Architetto o Altro;
+- se viene scelto Altro, compare il campo obbligatorio “Specificare”;
+- se viene scelto Cellulare, compare il numero obbligatorio;
+- rimossa la frase “La richiesta sarà inviata a Carolina e Grazia”;
+- footer minimale.

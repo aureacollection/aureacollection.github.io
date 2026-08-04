@@ -225,3 +225,39 @@ button.cta {
   .status-filters { margin-top: -.4rem; }
   .modal-panel { padding: 1.4rem; }
 }
+
+
+/* Final refinements */
+.status {
+  gap: .38rem;
+  margin: .3rem 0 .55rem;
+  font-size: .82rem;
+}
+.status-dot {
+  width: .5rem;
+  height: .5rem;
+}
+.brand-link,
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+.brand-link small,
+.logo small {
+  display: block;
+  margin-top: .28rem;
+  color: #8b8277;
+  font-family: Arial, sans-serif;
+  font-size: .48rem;
+  font-weight: 500;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.minimal-footer {
+  padding: 2rem 1rem 2.4rem;
+  text-align: center;
+  color: #736a60;
+  font-size: .78rem;
+  line-height: 1.7;
+  border-top: 1px solid #dfd6ca;
+}

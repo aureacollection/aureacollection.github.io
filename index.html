@@ -51,11 +51,8 @@
     </div>
   </section>
 
-  <section class="service-strip">
-    <div class="service"><strong>Authenticity</strong><span>Carefully documented pieces</span></div>
-    <div class="service"><strong>Private Collection</strong><span>Available by appointment</span></div>
-    <div class="service"><strong>Italy & Europe</strong><span>Shipping options available</span></div>
-    <div class="service"><strong>Personal Service</strong><span>Direct assistance</span></div>
+  </div>
+    </div>
   </section>
 
   <section class="collection" id="collection">
@@ -80,7 +77,7 @@
   <section class="info" id="contact"><h2 id="contactTitle"></h2><p id="contactCopy"></p></section>
 </main>
 
-<footer>© 2026 AUREA · Fine Italian Antiques</footer>
+<footer class="minimal-footer"><div>© AUREA Collection</div><div>Private Italian Family Collection</div></footer>
 
 
   <div class="modal" id="inquiryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
@@ -111,9 +108,29 @@
           <input id="email" name="Email" type="email" autocomplete="email" required>
         </label>
 
+        
+        <label>
+          <span id="labelRole">Lei è</span>
+          <select id="clientRole" name="Tipologia cliente" required>
+            <option value="" id="rolePlaceholder">Seleziona</option>
+            <option value="private" id="rolePrivate">Privato</option>
+            <option value="collector" id="roleCollector">Collezionista</option>
+            <option value="antique_dealer" id="roleAntiqueDealer">Antiquario</option>
+            <option value="gallery" id="roleGallery">Galleria</option>
+            <option value="interior_designer" id="roleInteriorDesigner">Interior Designer</option>
+            <option value="architect" id="roleArchitect">Architetto</option>
+            <option value="other" id="roleOther">Altro</option>
+          </select>
+        </label>
+
+        <label id="otherRoleWrap" hidden>
+          <span id="labelOtherRole">Specificare</span>
+          <input id="otherRole" name="Altro - specificare" type="text">
+        </label>
+
         <label>
           <span id="labelPreferred">Come preferisce essere contattato?</span>
-          <select id="contactPreference" name="Metodo scelto">
+          <select id="contactPreference" name="Metodo scelto" required>
             <option value="email" id="emailOptionText">Email</option>
             <option value="phone" id="phoneOptionText">Cellulare</option>
           </select>
@@ -130,7 +147,7 @@
         </label>
 
         <button id="formSubmit" class="cta form-submit" type="submit">Invia richiesta</button>
-        <p class="form-note" id="sentNote">La richiesta sarà inviata a Carolina e Grazia.</p>
+        
       </form>
     </div>
   </div>
