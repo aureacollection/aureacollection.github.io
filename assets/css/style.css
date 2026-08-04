@@ -607,3 +607,49 @@ img {
     height: 42px;
   }
 }
+
+/* AUREA A001–A014: schede speciali e bibliografia */
+.detail-subtitle {
+  margin: -.7rem 0 1.3rem !important;
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+  line-height: 1.5;
+}
+.special-detail {
+  max-width: 1080px;
+  margin: 2.2rem auto 0;
+  padding: clamp(1.4rem, 4vw, 3.2rem);
+  background: #f7f2e9;
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--line);
+}
+.special-section + .special-section {
+  margin-top: 2.25rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+.special-section h3 {
+  margin: 0 0 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  font-weight: 400;
+}
+.special-section p {
+  max-width: 900px;
+  margin: 0 0 1rem;
+  color: #5f554b;
+  line-height: 1.82;
+}
+#A014 .detail-main {
+  object-fit: contain;
+  background: #17130f;
+}
+#A014 .gallery .thumb:last-child {
+  outline: 1px solid var(--gold);
+  outline-offset: 3px;
+}
+@media (max-width: 620px) {
+  .special-detail { margin-top: 1.2rem; padding: 1.25rem; }
+  .special-section p { line-height: 1.7; }
+}

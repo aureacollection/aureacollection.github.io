@@ -68,3 +68,11 @@ Questa versione corregge il pacchetto precedente:
 - SEO e metadati social migliorati;
 - messaggio di conferma dopo l'invio del modulo;
 - migliore esperienza su iPhone.
+
+
+## Aggiornamento A001–A014
+- aggiunti A010–A014;
+- immagini ottimizzate per i nuovi articoli;
+- scheda speciale e dettagliata per A014;
+- pagina bibliografica del volume inserita nella galleria di A014;
+- pulsante dedicato per richiedere informazioni e documentazione sull'opera.

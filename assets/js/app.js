@@ -110,6 +110,15 @@ function statusBadge(status) {
   return `<span class="status status-${value}"><span class="status-dot"></span>${esc(statusLabel(value))}</span>`;
 }
 function itemCode(code) { return `AUREA ${code}`; }
+function specialSections(item) {
+  const sections = item[`detail_sections_${lang}`] || item.detail_sections_it || [];
+  if (!sections.length) return "";
+  return `<div class="special-detail">${sections.map(section => `
+    <section class="special-section">
+      <h3>${esc(section.title)}</h3>
+      ${(section.paragraphs || []).map(paragraph => `<p>${esc(paragraph)}</p>`).join("")}
+    </section>`).join("")}</div>`;
+}
 
 function init() {
   galleries = Object.fromEntries(Object.entries(catalog).map(([code, item]) => [code, item.images || []]));
@@ -234,11 +243,13 @@ function render() {
           <div class="kicker">${esc(itemCode(code))} · ${esc(field(item, "category"))}</div>
           ${statusBadge(status)}
           <h2>${esc(field(item, "title"))}</h2>
+          ${field(item, "subtitle") ? `<p class="detail-subtitle">${esc(field(item, "subtitle"))}</p>` : ""}
           <p>${esc(field(item, "description"))}</p>
           ${item.dimensions ? `<dl><dt>${esc(t("dimensions"))}</dt><dd>${esc(item.dimensions)}</dd></dl>` : ""}
-          <button class="cta inquiry-button" data-code="${esc(code)}">${esc(t("request"))}</button>
+          <button class="cta inquiry-button" data-code="${esc(code)}">${esc(field(item, "special_request") || t("request"))}</button>
         </div>
       </div>
+      ${specialSections(item)}
       <div class="gallery">
         ${images.map((img, index) => `<button class="thumb" onclick="openLightbox('${esc(code)}',${index})"><img loading="lazy" decoding="async" src="${esc(img)}" alt="${esc(field(item, "title"))}"></button>`).join("")}
       </div>`;
