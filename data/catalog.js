@@ -154,5 +154,58 @@ window.AUREA_CATALOG = {
       "assets/images/A007/a007-14.jpg"
     ],
     "status": "available"
+  },
+  "A008": {
+    "category_key": "decorative_panels",
+    "title_it": "Insieme di tre pannelli decorativi dipinti con paesaggi classici",
+    "title_en": "Set of Three Decorative Painted Panels with Classical Landscapes",
+    "title_fr": "Ensemble de trois panneaux décoratifs peints à paysages classiques",
+    "category_it": "Pannelli decorativi",
+    "category_en": "Decorative Panels",
+    "category_fr": "Panneaux décoratifs",
+    "dimensions": "",
+    "description_it": "Insieme di tre grandi pannelli dipinti su tela con paesaggi classici, figure e bordure floreali a trompe-l’œil, originariamente integrati nella decorazione della residenza di famiglia.",
+    "description_en": "Set of three large painted canvas panels depicting classical landscapes, figures and trompe-l’œil floral borders, originally integrated into the family residence.",
+    "description_fr": "Ensemble de trois grands panneaux peints sur toile représentant des paysages classiques, des personnages et des bordures florales en trompe-l’œil, autrefois intégrés à la résidence familiale.",
+    "images": [
+      "assets/images/A008/a008-01.jpg",
+      "assets/images/A008/a008-02.jpg",
+      "assets/images/A008/a008-03.jpg",
+      "assets/images/A008/a008-04.jpg",
+      "assets/images/A008/a008-05.jpg",
+      "assets/images/A008/a008-06.jpg",
+      "assets/images/A008/a008-07.jpg",
+      "assets/images/A008/a008-08.jpg",
+      "assets/images/A008/a008-09.jpg",
+      "assets/images/A008/a008-10.jpg",
+      "assets/images/A008/a008-11.jpg",
+      "assets/images/A008/a008-12.jpg",
+      "assets/images/A008/a008-13.jpg",
+      "assets/images/A008/a008-14.jpg",
+      "assets/images/A008/a008-15.jpg",
+      "assets/images/A008/a008-16.jpg"
+    ],
+    "status": "available"
+  },
+  "A009": {
+    "category_key": "lighting",
+    "title_it": "Grande applique estensibile a fisarmonica in ferro battuto",
+    "title_en": "Large Adjustable Wrought Iron Scissor Wall Lamp",
+    "title_fr": "Grande applique murale extensible en fer forgé",
+    "category_it": "Illuminazione",
+    "category_en": "Lighting",
+    "category_fr": "Luminaires",
+    "dimensions": "",
+    "description_it": "Grande applique da parete estensibile in ferro battuto, con meccanismo a fisarmonica e dettagli floreali agli snodi. Un elemento funzionale e scenografico di forte carattere decorativo.",
+    "description_en": "Large adjustable wrought iron wall lamp with an accordion scissor mechanism and floral details at the joints. A functional and striking decorative piece.",
+    "description_fr": "Grande applique murale extensible en fer forgé, dotée d’un mécanisme en accordéon et de détails floraux aux articulations. Une pièce fonctionnelle et décorative de caractère.",
+    "images": [
+      "assets/images/A009/a009-01.jpg",
+      "assets/images/A009/a009-02.jpg",
+      "assets/images/A009/a009-03.jpg",
+      "assets/images/A009/a009-04.jpg",
+      "assets/images/A009/a009-05.jpg"
+    ],
+    "status": "available"
   }
 };
