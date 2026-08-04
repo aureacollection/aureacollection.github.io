@@ -10,6 +10,11 @@ let activeStatus = "all";
 let currentCode = "";
 let currentIndex = 0;
 let currentInquiry = null;
+let lightboxScale = 1;
+let lightboxX = 0;
+let lightboxY = 0;
+let pointerStart = null;
+let touchStartX = null;
 
 const ui = {
   it: {
@@ -35,7 +40,7 @@ const ui = {
     defaultMessage: "Vorrei ricevere informazioni sull’oggetto",
     phoneRequired: "Inserisca il numero di cellulare.",
     labelRole: "Lei è", rolePlaceholder: "Seleziona", rolePrivate: "Privato", roleCollector: "Collezionista", roleAntiqueDealer: "Antiquario", roleGallery: "Galleria", roleInteriorDesigner: "Interior Designer", roleArchitect: "Architetto", roleOther: "Altro", labelOtherRole: "Specificare",
-    otherRoleRequired: "Specifichi la tipologia.",
+    otherRoleRequired: "Specifichi la tipologia.", menuOpen: "Apri menu", menuClose: "Chiudi menu", sentSuccess: "Grazie. La richiesta è stata inviata.",
     sentNote: ""
   },
   en: {
@@ -61,7 +66,7 @@ const ui = {
     defaultMessage: "I would like to receive information about",
     phoneRequired: "Please enter your mobile number.",
     labelRole: "You are", rolePlaceholder: "Select", rolePrivate: "Private individual", roleCollector: "Collector", roleAntiqueDealer: "Antique dealer", roleGallery: "Gallery", roleInteriorDesigner: "Interior Designer", roleArchitect: "Architect", roleOther: "Other", labelOtherRole: "Please specify",
-    otherRoleRequired: "Please specify your role.",
+    otherRoleRequired: "Please specify your role.", menuOpen: "Open menu", menuClose: "Close menu", sentSuccess: "Thank you. Your request has been sent.",
     sentNote: ""
   },
   fr: {
@@ -87,7 +92,7 @@ const ui = {
     defaultMessage: "Je souhaite recevoir des informations sur",
     phoneRequired: "Veuillez saisir votre numéro de portable.",
     labelRole: "Vous êtes", rolePlaceholder: "Sélectionner", rolePrivate: "Particulier", roleCollector: "Collectionneur", roleAntiqueDealer: "Antiquaire", roleGallery: "Galerie", roleInteriorDesigner: "Décorateur d’intérieur", roleArchitect: "Architecte", roleOther: "Autre", labelOtherRole: "Veuillez préciser",
-    otherRoleRequired: "Veuillez préciser votre activité.",
+    otherRoleRequired: "Veuillez préciser votre activité.", menuOpen: "Ouvrir le menu", menuClose: "Fermer le menu", sentSuccess: "Merci. Votre demande a été envoyée.",
     sentNote: ""
   }
 };
@@ -124,6 +129,20 @@ function init() {
   $("#clientRole").addEventListener("change", updateOtherRoleField);
   $$("[data-open-contact='true']").forEach(link => link.addEventListener("click", e => { e.preventDefault(); openGeneralInquiry(); }));
   $("#inquiryForm").addEventListener("submit", validateInquiry);
+  $("#menuToggle").addEventListener("click", toggleMenu);
+  $$("#siteMenu a").forEach(link => link.addEventListener("click", closeMenu));
+  $("#lbClose").addEventListener("click", closeLightbox);
+  $("#lbPrev").addEventListener("click", () => move(-1));
+  $("#lbNext").addEventListener("click", () => move(1));
+  $("#lbZoomIn").addEventListener("click", () => zoomLightbox(.25));
+  $("#lbZoomOut").addEventListener("click", () => zoomLightbox(-.25));
+  $("#lbZoomReset").addEventListener("click", resetLightboxZoom);
+  $("#lbStage").addEventListener("wheel", onLightboxWheel, { passive: false });
+  $("#lbStage").addEventListener("pointerdown", onPointerDown);
+  window.addEventListener("pointermove", onPointerMove);
+  window.addEventListener("pointerup", onPointerUp);
+  $("#lightbox").addEventListener("touchstart", e => { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+  $("#lightbox").addEventListener("touchend", onLightboxTouchEnd, { passive: true });
   $("#modalClose").addEventListener("click", closeInquiry);
   $("#inquiryModal").addEventListener("click", e => {
     if (e.target.id === "inquiryModal") closeInquiry();
@@ -176,6 +195,7 @@ function render() {
   $("#labelOtherRole").textContent = t("labelOtherRole");
   $("#formSubmit").textContent = t("send");
   $("#modalClose").setAttribute("aria-label", t("close"));
+  $("#menuToggle").setAttribute("aria-label", $("#siteMenu").classList.contains("open") ? t("menuClose") : t("menuOpen"));
 
   const grid = $("#catalogGrid");
   const details = $("#details");
@@ -193,7 +213,7 @@ function render() {
     card.dataset.status = status;
     card.innerHTML = `
       <a class="lot-photo" href="#${esc(code)}">
-        <img src="${esc(images[0])}" alt="${esc(field(item, "title"))}">
+        <img loading="lazy" decoding="async" src="${esc(images[0])}" alt="${esc(field(item, "title"))}">
       </a>
       <div class="lot-info">
         <div class="lot-meta"><span>${esc(itemCode(code))}</span><span>${esc(field(item, "category"))}</span></div>
@@ -209,7 +229,7 @@ function render() {
     section.id = code;
     section.innerHTML = `
       <div class="detail-grid">
-        <img class="detail-main" src="${esc(images[0])}" alt="${esc(field(item, "title"))}" onclick="openLightbox('${esc(code)}',0)">
+        <img class="detail-main" loading="lazy" decoding="async" src="${esc(images[0])}" alt="${esc(field(item, "title"))}" onclick="openLightbox('${esc(code)}',0)">
         <div class="detail-copy">
           <div class="kicker">${esc(itemCode(code))} · ${esc(field(item, "category"))}</div>
           ${statusBadge(status)}
@@ -220,7 +240,7 @@ function render() {
         </div>
       </div>
       <div class="gallery">
-        ${images.map((img, index) => `<button class="thumb" onclick="openLightbox('${esc(code)}',${index})"><img src="${esc(img)}" alt="${esc(field(item, "title"))}"></button>`).join("")}
+        ${images.map((img, index) => `<button class="thumb" onclick="openLightbox('${esc(code)}',${index})"><img loading="lazy" decoding="async" src="${esc(img)}" alt="${esc(field(item, "title"))}"></button>`).join("")}
       </div>`;
     details.appendChild(section);
   });
@@ -257,17 +277,94 @@ function openLightbox(code, index) {
   if (!images.length) return;
   currentCode = code;
   currentIndex = index;
-  $("#lbImage").src = images[index];
+  resetLightboxZoom();
+  updateLightbox();
   $("#lightbox").classList.add("open");
+  document.body.classList.add("no-scroll");
+  $("#lbClose").focus();
 }
-function closeLightbox() { $("#lightbox").classList.remove("open"); }
+function closeLightbox() {
+  $("#lightbox").classList.remove("open");
+  document.body.classList.remove("no-scroll");
+  resetLightboxZoom();
+}
 function move(step) {
   const images = galleries[currentCode] || [];
   if (!images.length) return;
   currentIndex = (currentIndex + step + images.length) % images.length;
-  $("#lbImage").src = images[currentIndex];
+  resetLightboxZoom();
+  updateLightbox();
 }
-
+function updateLightbox() {
+  const images = galleries[currentCode] || [];
+  const item = catalog[currentCode] || {};
+  $("#lbImage").src = images[currentIndex] || "";
+  $("#lbImage").alt = field(item, "title");
+  $("#lbCounter").textContent = `${currentIndex + 1} / ${images.length}`;
+  $("#lbThumbs").innerHTML = images.map((src, index) =>
+    `<button class="lb-thumb ${index === currentIndex ? "active" : ""}" type="button" data-index="${index}" aria-label="Foto ${index + 1}">
+      <img loading="lazy" decoding="async" src="${esc(src)}" alt="">
+    </button>`
+  ).join("");
+  $$(".lb-thumb").forEach(button => button.addEventListener("click", () => {
+    currentIndex = Number(button.dataset.index);
+    resetLightboxZoom();
+    updateLightbox();
+  }));
+}
+function zoomLightbox(delta) {
+  lightboxScale = Math.min(3, Math.max(1, lightboxScale + delta));
+  if (lightboxScale === 1) { lightboxX = 0; lightboxY = 0; }
+  applyLightboxTransform();
+}
+function resetLightboxZoom() {
+  lightboxScale = 1;
+  lightboxX = 0;
+  lightboxY = 0;
+  applyLightboxTransform();
+}
+function applyLightboxTransform() {
+  $("#lbImage").style.transform = `translate(${lightboxX}px, ${lightboxY}px) scale(${lightboxScale})`;
+  $("#lbZoomReset").textContent = `${Math.round(lightboxScale * 100)}%`;
+  $("#lbStage").classList.toggle("zoomed", lightboxScale > 1);
+}
+function onLightboxWheel(event) {
+  if (!$("#lightbox").classList.contains("open")) return;
+  event.preventDefault();
+  zoomLightbox(event.deltaY < 0 ? .2 : -.2);
+}
+function onPointerDown(event) {
+  if (lightboxScale <= 1) return;
+  pointerStart = { x: event.clientX, y: event.clientY, ox: lightboxX, oy: lightboxY };
+  $("#lbStage").setPointerCapture?.(event.pointerId);
+}
+function onPointerMove(event) {
+  if (!pointerStart) return;
+  lightboxX = pointerStart.ox + event.clientX - pointerStart.x;
+  lightboxY = pointerStart.oy + event.clientY - pointerStart.y;
+  applyLightboxTransform();
+}
+function onPointerUp() { pointerStart = null; }
+function onLightboxTouchEnd(event) {
+  if (touchStartX === null || lightboxScale > 1) return;
+  const delta = event.changedTouches[0].clientX - touchStartX;
+  if (Math.abs(delta) > 55) move(delta > 0 ? -1 : 1);
+  touchStartX = null;
+}
+function toggleMenu() {
+  const menu = $("#siteMenu");
+  const open = !menu.classList.contains("open");
+  menu.classList.toggle("open", open);
+  $("#menuToggle").classList.toggle("open", open);
+  $("#menuToggle").setAttribute("aria-expanded", String(open));
+  $("#menuToggle").setAttribute("aria-label", open ? t("menuClose") : t("menuOpen"));
+}
+function closeMenu() {
+  $("#siteMenu").classList.remove("open");
+  $("#menuToggle").classList.remove("open");
+  $("#menuToggle").setAttribute("aria-expanded", "false");
+  $("#menuToggle").setAttribute("aria-label", t("menuOpen"));
+}
 
 function openGeneralInquiry() {
   currentInquiry = null;
@@ -334,9 +431,18 @@ function validateInquiry(event) {
 
 document.addEventListener("DOMContentLoaded", init);
 document.addEventListener("keydown", event => {
-  if (event.key === "Escape") { closeLightbox(); closeInquiry(); }
-  if ($("#lightbox").classList.contains("open")) {
+  if (event.key === "Escape") { closeLightbox(); closeInquiry(); closeMenu(); }
+  if ($("#lightbox").classList.contains("open") && lightboxScale === 1) {
     if (event.key === "ArrowLeft") move(-1);
     if (event.key === "ArrowRight") move(1);
   }
 });
+
+const query = new URLSearchParams(location.search);
+if (query.get("messaggio") === "inviato") {
+  const toast = $("#toast");
+  toast.textContent = t("sentSuccess");
+  toast.classList.add("show");
+  history.replaceState({}, "", location.pathname + location.hash);
+  setTimeout(() => toast.classList.remove("show"), 6000);
+}

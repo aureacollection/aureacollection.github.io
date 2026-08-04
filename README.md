@@ -58,3 +58,13 @@ Questa versione corregge il pacchetto precedente:
 - menu Contatti apre realmente il modulo;
 - stato ulteriormente ridotto;
 - aggiunto VERSIONE_AUREA_V3.txt per rendere evidente la modifica in GitHub Desktop.
+
+
+## Versione 1.1
+- menu mobile funzionante;
+- lightbox a schermo intero con zoom, contatore, miniature, tastiera e swipe;
+- caricamento differito delle immagini;
+- transizioni più eleganti;
+- SEO e metadati social migliorati;
+- messaggio di conferma dopo l'invio del modulo;
+- migliore esperienza su iPhone.
