@@ -1,4 +1,4 @@
-{
+window.AUREA_CATALOG = {
   "A001": {
     "category_key": "furniture",
     "title_it": "Consolle intarsiata in stile Luigi XV",
@@ -155,4 +155,4 @@
     ],
     "status": "available"
   }
-}
+};

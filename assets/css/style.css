@@ -96,3 +96,132 @@ footer{background:var(--dark);color:white;padding:32px;text-align:center;font-si
   .catalog-grid,.detail-grid{grid-template-columns:1fr}
   .gallery{grid-template-columns:repeat(3,1fr)}
 }
+
+
+/* AUREA availability status */
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  margin: .5rem 0 .8rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: #1b1814;
+}
+.status-dot {
+  width: .72rem;
+  height: .72rem;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.08);
+}
+.status-available .status-dot { background: #416b28; }
+.status-reserved .status-dot { background: #b88a05; }
+.status-sold .status-dot { background: #c62828; }
+
+.status-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin: -1rem 0 2rem;
+}
+.status-filter {
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  padding: .45rem .15rem;
+  color: #756b5f;
+  cursor: pointer;
+  font: inherit;
+}
+.status-filter:hover,
+.status-filter.active {
+  color: #17120d;
+  border-bottom-color: #a87732;
+}
+
+button.cta {
+  border: 0;
+  cursor: pointer;
+}
+
+/* Information request modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(17, 14, 11, .72);
+  backdrop-filter: blur(4px);
+}
+.modal.open { display: flex; }
+.modal-panel {
+  position: relative;
+  width: min(620px, 100%);
+  max-height: 92vh;
+  overflow: auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background: #f8f4ec;
+  border: 1px solid #d9cdbd;
+  box-shadow: 0 24px 80px rgba(0,0,0,.28);
+}
+.modal-panel h2 {
+  margin: 0 0 1.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+.modal-close {
+  position: absolute;
+  top: .8rem;
+  right: 1rem;
+  border: 0;
+  background: transparent;
+  color: #1b1814;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#inquiryForm {
+  display: grid;
+  gap: 1rem;
+}
+#inquiryForm label {
+  display: grid;
+  gap: .45rem;
+  color: #584f46;
+  font-size: .95rem;
+}
+#inquiryForm input,
+#inquiryForm select,
+#inquiryForm textarea {
+  width: 100%;
+  border: 1px solid #cfc2b2;
+  border-radius: 0;
+  background: #fffdf9;
+  color: #17120d;
+  padding: .85rem .9rem;
+  font: inherit;
+}
+#inquiryForm input:focus,
+#inquiryForm select:focus,
+#inquiryForm textarea:focus {
+  outline: 2px solid rgba(168, 119, 50, .25);
+  border-color: #a87732;
+}
+.form-submit { justify-self: start; margin-top: .4rem; }
+.form-note { margin: 0; color: #7a7167; font-size: .83rem; }
+.honeypot {
+  position: absolute !important;
+  left: -9999px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 620px) {
+  .status-filters { margin-top: -.4rem; }
+  .modal-panel { padding: 1.4rem; }
+}

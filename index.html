@@ -37,11 +37,11 @@
 <main>
   <section class="home-grid">
     <div class="category-grid">
-      <a class="category-card" href="#collection"><img src="assets/images/A001/a001-01.jpg" alt=""><div class="overlay"><h3>Furniture</h3><span>View collection</span></div></a>
-      <a class="category-card" href="#collection"><img src="assets/images/A002/a002-01.jpg" alt=""><div class="overlay"><h3>Mirrors</h3><span>View collection</span></div></a>
-      <a class="category-card" href="#collection"><img src="assets/images/A004/a004-01.jpg" alt=""><div class="overlay"><h3>Paintings</h3><span>View collection</span></div></a>
-      <a class="category-card" href="#collection"><img src="assets/images/A003/a003-01.jpg" alt=""><div class="overlay"><h3>Seating</h3><span>View collection</span></div></a>
-      <a class="category-card" href="#collection"><img src="assets/images/A001/a001-03.jpg" alt=""><div class="overlay"><h3>Decorative Objects</h3><span>View collection</span></div></a>
+      <a class="category-card" data-filter="furniture" href="#collection"><img src="assets/images/A001/a001-01.jpg" alt=""><div class="overlay"><h3>Mobili</h3><span>Collezione</span></div></a>
+      <a class="category-card" data-filter="mirrors" href="#collection"><img src="assets/images/A002/a002-01.jpg" alt=""><div class="overlay"><h3>Specchi</h3><span>Collezione</span></div></a>
+      <a class="category-card" data-filter="paintings" href="#collection"><img src="assets/images/A004/a004-01.jpg" alt=""><div class="overlay"><h3>Dipinti</h3><span>Collezione</span></div></a>
+      <a class="category-card" data-filter="seating" href="#collection"><img src="assets/images/A007/a007-01.jpg" alt=""><div class="overlay"><h3>Sedute</h3><span>Collezione</span></div></a>
+      <a class="category-card" data-filter="decorative" href="#collection"><img src="assets/images/A006/a006-01.jpg" alt=""><div class="overlay"><h3>Oggetti decorativi</h3><span>Collezione</span></div></a>
     </div>
     <div class="editorial">
       <h2 id="artTitle"></h2>
@@ -64,30 +64,85 @@
       <p id="collectionIntro"></p>
     </div>
     <div class="filters">
-      <button class="filter-btn active" id="filterAll" data-filter="all"></button>
-      <button class="filter-btn" data-filter="Mobili">Mobili</button>
-      <button class="filter-btn" data-filter="Specchi">Specchi</button>
-      <button class="filter-btn" data-filter="Sedute">Sedute</button>
-      <button class="filter-btn" data-filter="Dipinti">Dipinti</button>
+      <button class="filter-btn active" id="filterAll" data-filter="all">Tutti</button>
+      <button class="filter-btn" data-filter="furniture">Mobili</button>
+      <button class="filter-btn" data-filter="mirrors">Specchi</button>
+      <button class="filter-btn" data-filter="seating">Sedute</button>
+      <button class="filter-btn" data-filter="paintings">Dipinti</button>
+      <button class="filter-btn" data-filter="decorative">Oggetti decorativi</button>
     </div>
     <div class="catalog-grid" id="catalogGrid"></div>
   </section>
 
   <div id="details"></div>
 
-  <section class="info" id="about"><h2>AUREA</h2><p>Private Italian collection of furniture, paintings, mirrors and decorative objects assembled over time.</p></section>
-  <section class="info" id="contact"><h2>Contact</h2><p>Please reference the item code when requesting availability, additional photographs, condition details or an appointment in Italy.</p></section>
+  <section class="info" id="about"><h2>AUREA</h2><p id="aboutCopy"></p></section>
+  <section class="info" id="contact"><h2 id="contactTitle"></h2><p id="contactCopy"></p></section>
 </main>
 
 <footer>© 2026 AUREA · Fine Italian Antiques</footer>
 
-<div class="lightbox" id="lightbox" onclick="if(event.target.id==='lightbox') closeLightbox()">
+
+  <div class="modal" id="inquiryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Chiudi">×</button>
+      <h2 id="modalTitle">Richiedi informazioni</h2>
+
+      <form id="inquiryForm"
+            action="https://formsubmit.co/carolina.egro@me.com"
+            method="POST">
+        <input type="hidden" name="_cc" value="graziacasiraghi@me.com">
+        <input type="hidden" name="_subject" id="formSubject" value="Richiesta informazioni AUREA">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://aureacollection.github.io/?messaggio=inviato">
+        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="Codice oggetto" id="itemCode">
+        <input type="hidden" name="Titolo oggetto" id="itemTitle">
+        <input type="hidden" name="Preferenza di contatto" id="preferenceHidden">
+
+        <label>
+          <span id="labelName">Nome e cognome</span>
+          <input id="name" name="Nome" type="text" autocomplete="name" required>
+        </label>
+
+        <label>
+          <span id="labelEmail">Email</span>
+          <input id="email" name="Email" type="email" autocomplete="email" required>
+        </label>
+
+        <label>
+          <span id="labelPreferred">Come preferisce essere contattato?</span>
+          <select id="contactPreference" name="Metodo scelto">
+            <option value="email" id="emailOptionText">Email</option>
+            <option value="phone" id="phoneOptionText">Cellulare</option>
+          </select>
+        </label>
+
+        <label id="phoneWrap" hidden>
+          <span id="labelPhone">Numero di cellulare</span>
+          <input id="phone" name="Cellulare" type="tel" autocomplete="tel">
+        </label>
+
+        <label>
+          <span id="labelMessage">Messaggio</span>
+          <textarea id="message" name="Messaggio" rows="5" required></textarea>
+        </label>
+
+        <button id="formSubmit" class="cta form-submit" type="submit">Invia richiesta</button>
+        <p class="form-note" id="sentNote">La richiesta sarà inviata a Carolina e Grazia.</p>
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" onclick="if(event.target.id==='lightbox') closeLightbox()">
   <button class="lb lb-close" onclick="closeLightbox()">×</button>
   <button class="lb lb-prev" onclick="move(-1)">‹</button>
   <img id="lbImage" alt="">
   <button class="lb lb-next" onclick="move(1)">›</button>
 </div>
 
+<script src="data/catalog.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
