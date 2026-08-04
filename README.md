@@ -49,3 +49,12 @@ Per nasconderli anche dal codice pubblico serve in futuro un piccolo servizio se
 - se viene scelto Cellulare, compare il numero obbligatorio;
 - rimossa la frase “La richiesta sarà inviata a Carolina e Grazia”;
 - footer minimale.
+
+
+## CORREZIONE V3
+Questa versione corregge il pacchetto precedente:
+- logo realmente cliccabile;
+- sottotitolo corretto sotto il logo;
+- menu Contatti apre realmente il modulo;
+- stato ulteriormente ridotto;
+- aggiunto VERSIONE_AUREA_V3.txt per rendere evidente la modifica in GitHub Desktop.
