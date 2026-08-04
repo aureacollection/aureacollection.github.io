@@ -120,18 +120,21 @@
   },
   "A008": {
     "category_key": "decorative_panels",
-    "title_it": "Insieme di tre pannelli decorativi dipinti con paesaggi classici",
-    "title_en": "Set of Three Decorative Painted Panels with Classical Landscapes",
-    "title_fr": "Ensemble de trois panneaux décoratifs peints à paysages classiques",
+    "title_it": "Importante insieme di 5 pannelli decorativi dipinti con paesaggi classici",
+    "title_en": "Important Set of Five Decorative Painted Landscape Panels",
+    "title_fr": "Important ensemble de cinq panneaux décoratifs peints de paysages",
     "category_it": "Pannelli decorativi",
     "category_en": "Decorative Panels",
     "category_fr": "Panneaux décoratifs",
     "dimensions": "",
-    "description_it": "Insieme di tre grandi pannelli dipinti su tela con paesaggi classici, figure e bordure floreali a trompe-l’œil, originariamente integrati nella decorazione della residenza di famiglia.",
-    "description_en": "Set of three large painted canvas panels depicting classical landscapes, figures and trompe-l’œil floral borders, originally integrated into the family residence.",
-    "description_fr": "Ensemble de trois grands panneaux peints sur toile représentant des paysages classiques, des personnages et des bordures florales en trompe-l’œil, autrefois intégrés à la résidence familiale.",
+    "description_it": "Insieme composto da cinque pannelli decorativi dipinti a mano: un pannello monumentale con paesaggio lacustre e quattro pannelli verticali stretti, originariamente utilizzati come ante decorative. Tutti presentano paesaggi coordinati e bordure ornamentali trompe-l’œil.",
+    "description_en": "Set of five hand-painted decorative panels: one monumental lake landscape and four narrow vertical panels originally used as decorative doors, all with coordinated landscapes and trompe-l'œil ornamental borders.",
+    "description_fr": "Ensemble de cinq panneaux décoratifs peints à la main : un grand paysage lacustre et quatre panneaux verticaux étroits, autrefois utilisés comme portes, avec bordures en trompe-l’œil.",
     "images": [
-      "assets/images/A008/a008-01.jpg"
+      "assets/images/A008/a008-pannello-grande-ottimizzato.png",
+      "assets/images/A008/a008-09.jpg",
+      "assets/images/A008/a008-10.jpg",
+      "assets/images/A008/a008-12.jpg"
     ],
     "status": "available"
   },
@@ -868,5 +871,260 @@
         ]
       }
     ]
+  },
+  "A029": {
+    "category_key": "paintings",
+    "title_it": "Scena d’interno familiare – olio su tela del XIX secolo",
+    "title_en": "Scena d’interno familiare – olio su tela del XIX secolo",
+    "title_fr": "Scena d’interno familiare – olio su tela del XIX secolo",
+    "category_it": "Dipinti",
+    "category_en": "Dipinti",
+    "category_fr": "Dipinti",
+    "dimensions": "",
+    "description_it": "Dipinto di genere con scena di vita quotidiana in un interno domestico, figure adulte e bambini, entro importante cornice lignea decorata. Firma, misure e datazione precisa da verificare.",
+    "description_en": "Dipinto di genere con scena di vita quotidiana in un interno domestico, figure adulte e bambini, entro importante cornice lignea decorata. Firma, misure e datazione precisa da verificare.",
+    "description_fr": "Dipinto di genere con scena di vita quotidiana in un interno domestico, figure adulte e bambini, entro importante cornice lignea decorata. Firma, misure e datazione precisa da verificare.",
+    "images": [
+      "assets/images/A029/a029-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A031": {
+    "category_key": "paintings",
+    "title_it": "Natura morta floreale con vaso decorato",
+    "title_en": "Natura morta floreale con vaso decorato",
+    "title_fr": "Natura morta floreale con vaso decorato",
+    "category_it": "Dipinti",
+    "category_en": "Dipinti",
+    "category_fr": "Dipinti",
+    "dimensions": "",
+    "description_it": "Natura morta decorativa con ricco mazzo di fiori in vaso ornato, entro cornice lignea scura con profili dorati. Tecnica, firma, misure e datazione precisa da verificare.",
+    "description_en": "Natura morta decorativa con ricco mazzo di fiori in vaso ornato, entro cornice lignea scura con profili dorati. Tecnica, firma, misure e datazione precisa da verificare.",
+    "description_fr": "Natura morta decorativa con ricco mazzo di fiori in vaso ornato, entro cornice lignea scura con profili dorati. Tecnica, firma, misure e datazione precisa da verificare.",
+    "images": [
+      "assets/images/A031/a031-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A032": {
+    "category_key": "silver",
+    "title_it": "Servizio da tè e caffè in argento con vassoio – 5 pezzi",
+    "title_en": "Servizio da tè e caffè in argento con vassoio – 5 pezzi",
+    "title_fr": "Servizio da tè e caffè in argento con vassoio – 5 pezzi",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Servizio composto da caffettiera, teiera, lattiera, zuccheriera con coperchio e vassoio ovale. Argento massiccio dichiarato; punzoni, titolo e peso complessivo da verificare.",
+    "description_en": "Servizio composto da caffettiera, teiera, lattiera, zuccheriera con coperchio e vassoio ovale. Argento massiccio dichiarato; punzoni, titolo e peso complessivo da verificare.",
+    "description_fr": "Servizio composto da caffettiera, teiera, lattiera, zuccheriera con coperchio e vassoio ovale. Argento massiccio dichiarato; punzoni, titolo e peso complessivo da verificare.",
+    "images": [
+      "assets/images/A032/a032-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A033": {
+    "category_key": "silver",
+    "title_it": "Servizio da tè e caffè in argento massiccio con vassoio",
+    "title_en": "Servizio da tè e caffè in argento massiccio con vassoio",
+    "title_fr": "Servizio da tè e caffè in argento massiccio con vassoio",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Servizio coordinato in argento massiccio con vassoio. La caffettiera visibile sullo sfondo nelle fotografie originali è esclusa dal lotto e dovrà essere catalogata separatamente.",
+    "description_en": "Servizio coordinato in argento massiccio con vassoio. La caffettiera visibile sullo sfondo nelle fotografie originali è esclusa dal lotto e dovrà essere catalogata separatamente.",
+    "description_fr": "Servizio coordinato in argento massiccio con vassoio. La caffettiera visibile sullo sfondo nelle fotografie originali è esclusa dal lotto e dovrà essere catalogata separatamente.",
+    "images": [
+      "assets/images/A033/a033-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A035": {
+    "category_key": "silver",
+    "title_it": "Coppia di candelabri neoclassici in argento",
+    "title_en": "Coppia di candelabri neoclassici in argento",
+    "title_fr": "Coppia di candelabri neoclassici in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Coppia di candelabri a due fiamme con fusto scanalato, base quadrata modanata, bracci sinuosi e portacandele riccamente decorati. Punzoni e peso da verificare.",
+    "description_en": "Coppia di candelabri a due fiamme con fusto scanalato, base quadrata modanata, bracci sinuosi e portacandele riccamente decorati. Punzoni e peso da verificare.",
+    "description_fr": "Coppia di candelabri a due fiamme con fusto scanalato, base quadrata modanata, bracci sinuosi e portacandele riccamente decorati. Punzoni e peso da verificare.",
+    "images": [
+      "assets/images/A035/a035-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A036": {
+    "category_key": "silver",
+    "title_it": "Grande vaso cesellato in argento",
+    "title_en": "Grande vaso cesellato in argento",
+    "title_fr": "Grande vaso cesellato in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Grande vaso decorativo in argento con corpo mosso, bocca a corolla e ricca lavorazione floreale e fogliacea. Punzoni, peso, misure e manifattura da verificare.",
+    "description_en": "Grande vaso decorativo in argento con corpo mosso, bocca a corolla e ricca lavorazione floreale e fogliacea. Punzoni, peso, misure e manifattura da verificare.",
+    "description_fr": "Grande vaso decorativo in argento con corpo mosso, bocca a corolla e ricca lavorazione floreale e fogliacea. Punzoni, peso, misure e manifattura da verificare.",
+    "images": [
+      "assets/images/A036/a036-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A037": {
+    "category_key": "lighting",
+    "title_it": "Lampada da tavolo floreale in vetro colorato",
+    "title_en": "Lampada da tavolo floreale in vetro colorato",
+    "title_fr": "Lampada da tavolo floreale in vetro colorato",
+    "category_it": "Illuminazione",
+    "category_en": "Illuminazione",
+    "category_fr": "Illuminazione",
+    "dimensions": "",
+    "description_it": "Lampada con paralume in vetro colorato a motivo floreale e base metallica decorata. Funzionamento, firma o marchio del produttore e misure da verificare.",
+    "description_en": "Lampada con paralume in vetro colorato a motivo floreale e base metallica decorata. Funzionamento, firma o marchio del produttore e misure da verificare.",
+    "description_fr": "Lampada con paralume in vetro colorato a motivo floreale e base metallica decorata. Funzionamento, firma o marchio del produttore e misure da verificare.",
+    "images": [
+      "assets/images/A037/a037-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A038": {
+    "category_key": "silver",
+    "title_it": "Grande legumiera ovale in argento con coperchio",
+    "title_en": "Grande legumiera ovale in argento con coperchio",
+    "title_fr": "Grande legumiera ovale in argento con coperchio",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Legumiera ovale con coperchio bombato, pomolo decorativo e manici laterali lavorati. Punzoni, peso e dimensioni da verificare.",
+    "description_en": "Legumiera ovale con coperchio bombato, pomolo decorativo e manici laterali lavorati. Punzoni, peso e dimensioni da verificare.",
+    "description_fr": "Legumiera ovale con coperchio bombato, pomolo decorativo e manici laterali lavorati. Punzoni, peso e dimensioni da verificare.",
+    "images": [
+      "assets/images/A038/a038-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A041": {
+    "category_key": "silver",
+    "title_it": "Scultura di gufo in argento",
+    "title_en": "Scultura di gufo in argento",
+    "title_fr": "Scultura di gufo in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Scultura decorativa raffigurante un gufo con forme stilizzate e dettagli delle piume. Titolo, punzoni, peso e misure da verificare.",
+    "description_en": "Scultura decorativa raffigurante un gufo con forme stilizzate e dettagli delle piume. Titolo, punzoni, peso e misure da verificare.",
+    "description_fr": "Scultura decorativa raffigurante un gufo con forme stilizzate e dettagli delle piume. Titolo, punzoni, peso e misure da verificare.",
+    "images": [
+      "assets/images/A041/a041-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A042": {
+    "category_key": "silver",
+    "title_it": "Scultura di ape in argento",
+    "title_en": "Scultura di ape in argento",
+    "title_fr": "Scultura di ape in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Scultura decorativa raffigurante un’ape con ali incise e corpo articolato. Titolo, punzoni, peso e misure da verificare.",
+    "description_en": "Scultura decorativa raffigurante un’ape con ali incise e corpo articolato. Titolo, punzoni, peso e misure da verificare.",
+    "description_fr": "Scultura decorativa raffigurante un’ape con ali incise e corpo articolato. Titolo, punzoni, peso e misure da verificare.",
+    "images": [
+      "assets/images/A042/a042-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A043": {
+    "category_key": "silver",
+    "title_it": "Scultura di elefante in argento",
+    "title_en": "Scultura di elefante in argento",
+    "title_fr": "Scultura di elefante in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Scultura decorativa raffigurante un elefante con proboscide, zanne e orecchie lavorate. Titolo, punzoni, peso e misure da verificare.",
+    "description_en": "Scultura decorativa raffigurante un elefante con proboscide, zanne e orecchie lavorate. Titolo, punzoni, peso e misure da verificare.",
+    "description_fr": "Scultura decorativa raffigurante un elefante con proboscide, zanne e orecchie lavorate. Titolo, punzoni, peso e misure da verificare.",
+    "images": [
+      "assets/images/A043/a043-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A044": {
+    "category_key": "silver",
+    "title_it": "Vassoio rotondo sbalzato in argento",
+    "title_en": "Vassoio rotondo sbalzato in argento",
+    "title_fr": "Vassoio rotondo sbalzato in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Vassoio rotondo con bordo mosso e ricca decorazione a sbalzo e cesello. Punzoni, peso, diametro e manifattura da verificare.",
+    "description_en": "Vassoio rotondo con bordo mosso e ricca decorazione a sbalzo e cesello. Punzoni, peso, diametro e manifattura da verificare.",
+    "description_fr": "Vassoio rotondo con bordo mosso e ricca decorazione a sbalzo e cesello. Punzoni, peso, diametro e manifattura da verificare.",
+    "images": [
+      "assets/images/A044/a044-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A045": {
+    "category_key": "silver",
+    "title_it": "Coppia di salierine in argento con cucchiaini",
+    "title_en": "Coppia di salierine in argento con cucchiaini",
+    "title_fr": "Coppia di salierine in argento con cucchiaini",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Coppia di salierine decorate, complete di cucchiaini, con interni dorati e piedini mossi. Punzoni, titolo, peso e originalità dei cucchiaini da verificare.",
+    "description_en": "Coppia di salierine decorate, complete di cucchiaini, con interni dorati e piedini mossi. Punzoni, titolo, peso e originalità dei cucchiaini da verificare.",
+    "description_fr": "Coppia di salierine decorate, complete di cucchiaini, con interni dorati e piedini mossi. Punzoni, titolo, peso e originalità dei cucchiaini da verificare.",
+    "images": [
+      "assets/images/A045/a045-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A046": {
+    "category_key": "silver",
+    "title_it": "Teiera neoclassica in argento",
+    "title_en": "Teiera neoclassica in argento",
+    "title_fr": "Teiera neoclassica in argento",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Teiera con corpo costolato, decoro fogliaceo, coperchio con pomolo e manico scuro isolante. Punzoni, titolo, peso e misure da verificare.",
+    "description_en": "Teiera con corpo costolato, decoro fogliaceo, coperchio con pomolo e manico scuro isolante. Punzoni, titolo, peso e misure da verificare.",
+    "description_fr": "Teiera con corpo costolato, decoro fogliaceo, coperchio con pomolo e manico scuro isolante. Punzoni, titolo, peso e misure da verificare.",
+    "images": [
+      "assets/images/A046/a046-optimized.png"
+    ],
+    "status": "available"
+  },
+  "A047": {
+    "category_key": "silver",
+    "title_it": "Calamaio neoclassico in argento con due vaschette",
+    "title_en": "Calamaio neoclassico in argento con due vaschette",
+    "title_fr": "Calamaio neoclassico in argento con due vaschette",
+    "category_it": "Argenti",
+    "category_en": "Argenti",
+    "category_fr": "Argenti",
+    "dimensions": "",
+    "description_it": "Calamaio composto da vassoio rettangolare, due vaschette con inserti in vetro e coperchi decorativi, più poggiapenne centrale. Punzoni, titolo, peso, misure e completezza da verificare.",
+    "description_en": "Calamaio composto da vassoio rettangolare, due vaschette con inserti in vetro e coperchi decorativi, più poggiapenne centrale. Punzoni, titolo, peso, misure e completezza da verificare.",
+    "description_fr": "Calamaio composto da vassoio rettangolare, due vaschette con inserti in vetro e coperchi decorativi, più poggiapenne centrale. Punzoni, titolo, peso, misure e completezza da verificare.",
+    "images": [
+      "assets/images/A047/a047-optimized.png"
+    ],
+    "status": "available"
   }
 }
