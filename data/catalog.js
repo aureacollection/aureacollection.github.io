@@ -586,5 +586,287 @@ window.AUREA_CATALOG = {
         ]
       }
     ]
+  },
+  "A021": {
+    "category_key": "lighting",
+    "title_it": "Lampada da soffitto Ingo Maurer con lampadine alate",
+    "title_en": "Ingo Maurer Ceiling Light with Winged Bulbs",
+    "title_fr": "Plafonnier Ingo Maurer à ampoules ailées",
+    "category_it": "Illuminazione di design",
+    "category_en": "Designer Lighting",
+    "category_fr": "Luminaires design",
+    "dimensions": "",
+    "description_it": "Scenografica lampada da soffitto attribuita alla produzione di Ingo Maurer, composta da una struttura metallica libera e dinamica con numerose lampadine decorate dalle caratteristiche ali bianche. Un oggetto luminoso dal forte carattere scultoreo, poetico e ironico.",
+    "description_en": "Sculptural ceiling light associated with Ingo Maurer, formed by a free, dynamic metal structure carrying numerous bulbs with distinctive white wings. A poetic and playful icon of contemporary lighting design.",
+    "description_fr": "Plafonnier sculptural associé à la production d’Ingo Maurer, composé d’une structure métallique libre portant de nombreuses ampoules aux ailes blanches. Une création poétique et ludique du design lumineux contemporain.",
+    "images": [
+      "assets/images/A021/a021-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "Le lampadine trasformate in piccoli esseri alati rendono la luce parte di una vera installazione scultorea. L’identificazione del modello e l’originalità dovranno essere confermate tramite etichetta o marchio."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "The winged bulbs turn the light into a sculptural installation. The exact model and authenticity should be confirmed through its label or maker’s mark."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Les ampoules ailées transforment le luminaire en installation sculpturale. Le modèle exact et l’authenticité devront être confirmés par l’étiquette ou la marque."
+        ]
+      }
+    ]
+  },
+  "A022": {
+    "category_key": "seating",
+    "title_it": "Grande panca-divano in noce con schienale traforato e ricamo a cannetta",
+    "title_en": "Large Walnut Settee with Pierced Back and Needlepoint Seat",
+    "title_fr": "Grande banquette en noyer à dossier ajouré et assise brodée",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "dimensions": "",
+    "description_it": "Elegante panca-divano a tre posti in noce, caratterizzata da un ampio schienale traforato con cartelle sagomate, braccioli raccordati e gambe mosse. La lunga seduta è rivestita da un raffinato ricamo floreale a punto cannetta.",
+    "description_en": "Elegant three-seat walnut settee with a broad pierced and shaped back, curving arms and cabriole-style legs. The long seat is upholstered in floral needlepoint.",
+    "description_fr": "Élégante banquette trois places en noyer, à grand dossier ajouré et chantourné, accotoirs courbes et pieds galbés. La longue assise est garnie d’une broderie florale.",
+    "images": [
+      "assets/images/A022/a022-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "Lo schienale continuo, articolato da cartelle traforate, conferisce alla seduta leggerezza e grande presenza decorativa; il ricamo floreale a cannetta completa l’insieme con una lavorazione artigianale preziosa."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "Its continuous pierced back gives the settee an unusually light and decorative profile, enhanced by the handworked floral needlepoint seat."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Le dossier continu et ajouré donne à la banquette une silhouette légère et décorative, complétée par la broderie florale de l’assise."
+        ]
+      }
+    ]
+  },
+  "A023": {
+    "category_key": "decorative",
+    "title_it": "Coppia di grandi vasi giapponesi policromi con scene di corte",
+    "title_en": "Pair of Large Japanese Polychrome Vases with Court Scenes",
+    "title_fr": "Paire de grands vases japonais polychromes à scènes de cour",
+    "category_it": "Ceramiche orientali",
+    "category_en": "Asian Ceramics",
+    "category_fr": "Céramiques asiatiques",
+    "dimensions": "",
+    "description_it": "Coppia di grandi vasi slanciati in porcellana policroma, con bordo superiore mosso a corolla. La ricca decorazione unisce riserve con figure in abiti tradizionali, paesaggi, fiori e motivi geometrici. Marchio dipinto in rosso sul fondo, ancora da identificare con certezza.",
+    "description_en": "Pair of tall polychrome porcelain vases with flared scalloped rims. Their rich decoration combines courtly figures, landscapes, flowers and geometric ornament. Each bears a red-painted mark requiring further identification.",
+    "description_fr": "Paire de grands vases élancés en porcelaine polychrome, à large bord festonné. Le décor associe personnages en costume, paysages, fleurs et motifs géométriques. Marque rouge sous la base, à identifier.",
+    "images": [
+      "assets/images/A023/a023-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La presenza della coppia, il grande formato e la qualità espressiva dei volti aumentano il valore decorativo. Il marchio sul fondo potrà fornire indicazioni decisive su manifattura ed epoca."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "Their impressive scale, survival as a pair and expressive painted faces add considerable decorative appeal. The marks may provide decisive information about maker and date."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Le grand format, la conservation en paire et l’expressivité des visages renforcent leur intérêt décoratif. Les marques pourront préciser la manufacture et la datation."
+        ]
+      }
+    ]
+  },
+  "A024": {
+    "category_key": "decorative",
+    "title_it": "Coppia di grandi vasi giapponesi coperti con samurai",
+    "title_en": "Pair of Large Japanese Covered Vases with Samurai",
+    "title_fr": "Paire de grands vases couverts japonais à décor de samouraïs",
+    "category_it": "Ceramiche orientali",
+    "category_en": "Asian Ceramics",
+    "category_fr": "Céramiques asiatiques",
+    "dimensions": "",
+    "description_it": "Importante coppia di grandi vasi coperti in porcellana giapponese, decorati con smalti policromi e lumeggiature dorate. I cartigli principali raffigurano samurai in armatura, alternati a pannelli con uccelli, fiori e fitti motivi ornamentali.",
+    "description_en": "Important pair of large Japanese covered porcelain vases decorated in polychrome enamels and gilt highlights. The principal reserves depict armoured samurai, alternating with birds, flowers and dense ornamental patterns.",
+    "description_fr": "Importante paire de grands vases couverts japonais en porcelaine, décorés d’émaux polychromes et d’or. Les réserves principales représentent des samouraïs en armure, alternant avec oiseaux, fleurs et motifs serrés.",
+    "images": [
+      "assets/images/A024/a024-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La pittura dei volti e degli sguardi dei samurai è accurata e caratterizzante. La completezza della coppia e la presenza dei coperchi ne rafforzano l’impatto collezionistico."
+        ]
+      },
+      {
+        "title": "Condizioni",
+        "paragraphs": [
+          "Uno dei due coperchi è stato restaurato. Il restauro deve essere fotografato e documentato nel dettaglio."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "The carefully painted faces and gazes of the samurai are particularly distinctive. Their survival as a complete pair with covers strengthens their collecting appeal."
+        ]
+      },
+      {
+        "title": "Condition",
+        "paragraphs": [
+          "One of the two covers has been restored. The restoration should be photographed and fully documented."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "La qualité des visages et des regards des samouraïs est particulièrement remarquable. La conservation de la paire avec ses couvercles renforce son intérêt."
+        ]
+      },
+      {
+        "title": "État",
+        "paragraphs": [
+          "L’un des deux couvercles a été restauré. Cette restauration devra être photographiée et documentée."
+        ]
+      }
+    ]
+  },
+  "A025": {
+    "category_key": "decorative",
+    "title_it": "Registratore a bobine Grundig TK 42 nella valigia originale",
+    "title_en": "Grundig TK 42 Reel-to-Reel Recorder in Its Original Case",
+    "title_fr": "Magnétophone à bandes Grundig TK 42 dans sa valise d’origine",
+    "category_it": "Audio vintage e design",
+    "category_en": "Vintage Audio and Design",
+    "category_fr": "Audio vintage et design",
+    "dimensions": "",
+    "description_it": "Registratore magnetico a bobine Grundig TK 42, prodotto in Germania negli anni Sessanta, integrato nella sua valigia originale con altoparlanti e comandi meccanici. Completo di una bobina; funzionamento non verificato.",
+    "description_en": "Grundig TK 42 reel-to-reel tape recorder, made in Germany during the 1960s and housed in its original portable case with built-in speakers and mechanical controls. Includes one reel; operating condition untested.",
+    "description_fr": "Magnétophone à bandes Grundig TK 42, fabriqué en Allemagne dans les années 1960, présenté dans sa valise d’origine avec haut-parleurs intégrés et commandes mécaniques. Une bobine incluse; fonctionnement non testé.",
+    "images": [
+      "assets/images/A025/a025-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "Il registratore conserva la valigia, il pannello comandi e l’estetica originale del design industriale tedesco del dopoguerra. Una revisione tecnica e la presenza di accessori originali potrebbero aumentarne l’interesse collezionistico."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "It retains its original case, control panel and characteristic post-war German industrial design. A technical service and surviving original accessories could enhance its collecting appeal."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "Il conserve sa valise, son panneau de commande et l’esthétique du design industriel allemand d’après-guerre. Une révision et des accessoires d’origine pourraient accroître son intérêt."
+        ]
+      }
+    ]
+  },
+  "A026": {
+    "category_key": "paintings",
+    "title_it": "Paesaggio fiammingo attribuito a David Teniers con monogramma DT",
+    "title_en": "Flemish Landscape Attributed to David Teniers, Monogrammed DT",
+    "title_fr": "Paysage flamand attribué à David Teniers, monogrammé DT",
+    "category_it": "Dipinti antichi",
+    "category_en": "Old Master Paintings",
+    "category_fr": "Peintures anciennes",
+    "dimensions": "",
+    "description_it": "Grande paesaggio fluviale di gusto fiammingo, indicato dalla proprietà come olio su rame e recante il monogramma «DT». La scena è animata da villaggio, pastori, animali, figure lungo l’acqua e una fitta vegetazione, entro importante cornice lignea intagliata e dorata.",
+    "description_en": "Large Flemish-style river landscape, described by the owner as oil on copper and bearing the monogram “DT”. The composition includes a village, shepherds, animals and figures beside the water, framed by dense woodland and an important carved and gilt wooden frame.",
+    "description_fr": "Grand paysage fluvial de goût flamand, décrit par la propriété comme une huile sur cuivre et portant le monogramme «DT». La scène réunit village, bergers, animaux et personnages au bord de l’eau, dans une importante cadre sculpté et doré.",
+    "images": [
+      "assets/images/A026/a026-optimized.png"
+    ],
+    "status": "available",
+    "detail_sections_it": [
+      {
+        "title": "Perché questo pezzo è speciale",
+        "paragraphs": [
+          "La composizione è ricca di piccoli episodi narrativi e dettagli pastorali. Il supporto metallico dichiarato e il monogramma DT rendono necessaria una verifica specialistica approfondita."
+        ]
+      },
+      {
+        "title": "Attribuzione",
+        "paragraphs": [
+          "In assenza di expertise o documentazione pubblicata, l’opera viene presentata prudentemente come attribuita a David Teniers."
+        ]
+      }
+    ],
+    "detail_sections_en": [
+      {
+        "title": "Why this piece is special",
+        "paragraphs": [
+          "The composition contains numerous small narrative and pastoral details. The reported metal support and DT monogram warrant careful specialist examination."
+        ]
+      },
+      {
+        "title": "Attribution",
+        "paragraphs": [
+          "In the absence of an expert report or published documentation, the work is cautiously presented as attributed to David Teniers."
+        ]
+      }
+    ],
+    "detail_sections_fr": [
+      {
+        "title": "Pourquoi cette pièce est spéciale",
+        "paragraphs": [
+          "La composition abonde en petits épisodes narratifs et détails pastoraux. Le support métallique déclaré et le monogramme DT justifient un examen spécialisé."
+        ]
+      },
+      {
+        "title": "Attribution",
+        "paragraphs": [
+          "En l’absence d’expertise ou de documentation publiée, l’œuvre est prudemment présentée comme attribuée à David Teniers."
+        ]
+      }
+    ]
   }
 };

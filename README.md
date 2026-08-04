@@ -83,3 +83,10 @@ Questa versione corregge il pacchetto precedente:
 - sul sito pubblico sono mostrate esclusivamente fotografie selezionate/ottimizzate;
 - aggiunta la sezione “Perché questo pezzo è speciale” ai nuovi articoli;
 - nessun prezzo è pubblicato sul sito.
+
+
+## Aggiornamento A001–A026
+- aggiunti A021–A026;
+- fotografie pubbliche esclusivamente ottimizzate;
+- nessun prezzo o stima pubblicato sul sito;
+- condizioni e attribuzioni formulate con prudenza quando ancora da verificare.
