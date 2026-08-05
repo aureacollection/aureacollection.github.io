@@ -1126,5 +1126,513 @@ window.AUREA_CATALOG = {
       "assets/images/A047/a047-optimized.png"
     ],
     "status": "available"
+  },
+  "A048": {
+    "category_key": "paintings",
+    "category_it": "Dipinti",
+    "category_en": "Paintings",
+    "category_fr": "Peintures",
+    "title_it": "Paesaggio con vegetazione mediterranea in cornice dorata",
+    "title_en": "Mediterranean landscape in a gilt frame",
+    "title_fr": "Paysage méditerranéen dans un cadre doré",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Dipinto di paesaggio con vegetazione rigogliosa, palme e alberi, presentato entro un’importante cornice dorata modanata. Tecnica, firma, epoca e stato del supporto da verificare.",
+    "description_en": "Landscape painting with lush vegetation, palms and trees, presented in a substantial moulded gilt frame. Medium, signature, date and support condition to be verified.",
+    "description_fr": "Paysage à la végétation luxuriante, palmiers et arbres, présenté dans un important cadre doré mouluré. Technique, signature, époque et état du support à vérifier.",
+    "images": [
+      "assets/images/A048/a048-01.jpg"
+    ],
+    "status": "available"
+  },
+  "A049": {
+    "category_key": "paintings",
+    "category_it": "Dipinti",
+    "category_en": "Paintings",
+    "category_fr": "Peintures",
+    "title_it": "Paesaggio pastorale con figure e armenti",
+    "title_en": "Pastoral landscape with figures and livestock",
+    "title_fr": "Paysage pastoral avec figures et troupeaux",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Ampio paesaggio pastorale con alberi, corso d’acqua, figure e animali al pascolo, entro cornice dorata. Tecnica, firma, epoca e stato conservativo da verificare.",
+    "description_en": "Expansive pastoral landscape with trees, water, figures and grazing animals, in a gilt frame. Medium, signature, date and condition to be verified.",
+    "description_fr": "Vaste paysage pastoral avec arbres, cours d’eau, personnages et animaux au pâturage, dans un cadre doré. Technique, signature, époque et état à vérifier.",
+    "images": [
+      "assets/images/A049/a049-01.jpg"
+    ],
+    "status": "available"
+  },
+  "A051": {
+    "category_key": "decorative_panels",
+    "category_it": "Pannelli decorativi",
+    "category_en": "Decorative Panels",
+    "category_fr": "Panneaux décoratifs",
+    "title_it": "Coppia di grandi pannelli decorativi con paesaggi boschivi",
+    "title_en": "Pair of large decorative panels with woodland landscapes",
+    "title_fr": "Paire de grands panneaux décoratifs à paysages boisés",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Coppia di pannelli verticali dipinti con paesaggi boschivi, uccelli e vegetazione, concepiti come elementi decorativi da parete. Epoca, tecnica, supporto e condizioni da verificare.",
+    "description_en": "Pair of vertical painted panels with woodland landscapes, birds and vegetation, conceived as wall decoration. Date, medium, support and condition to be verified.",
+    "description_fr": "Paire de panneaux verticaux peints de paysages boisés, oiseaux et végétation, conçus comme décor mural. Époque, technique, support et état à vérifier.",
+    "images": [
+      "assets/images/A051/a051-01.jpg"
+    ],
+    "status": "available"
+  },
+  "A052": {
+    "category_key": "seating",
+    "category_it": "Salotti",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "title_it": "Salotto coordinato con divano, due poltrone e due ottoman",
+    "title_en": "Coordinated suite with sofa, two armchairs and two ottomans",
+    "title_fr": "Salon coordonné avec canapé, deux fauteuils et deux ottomans",
+    "dimensions": "Composto da 1 divano a 3 posti, 2 poltrone e 2 ottoman",
+    "description_it": "Salotto coordinato rivestito in tessuto azzurro chiaro a motivo vegetale, composto da divano a tre posti, due poltrone e due grandi ottoman. Strutture da verificare; il tessuto è da rifoderare.",
+    "description_en": "Coordinated suite upholstered in pale blue patterned fabric, comprising a three-seat sofa, two armchairs and two large ottomans. Frames to be checked; the upholstery requires replacement.",
+    "description_fr": "Salon coordonné recouvert d’un tissu bleu clair à motif végétal, comprenant un canapé trois places, deux fauteuils et deux grands ottomans. Structures à vérifier ; tissu à refaire.",
+    "images": [
+      "assets/images/A052/a052-01.jpg",
+      "assets/images/A052/a052-02.jpg"
+    ],
+    "status": "available"
+  },
+  "A053": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Tavolino ovale piemontese-francese, periodo Luigi XVI",
+    "title_en": "Oval Piedmontese-French table, Louis XVI period",
+    "title_fr": "Table ovale piémontaise-française, époque Louis XVI",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Tavolino ovale impiallacciato e intarsiato, con piano in marmo chiaro, ringhiera traforata in metallo, cassetto frontale e gambe affusolate. Seconda metà del XVIII secolo secondo la documentazione di famiglia.",
+    "description_en": "Oval veneered and inlaid table with pale marble top, pierced metal gallery, front drawer and tapering legs. Second half of the eighteenth century according to family documentation.",
+    "description_fr": "Table ovale plaquée et marquetée, plateau en marbre clair, galerie ajourée en métal, tiroir frontal et pieds fuselés. Seconde moitié du XVIIIe siècle selon la documentation familiale.",
+    "images": [
+      "assets/images/A053/a053-01.jpg",
+      "assets/images/A053/a053-02.jpg"
+    ],
+    "status": "available"
+  },
+  "A054": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Scrittorio detto Mazzarino, Lombardia, inizi XVIII secolo",
+    "title_en": "Mazarine desk, Lombardy, early eighteenth century",
+    "title_fr": "Bureau dit Mazarine, Lombardie, début du XVIIIe siècle",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Importante scrittorio detto Mazzarino, di manifattura lombarda, con ricca impiallacciatura e numerosi cassetti disposti sui corpi laterali e nell’alzata. Normali segni del tempo; condizioni e restauri da verificare.",
+    "description_en": "Important Lombard Mazarine desk with richly figured veneer and numerous drawers arranged in the side sections and raised superstructure. Age-related wear; condition and restorations to be verified.",
+    "description_fr": "Important bureau Mazarine lombard, richement plaqué et muni de nombreux tiroirs dans les caissons latéraux et le gradin. Usures du temps ; état et restaurations à vérifier.",
+    "images": [
+      "assets/images/A054/a054-01.jpg",
+      "assets/images/A054/a054-02.jpg",
+      "assets/images/A054/a054-03.jpg"
+    ],
+    "status": "available"
+  },
+  "A055": {
+    "category_key": "seating",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "title_it": "Set di 4 sedie laccate con chinoiserie, gusto Luigi XV",
+    "title_en": "Set of four lacquered chinoiserie chairs, Louis XV taste",
+    "title_fr": "Suite de quatre chaises laquées à chinoiseries, goût Louis XV",
+    "dimensions": "Set di 4 sedie",
+    "description_it": "Quattro sedie in legno laccato scuro con decorazioni policrome e dorate a chinoiserie, schienale traforato, gambe mosse e sedute rivestite in velluto rosso. Attribuzione ad area lucchese o veneziana, con possibili influenze olandesi, da verificare. Patina, usure e tracce superficiali compatibili con l’età.",
+    "description_en": "Four dark lacquered wooden chairs with polychrome and gilt chinoiserie decoration, open backs, cabriole legs and red velvet seats. Possible Lucca or Venetian origin, with Dutch influence, to be verified. Age-consistent patina and wear.",
+    "description_fr": "Quatre chaises en bois laqué sombre à décor polychrome et doré de chinoiseries, dossiers ajourés, pieds galbés et assises en velours rouge. Attribution lucquoise ou vénitienne, avec influence hollandaise possible, à vérifier. Patine et usures anciennes.",
+    "images": [
+      "assets/images/A055/a055-01.jpg",
+      "assets/images/A055/a055-02.jpg"
+    ],
+    "status": "available"
+  },
+  "A056": {
+    "category_key": "seating",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "title_it": "Importante suite di 12 sedie intarsiate con figure mitologiche",
+    "title_en": "Important suite of twelve inlaid chairs with mythological figures",
+    "title_fr": "Importante suite de douze chaises marquetées à figures mythologiques",
+    "dimensions": "Suite di 12 sedie",
+    "description_it": "Suite di dodici sedie in legno lastronato e finemente intarsiato, con gambe mosse, schienali imbottiti e decorazioni a figure classiche, profili, grifoni, putti, stemmi e motivi vegetali. Rivestimento chiaro; presenti fessurazioni e piccoli sollevamenti della lastronatura compatibili con l’età.",
+    "description_en": "Suite of twelve veneered and finely inlaid chairs with cabriole legs, upholstered backs and decoration featuring classical figures, profiles, griffins, putti, coats of arms and foliage. Pale upholstery; age-related cracks and minor lifting to the veneer.",
+    "description_fr": "Suite de douze chaises plaquées et finement marquetées, pieds galbés, dossiers garnis et décors de figures classiques, profils, griffons, putti, armoiries et rinceaux. Garniture claire ; fissures et petits soulèvements du placage liés à l’âge.",
+    "images": [
+      "assets/images/A056/a056-01.jpg",
+      "assets/images/A056/a056-02.jpg"
+    ],
+    "status": "available"
+  },
+  "A057": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Tavolo da gioco veneziano ad angoli lobati, XVIII secolo",
+    "title_en": "Venetian games table with lobed corners, eighteenth century",
+    "title_fr": "Table à jeux vénitienne à angles lobés, XVIIIe siècle",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Tavolo da gioco o scrittoio di forma pressoché quadrata, con raffinato piano impiallacciato e intarsiato, profilo sagomato ad angoli lobati, cassetto frontale, gambe mosse e traverse tornite. Produzione veneziana del XVIII secolo secondo la documentazione di famiglia.",
+    "description_en": "Near-square games or writing table with refined veneered and inlaid top, lobed shaped corners, front drawer, cabriole legs and turned stretchers. Eighteenth-century Venetian production according to family documentation.",
+    "description_fr": "Table à jeux ou bureau de forme presque carrée, plateau plaqué et marqueté, angles lobés, tiroir frontal, pieds galbés et entretoises tournées. Production vénitienne du XVIIIe siècle selon la documentation familiale.",
+    "images": [
+      "assets/images/A057/a057-01.jpg",
+      "assets/images/A057/a057-02.jpg"
+    ],
+    "status": "available"
+  },
+  "A058": {
+    "category_key": "rugs",
+    "category_it": "Tappeti",
+    "category_en": "Rugs",
+    "category_fr": "Tapis",
+    "title_it": "Grande tappeto persiano annodato a mano con medaglioni floreali",
+    "title_en": "Large hand-knotted Persian rug with floral medallions",
+    "title_fr": "Grand tapis persan noué main à médaillons floraux",
+    "dimensions": "635 × 390 cm",
+    "description_it": "Imponente tappeto persiano annodato a mano in lana, con fondo blu notte, medaglioni policromi e ricca bordura floreale nei toni avorio, bordeaux, verde salvia e azzurro. Presenta naturale patina e segni d’uso; le frange risultano consumate e da ripristinare.",
+    "description_en": "Imposing hand-knotted Persian wool rug with a midnight-blue field, polychrome medallions and a richly floral border in ivory, burgundy, sage and pale blue. Natural patina and wear; the fringes are worn and require restoration.",
+    "description_fr": "Imposant tapis persan en laine noué main, champ bleu nuit, médaillons polychromes et riche bordure florale ivoire, bordeaux, vert sauge et bleu clair. Patine et usures naturelles ; franges usées à restaurer.",
+    "images": [
+      "assets/images/A058/a058-01.jpg",
+      "assets/images/A058/a058-02.jpg",
+      "assets/images/A058/a058-03.jpg",
+      "assets/images/A058/a058-04.jpg",
+      "assets/images/A058/a058-05.jpg",
+      "assets/images/A058/a058-06.jpg",
+      "assets/images/A058/a058-07.jpg",
+      "assets/images/A058/a058-08.jpg",
+      "assets/images/A058/a058-09.jpg"
+    ],
+    "status": "available"
+  },
+  "A059": {
+    "category_key": "seating",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "title_it": "Coppia di poltroncine rivestite in tessuto animalier",
+    "title_en": "Pair of leopard-print slipper chairs",
+    "title_fr": "Paire de chauffeuses imprimé léopard",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Coppia di poltroncine imbottite, rivestite in tessuto leopardato con passamaneria bicolore. Linea compatta e decorativa, ideali come sedute da conversazione o da camera.",
+    "description_en": "Coppia di poltroncine imbottite, rivestite in tessuto leopardato con passamaneria bicolore. Linea compatta e decorativa, ideali come sedute da conversazione o da camera.",
+    "description_fr": "Coppia di poltroncine imbottite, rivestite in tessuto leopardato con passamaneria bicolore. Linea compatta e decorativa, ideali come sedute da conversazione o da camera.",
+    "images": [
+      "assets/images/A059/a059-01.png"
+    ],
+    "status": "available"
+  },
+  "A060": {
+    "category_key": "decorative",
+    "category_it": "Oggetti decorativi",
+    "category_en": "Decorative Objects",
+    "category_fr": "Objets décoratifs",
+    "title_it": "Gruppo di quattro figure cinesi in porcellana",
+    "title_en": "Set of four Chinese porcelain figures",
+    "title_fr": "Ensemble de quatre figurines chinoises en porcelaine",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Gruppo decorativo composto da quattro figure cinesi in porcellana policroma, raffiguranti personaggi seduti e stanti. Manifattura ed epoca da verificare.",
+    "description_en": "Gruppo decorativo composto da quattro figure cinesi in porcellana policroma, raffiguranti personaggi seduti e stanti. Manifattura ed epoca da verificare.",
+    "description_fr": "Gruppo decorativo composto da quattro figure cinesi in porcellana policroma, raffiguranti personaggi seduti e stanti. Manifattura ed epoca da verificare.",
+    "images": [
+      "assets/images/A060/a060-01.png"
+    ],
+    "status": "available"
+  },
+  "A061": {
+    "category_key": "lighting",
+    "category_it": "Illuminazione",
+    "category_en": "Lighting",
+    "category_fr": "Luminaires",
+    "title_it": "Lampadario Catellani & Smith Fil de Fer",
+    "title_en": "Catellani & Smith Fil de Fer ceiling light",
+    "title_fr": "Suspension Fil de Fer de Catellani & Smith",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Scultura luminosa sferica in filo di alluminio intrecciato con numerosi punti luce, modello Fil de Fer di Catellani & Smith.",
+    "description_en": "Scultura luminosa sferica in filo di alluminio intrecciato con numerosi punti luce, modello Fil de Fer di Catellani & Smith.",
+    "description_fr": "Scultura luminosa sferica in filo di alluminio intrecciato con numerosi punti luce, modello Fil de Fer di Catellani & Smith.",
+    "images": [
+      "assets/images/A061/a061-01.png"
+    ],
+    "status": "available"
+  },
+  "A062": {
+    "category_key": "musical",
+    "category_it": "Strumenti musicali",
+    "category_en": "Musical Instruments",
+    "category_fr": "Instruments de musique",
+    "title_it": "Pianoforte verticale Kawai",
+    "title_en": "Kawai upright piano",
+    "title_fr": "Piano droit Kawai",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Pianoforte verticale Kawai in finitura scura, completo di tastiera e mobile. Stato meccanico, accordatura e numero di serie da verificare.",
+    "description_en": "Pianoforte verticale Kawai in finitura scura, completo di tastiera e mobile. Stato meccanico, accordatura e numero di serie da verificare.",
+    "description_fr": "Pianoforte verticale Kawai in finitura scura, completo di tastiera e mobile. Stato meccanico, accordatura e numero di serie da verificare.",
+    "images": [
+      "assets/images/A062/a062-01.png"
+    ],
+    "status": "available"
+  },
+  "A063": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Testiera matrimoniale decorativa",
+    "title_en": "Decorative double headboard",
+    "title_fr": "Tête de lit double décorative",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Testiera matrimoniale imbottita con profilo sagomato e rivestimento decorativo. Condizioni e misure da verificare.",
+    "description_en": "Testiera matrimoniale imbottita con profilo sagomato e rivestimento decorativo. Condizioni e misure da verificare.",
+    "description_fr": "Testiera matrimoniale imbottita con profilo sagomato e rivestimento decorativo. Condizioni e misure da verificare.",
+    "images": [
+      "assets/images/A063/a063-01.png"
+    ],
+    "status": "available"
+  },
+  "A064": {
+    "category_key": "mirrors",
+    "category_it": "Specchi",
+    "category_en": "Mirrors",
+    "category_fr": "Miroirs",
+    "title_it": "Specchio antico con cornice scolpita",
+    "title_en": "Ornate antique mirror",
+    "title_fr": "Miroir ancien ornementé",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Specchio antico con importante cornice scolpita e dorata, dal profilo mosso e riccamente ornato. Lastra con naturale patina del tempo.",
+    "description_en": "Specchio antico con importante cornice scolpita e dorata, dal profilo mosso e riccamente ornato. Lastra con naturale patina del tempo.",
+    "description_fr": "Specchio antico con importante cornice scolpita e dorata, dal profilo mosso e riccamente ornato. Lastra con naturale patina del tempo.",
+    "images": [
+      "assets/images/A064/a064-01.png"
+    ],
+    "status": "available"
+  },
+  "A065": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Trumeau-scrittoio antico impiallacciato con ante a specchio",
+    "title_en": "Antique bureau bookcase with mirrored doors",
+    "title_fr": "Bureau bibliothèque ancien à portes miroir",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Importante trumeau-scrittoio antico con fronte mosso, ricca impiallacciatura, ribalta attrezzata, numerosi cassetti e alzata a due ante specchiate.",
+    "description_en": "Importante trumeau-scrittoio antico con fronte mosso, ricca impiallacciatura, ribalta attrezzata, numerosi cassetti e alzata a due ante specchiate.",
+    "description_fr": "Importante trumeau-scrittoio antico con fronte mosso, ricca impiallacciatura, ribalta attrezzata, numerosi cassetti e alzata a due ante specchiate.",
+    "images": [
+      "assets/images/A065/a065-01.png"
+    ],
+    "status": "available"
+  },
+  "A066": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Consolle orientale in legno laccato nero",
+    "title_en": "Black lacquer console table",
+    "title_fr": "Console en laque noire",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Consolle in legno laccato nero con piano rettangolare, quattro sostegni e profili sagomati di gusto orientale.",
+    "description_en": "Consolle in legno laccato nero con piano rettangolare, quattro sostegni e profili sagomati di gusto orientale.",
+    "description_fr": "Consolle in legno laccato nero con piano rettangolare, quattro sostegni e profili sagomati di gusto orientale.",
+    "images": [
+      "assets/images/A066/a066-01.png"
+    ],
+    "status": "available"
+  },
+  "A067": {
+    "category_key": "paintings",
+    "category_it": "Dipinti",
+    "category_en": "Paintings",
+    "category_fr": "Peintures",
+    "title_it": "Calligrafia cinese incorniciata",
+    "title_en": "Framed Chinese calligraphy scroll",
+    "title_fr": "Calligraphie chinoise encadrée",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Calligrafia cinese su carta con sigilli rossi, montata su supporto decorativo e presentata entro cornice nera.",
+    "description_en": "Calligrafia cinese su carta con sigilli rossi, montata su supporto decorativo e presentata entro cornice nera.",
+    "description_fr": "Calligrafia cinese su carta con sigilli rossi, montata su supporto decorativo e presentata entro cornice nera.",
+    "images": [
+      "assets/images/A067/a067-01.png"
+    ],
+    "status": "available"
+  },
+  "A068": {
+    "category_key": "lighting",
+    "category_it": "Illuminazione",
+    "category_en": "Lighting",
+    "category_fr": "Luminaires",
+    "title_it": "Lampada da tavolo in ottone a tre luci",
+    "title_en": "Three-light brass table lamp",
+    "title_fr": "Lampe de table en laiton à trois lumières",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Lampada da tavolo in ottone con fusto tornito, base sagomata e tre bracci curvilinei, completa di paralume color prugna.",
+    "description_en": "Lampada da tavolo in ottone con fusto tornito, base sagomata e tre bracci curvilinei, completa di paralume color prugna.",
+    "description_fr": "Lampada da tavolo in ottone con fusto tornito, base sagomata e tre bracci curvilinei, completa di paralume color prugna.",
+    "images": [
+      "assets/images/A068/a068-01.png"
+    ],
+    "status": "available"
+  },
+  "A069": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Tavolino basso ottagonale in legno",
+    "title_en": "Low octagonal occasional table",
+    "title_fr": "Table basse octogonale",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Tavolino basso di forma ottagonale in legno, con quattro sostegni laterali e ripiano inferiore, senza piano intermedio.",
+    "description_en": "Tavolino basso di forma ottagonale in legno, con quattro sostegni laterali e ripiano inferiore, senza piano intermedio.",
+    "description_fr": "Tavolino basso di forma ottagonale in legno, con quattro sostegni laterali e ripiano inferiore, senza piano intermedio.",
+    "images": [
+      "assets/images/A069/a069-01.png"
+    ],
+    "status": "available"
+  },
+  "A070": {
+    "category_key": "furniture",
+    "category_it": "Mobili",
+    "category_en": "Furniture",
+    "category_fr": "Mobilier",
+    "title_it": "Carrello da servizio vintage a due ripiani",
+    "title_en": "Vintage two-tier serving trolley",
+    "title_fr": "Desserte vintage à deux plateaux",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Carrello da servizio pieghevole con struttura in legno, dettagli in ottone, due ripiani in vetro e ruote.",
+    "description_en": "Carrello da servizio pieghevole con struttura in legno, dettagli in ottone, due ripiani in vetro e ruote.",
+    "description_fr": "Carrello da servizio pieghevole con struttura in legno, dettagli in ottone, due ripiani in vetro e ruote.",
+    "images": [
+      "assets/images/A070/a070-01.png"
+    ],
+    "status": "available"
+  },
+  "A071": {
+    "category_key": "rugs",
+    "category_it": "Tappeti",
+    "category_en": "Rugs",
+    "category_fr": "Tapis",
+    "title_it": "Tappeto caucasico annodato a mano",
+    "title_en": "Hand-knotted Caucasian rug",
+    "title_fr": "Tapis caucasien noué main",
+    "dimensions": "127 × 180 cm",
+    "description_it": "Tappeto annodato a mano con campo blu scuro, grandi medaglioni geometrici color rosa antico e ricca bordura policroma.",
+    "description_en": "Tappeto annodato a mano con campo blu scuro, grandi medaglioni geometrici color rosa antico e ricca bordura policroma.",
+    "description_fr": "Tappeto annodato a mano con campo blu scuro, grandi medaglioni geometrici color rosa antico e ricca bordura policroma.",
+    "images": [
+      "assets/images/A071/a071-01.png"
+    ],
+    "status": "available"
+  },
+  "A072": {
+    "category_key": "rugs",
+    "category_it": "Tappeti",
+    "category_en": "Rugs",
+    "category_fr": "Tapis",
+    "title_it": "Grande tappeto caucasico annodato a mano",
+    "title_en": "Large hand-knotted Caucasian rug",
+    "title_fr": "Grand tapis caucasien noué main",
+    "dimensions": "270 × 165 cm",
+    "description_it": "Grande tappeto annodato a mano con fondo rosso, motivi geometrici stilizzati e bordure multiple nei toni del blu, avorio e arancio.",
+    "description_en": "Grande tappeto annodato a mano con fondo rosso, motivi geometrici stilizzati e bordure multiple nei toni del blu, avorio e arancio.",
+    "description_fr": "Grande tappeto annodato a mano con fondo rosso, motivi geometrici stilizzati e bordure multiple nei toni del blu, avorio e arancio.",
+    "images": [
+      "assets/images/A072/a072-01.png"
+    ],
+    "status": "available"
+  },
+  "A073": {
+    "category_key": "seating",
+    "category_it": "Sedute",
+    "category_en": "Seating",
+    "category_fr": "Sièges",
+    "title_it": "Divanetto in stile Luigi XV rivestito a righe",
+    "title_en": "Louis XV style upholstered settee",
+    "title_fr": "Canapé de style Louis XV",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Divanetto a tre posti con struttura lignea sagomata e intagliata, gambe mosse e rivestimento a righe nei toni beige e marrone.",
+    "description_en": "Divanetto a tre posti con struttura lignea sagomata e intagliata, gambe mosse e rivestimento a righe nei toni beige e marrone.",
+    "description_fr": "Divanetto a tre posti con struttura lignea sagomata e intagliata, gambe mosse e rivestimento a righe nei toni beige e marrone.",
+    "images": [
+      "assets/images/A073/a073-01.png"
+    ],
+    "status": "available"
+  },
+  "A074": {
+    "category_key": "paintings",
+    "category_it": "Dipinti",
+    "category_en": "Paintings",
+    "category_fr": "Peintures",
+    "title_it": "Veduta del Colosseo con figure",
+    "title_en": "View of the Colosseum with figures",
+    "title_fr": "Vue du Colisée avec personnages",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Dipinto di gusto vedutista raffigurante il Colosseo e le rovine circostanti, animato da numerose figure, entro cornice dorata. Autore, tecnica ed epoca da verificare.",
+    "description_en": "Dipinto di gusto vedutista raffigurante il Colosseo e le rovine circostanti, animato da numerose figure, entro cornice dorata. Autore, tecnica ed epoca da verificare.",
+    "description_fr": "Dipinto di gusto vedutista raffigurante il Colosseo e le rovine circostanti, animato da numerose figure, entro cornice dorata. Autore, tecnica ed epoca da verificare.",
+    "images": [
+      "assets/images/A074/a074-01.png"
+    ],
+    "status": "available"
+  },
+  "A075": {
+    "category_key": "lighting",
+    "category_it": "Illuminazione",
+    "category_en": "Lighting",
+    "category_fr": "Luminaires",
+    "title_it": "Coppia di appliques con pendenti in cristallo",
+    "title_en": "Pair of crystal wall lights",
+    "title_fr": "Paire d’appliques en cristal",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Coppia di appliques a due luci con struttura metallica, fiori e pendenti in cristallo trasparente e ametista, complete di piccoli paralumi plissettati.",
+    "description_en": "Coppia di appliques a due luci con struttura metallica, fiori e pendenti in cristallo trasparente e ametista, complete di piccoli paralumi plissettati.",
+    "description_fr": "Coppia di appliques a due luci con struttura metallica, fiori e pendenti in cristallo trasparente e ametista, complete di piccoli paralumi plissettati.",
+    "images": [
+      "assets/images/A075/a075-01.png"
+    ],
+    "status": "available"
+  },
+  "A076": {
+    "category_key": "decorative",
+    "category_it": "Oggetti decorativi",
+    "category_en": "Decorative Objects",
+    "category_fr": "Objets décoratifs",
+    "title_it": "Coppia di urne dorate su basi in marmo",
+    "title_en": "Pair of gilt bronze urns on marble bases",
+    "title_fr": "Paire d’urnes en bronze doré sur socles en marbre",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Coppia di urne decorative dorate, riccamente lavorate a rilievo con figure, mascheroni e motivi vegetali, su basi cilindriche in marmo scuro.",
+    "description_en": "Coppia di urne decorative dorate, riccamente lavorate a rilievo con figure, mascheroni e motivi vegetali, su basi cilindriche in marmo scuro.",
+    "description_fr": "Coppia di urne decorative dorate, riccamente lavorate a rilievo con figure, mascheroni e motivi vegetali, su basi cilindriche in marmo scuro.",
+    "images": [
+      "assets/images/A076/a076-01.png"
+    ],
+    "status": "available"
+  },
+  "A077": {
+    "category_key": "decorative",
+    "category_it": "Oggetti decorativi",
+    "category_en": "Decorative Objects",
+    "category_fr": "Objets décoratifs",
+    "title_it": "Coppia di angioletti dorati su volute rocaille",
+    "title_en": "Pair of gilt cherub ornaments",
+    "title_fr": "Paire de décors dorés aux putti",
+    "dimensions": "Misure da rilevare",
+    "description_it": "Coppia di elementi decorativi dorati raffiguranti putti con uccelli, adagiati su elaborate volute rocaille.",
+    "description_en": "Coppia di elementi decorativi dorati raffiguranti putti con uccelli, adagiati su elaborate volute rocaille.",
+    "description_fr": "Coppia di elementi decorativi dorati raffiguranti putti con uccelli, adagiati su elaborate volute rocaille.",
+    "images": [
+      "assets/images/A077/a077-01.png"
+    ],
+    "status": "available"
   }
 };

@@ -1,107 +1,9 @@
-<!doctype html>
-<html lang="it">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#17130f">
-<meta name="robots" content="index,follow">
-<title>AUREA Collection — Collezione privata italiana</title>
-<meta name="description" content="AUREA Collection presenta una collezione privata italiana di mobili, dipinti, specchi, sedute, illuminazione, argenti e oggetti decorativi.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AUREA Collection">
-<meta property="og:description" content="Una collezione privata italiana di mobili, dipinti, argenti e oggetti decorativi.">
-<meta property="og:image" content="https://aureacollection.github.io/assets/images/A006/a006-01.jpg">
-<meta property="og:url" content="https://aureacollection.github.io/">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://aureacollection.github.io/">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%2317130f%22/><text x=%2250%22 y=%2264%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%23a87836%22 font-family=%22Georgia%22>A</text></svg>">
-<link rel="stylesheet" href="assets/css/style.css?v=20260805-2">
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"CollectionPage",
-  "name":"AUREA Collection",
-  "url":"https://aureacollection.github.io/",
-  "description":"Collezione privata italiana di mobili, dipinti, argenti e oggetti decorativi."
-}
-</script>
-</head>
-<body id="top">
-<header class="site-header">
-  <div class="navbar">
-    <a class="brand brand-link" href="#top" aria-label="AUREA homepage"><span class="brand-main">AUREA</span><span class="brand-sub">PRIVATE ITALIAN FAMILY COLLECTION</span></a>
-    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Apri menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    <div class="menu" id="siteMenu">
-      <a id="navCollection" href="#collection">Collezione</a>
-      <a id="navAbout" href="#about">La collezione</a>
-      <a id="navContact" href="#" data-open-contact="true">Contatti</a>
-      <div class="langs">
-        <button class="lang-btn active" data-lang="it">IT</button>
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="fr">FR</button>
-      </div>
-    </div>
-  </div>
-</header>
-
-<section class="hero" id="hero">
-  <div class="hero-content">
-    <h1>AUREA</h1>
-    <div class="hero-rule"></div>
-    <div class="hero-tag" id="heroTag"></div>
-    <div class="hero-copy" id="heroCopy"></div>
-    <a class="cta" id="heroExplore" href="#collection"></a>
-  </div>
-</section>
-
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
-<main>
-  <section class="home-grid">
-    <div class="category-grid">
-      <a class="category-card" data-filter="furniture" href="#collection"><img src="assets/images/A001/a001-01.jpg" fetchpriority="high" alt=""><div class="overlay"><h3>Mobili</h3><span>Collezione</span></div></a>
-      <a class="category-card" data-filter="mirrors" href="#collection"><img loading="lazy" decoding="async" src="assets/images/A002/a002-01.jpg" alt=""><div class="overlay"><h3>Specchi</h3><span>Collezione</span></div></a>
-      <a class="category-card" data-filter="paintings" href="#collection"><img loading="lazy" decoding="async" src="assets/images/A004/a004-01.jpg" alt=""><div class="overlay"><h3>Dipinti</h3><span>Collezione</span></div></a>
-      <a class="category-card" data-filter="seating" href="#collection"><img loading="lazy" decoding="async" src="assets/images/A007/a007-01.jpg" alt=""><div class="overlay"><h3>Sedute</h3><span>Collezione</span></div></a>
-      <a class="category-card" data-filter="decorative" href="#collection"><img loading="lazy" decoding="async" src="assets/images/A006/a006-01.jpg" alt=""><div class="overlay"><h3>Oggetti decorativi</h3><span>Collezione</span></div></a>
-      <a class="category-card" data-filter="silver" href="#collection"><img loading="lazy" decoding="async" src="assets/images/A032/a032-optimized.png" alt=""><div class="overlay"><h3>Argenti</h3><span>Collezione</span></div></a>
-    </div>
-    <div class="editorial">
-      <h2 id="artTitle"></h2>
-      <div class="gold-line"></div>
-      <p id="artCopy"></p>
-      <a class="cta" href="#about">About the collection</a>
-    </div>
-  </section>
-
-
-  <section class="collection" id="collection">
-    <div class="collection-head">
-      <div><h2 class="collection-title" id="collectionTitle"></h2><div class="gold-line"></div></div>
-      <p id="collectionIntro"></p>
-    </div>
-    <div class="filters">
-      <button class="filter-btn active" id="filterAll" data-filter="all">Tutti</button>
-      <button class="filter-btn" data-filter="furniture">Mobili</button>
-      <button class="filter-btn" data-filter="mirrors">Specchi</button>
-      <button class="filter-btn" data-filter="seating">Sedute</button>
-      <button class="filter-btn" data-filter="paintings">Dipinti</button>
-      <button class="filter-btn" data-filter="decorative">Oggetti decorativi</button>
-      <button class="filter-btn" data-filter="decorative_panels">Pannelli decorativi</button>
-      <button class="filter-btn" data-filter="lighting">Illuminazione</button>
-      <button class="filter-btn" data-filter="silver">Argenti</button>
-    </div>
-    <div class="catalog-grid" id="catalogGrid"></div>
-  </section>
-
-  <div id="details"></div>
-
-  <section class="info" id="about"><h2>AUREA</h2><p id="aboutCopy"></p></section>
-  <section class="info" id="contact"><h2 id="contactTitle"></h2><p id="contactCopy"></p></section>
-</main>
-
-<footer class="minimal-footer"><div>© AUREA Collection</div><div>Private Italian Family Collection</div></footer>
-
-
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#17130f"><title>AUREA Collection — Collezione privata italiana</title><meta name="description" content="AUREA Collection presenta una collezione privata italiana di mobili, dipinti, specchi, sedute, illuminazione e oggetti decorativi."><link rel="stylesheet" href="assets/css/style.css"></head><body id="top">
+<header class="site-header"><div class="navbar"><a class="brand brand-link" href="#top"><span class="brand-main">AUREA</span><span class="brand-sub">PRIVATE ITALIAN FAMILY COLLECTION</span></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Apri menu"><span></span><span></span><span></span></button><nav class="menu" id="siteMenu"><div class="collection-menu"><button id="navCollection" class="nav-dropdown-trigger" type="button">LA COLLEZIONE <span>⌄</span></button><div class="category-dropdown" id="categoryDropdown"></div></div><a id="navContact" href="#" data-open-contact="true">CONTATTI</a><button class="search-trigger" id="searchTrigger" type="button" aria-label="Cerca">⌕</button><div class="langs"><button class="lang-btn active" data-lang="it">IT</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="fr">FR</button></div></nav></div></header>
+<section class="hero" id="hero"><div class="hero-content"><h1>AUREA</h1><div class="hero-rule"></div><div class="hero-tag" id="heroTag"></div><div class="hero-copy" id="heroCopy"></div><a class="cta" id="heroExplore" href="#collection"></a></div></section>
+<div class="search-panel" id="searchPanel"><button class="search-close" id="searchClose">×</button><div class="search-inner"><label for="globalSearch">Cerca nella collezione</label><input id="globalSearch" type="search" placeholder="Codice, titolo, categoria, materiale..."><p id="searchCount"></p></div></div>
+<main><section class="home-grid"><div class="category-grid" id="homeCategories"></div><div class="editorial"><h2 id="artTitle"></h2><div class="gold-line"></div><p id="artCopy"></p><a class="cta" href="#collection">La collezione</a></div></section>
+<section class="collection" id="collection"><div class="collection-head"><div><h2 class="collection-title" id="collectionTitle"></h2><div class="gold-line"></div></div><p id="collectionIntro"></p></div><div class="filters" id="filters"></div><div class="catalog-grid" id="catalogGrid"></div></section><div id="details"></div><section class="info" id="contact"><h2 id="contactTitle"></h2><p id="contactCopy"></p></section></main><footer class="minimal-footer"><div>© AUREA Collection</div><div>Private Italian Family Collection</div></footer>
   <div class="modal" id="inquiryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-panel">
       <button class="modal-close" id="modalClose" type="button" aria-label="Chiudi">×</button>
@@ -190,7 +92,4 @@
   <div class="lb-thumbs" id="lbThumbs"></div>
 </div>
 
-<script src="data/catalog.js?v=20260805-2"></script>
-<script src="assets/js/app.js?v=20260805-2"></script>
-</body>
-</html>
+<script src="data/catalog.js"></script><script src="assets/js/app.js"></script></body></html>
