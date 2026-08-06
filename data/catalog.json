@@ -1,88 +1,127 @@
 {
   "A001": {
     "category_key": "furniture",
-    "title_it": "Consolle intarsiata in stile Luigi XV",
-    "title_en": "Italian Louis XV Style Inlaid Console",
-    "title_fr": "Console italienne de style Louis XV marquetée",
+    "title_it": "Console Luigi XV intarsiata con mensola estraibile e cassetto laterale",
+    "title_en": "Louis XV Style Inlaid Console with Pull-Out Shelf and Side Drawer",
+    "title_fr": "Console marquetée de style Louis XV avec tablette coulissante et tiroir latéral",
     "category_it": "Mobili",
     "category_en": "Furniture",
     "category_fr": "Mobilier",
-    "dimensions": "80 × 40 × H 70 cm",
-    "description_it": "Consolle italiana in stile Luigi XV con intarsi floreali, cassetto centrale e pratica mensola estraibile.",
-    "description_en": "Italian Louis XV style console with floral marquetry, a central drawer and a practical pull-out shelf.",
-    "description_fr": "Console italienne de style Louis XV avec marqueterie florale, tiroir central et tablette coulissante.",
+    "dimensions": "H 73 × L 81 × P 40 cm",
+    "description_it": "Elegante console in stile Luigi XV, caratterizzata da una ricca decorazione ad intarsio floreale e sinuose gambe mosse. Il mobile è dotato di una pratica mensola estraibile frontale e di un cassetto laterale, dettagli che ne aumentano la funzionalità senza alterarne l’eleganza. Le proporzioni armoniose e la qualità delle lavorazioni la rendono ideale come console d’ingresso, scrittoio occasionale o elemento d’arredo per ambienti classici e raffinati.",
+    "description_en": "Elegant Louis XV style console with rich floral marquetry and graceful cabriole legs. It features a practical front pull-out shelf and a discreet side drawer, combining functionality with refined proportions.",
+    "description_fr": "Élégante console de style Louis XV ornée d’une riche marqueterie florale et de pieds galbés. Elle possède une tablette coulissante frontale et un discret tiroir latéral.",
     "images": [
-      "assets/images/A001/a001-01.jpg"
+      "assets/images/A001/a001-01.webp",
+      "assets/images/A001/a001-02.webp",
+      "assets/images/A001/a001-03.webp",
+      "assets/images/A001/a001-04.webp"
     ],
-    "status": "available"
+    "status": "available",
+    "epoch_it": "XX secolo",
+    "style_it": "Luigi XV",
+    "material_it": "Legni pregiati intarsiati",
+    "notes_private": "Mensola estraibile frontale; cassetto laterale."
   },
   "A002": {
     "category_key": "mirrors",
-    "title_it": "Specchio antico con cornice dorata",
-    "title_en": "Antique Giltwood Mirror",
-    "title_fr": "Miroir ancien en bois doré",
+    "title_it": "Specchiera Luigi XV in legno intagliato e dorato",
+    "title_en": "Louis XV Carved and Giltwood Mirror",
+    "title_fr": "Miroir Louis XV en bois sculpté et doré",
     "category_it": "Specchi",
     "category_en": "Mirrors",
     "category_fr": "Miroirs",
-    "dimensions": "",
-    "description_it": "Grande specchio decorativo con cornice dorata a motivi floreali, volute e importante cimasa traforata.",
-    "description_en": "Large decorative mirror with a gilt floral and scroll frame, crowned by an elaborate pierced crest.",
-    "description_fr": "Grand miroir décoratif à cadre doré de motifs floraux et volutes, surmonté d’un fronton ajouré.",
+    "dimensions": "H 115 × L 90 cm",
+    "description_it": "Elegante specchiera Luigi XV in legno finemente intagliato e dorato, impreziosita da una ricca cimasa traforata con motivi rocaille. Conserva lo specchio originale d’epoca con la naturale patina e le leggere ossidazioni che ne testimoniano autenticità e fascino. La raffinata lavorazione della cornice e le proporzioni equilibrate la rendono un elemento decorativo di grande effetto.",
+    "description_en": "Elegant Louis XV carved and giltwood mirror with a richly pierced rocaille crest. It retains its original period mirror plate with natural patina and light oxidation.",
+    "description_fr": "Élégant miroir Louis XV en bois finement sculpté et doré, surmonté d’un riche fronton ajouré à motifs rocaille. Il conserve sa glace ancienne d’origine avec sa patine naturelle.",
     "images": [
-      "assets/images/A002/a002-01.jpg"
+      "assets/images/A002/a002-01.webp",
+      "assets/images/A002/a002-02.webp",
+      "assets/images/A002/a002-03.webp",
+      "assets/images/A002/a002-04.webp"
     ],
-    "status": "available"
+    "status": "available",
+    "epoch_it": "Seconda metà XVIII secolo",
+    "style_it": "Luigi XV",
+    "material_it": "Legno intagliato e dorato a foglia oro, specchio originale d’epoca"
   },
   "A003": {
     "category_key": "seating",
-    "title_it": "Coppia di poltroncine antiche ricamate",
-    "title_en": "Pair of Antique Embroidered Armchairs",
-    "title_fr": "Paire de fauteuils anciens brodés",
+    "title_it": "Coppia di poltroncine ricamate a mano con passamaneria",
+    "title_en": "Pair of Hand-Embroidered Armchairs with Trimmings",
+    "title_fr": "Paire de fauteuils brodés main avec passementerie",
     "category_it": "Sedute",
     "category_en": "Seating",
     "category_fr": "Sièges",
-    "dimensions": "",
-    "description_it": "Coppia di poltroncine avvolgenti con schienale sagomato e raffinato rivestimento a motivo geometrico.",
-    "description_en": "Pair of enveloping armchairs with shaped backs and refined geometric-pattern upholstery.",
-    "description_fr": "Paire de fauteuils enveloppants à dossiers galbés et élégant revêtement à motif géométrique.",
+    "dimensions": "H 87 × L 55 × P 52 cm (cad.)",
+    "description_it": "Elegante coppia di poltroncine di gusto classico, rivestite in tessuto ricamato a mano realizzato dallo storico negozio milanese Cannetta. Le sedute sono impreziosite da una ricca passamaneria con frange e nappe. Una delle due poltroncine presenta una gamba da restaurare.",
+    "description_en": "Elegant pair of classic armchairs upholstered in hand-embroidered fabric made by the historic Milanese shop Cannetta, enriched with elaborate fringed and tasselled trimmings. One chair has a leg requiring restoration.",
+    "description_fr": "Élégante paire de fauteuils classiques recouverts d’un tissu brodé main réalisé par la maison milanaise historique Cannetta, avec riche passementerie à franges et glands. Un pied est à restaurer.",
     "images": [
-      "assets/images/A003/a003-01.jpg"
+      "assets/images/A003/a003-01.webp",
+      "assets/images/A003/a003-02.webp",
+      "assets/images/A003/a003-03.webp",
+      "assets/images/A003/a003-04.webp",
+      "assets/images/A003/a003-05.webp"
     ],
-    "status": "available"
+    "status": "available",
+    "epoch_it": "Metà XX secolo",
+    "style_it": "Classico",
+    "material_it": "Struttura in legno, imbottitura, tessuto ricamato a mano Cannetta, passamaneria con frange e nappe",
+    "notes_private": "Una gamba da restaurare. Stima privata: €300–800."
   },
   "A004": {
     "category_key": "paintings",
-    "title_it": "Coppia di nature morte floreali",
-    "title_en": "Pair of Floral Still Lifes",
-    "title_fr": "Paire de natures mortes florales",
+    "title_it": "Coppia di nature morte floreali a olio su tela firmate A. Persico",
+    "title_en": "Pair of Floral Oil Paintings Signed A. Persico",
+    "title_fr": "Paire de natures mortes florales à l’huile signées A. Persico",
     "category_it": "Dipinti",
     "category_en": "Paintings",
     "category_fr": "Peintures",
-    "dimensions": "Circa 60 × 50 cm ciascuna",
-    "description_it": "Coppia di composizioni floreali a olio su tela, firmate A. Persico e conservate nelle cornici originali.",
-    "description_en": "Pair of floral oil paintings signed A. Persico and presented in their original frames.",
-    "description_fr": "Paire de compositions florales à l’huile, signées A. Persico et présentées dans leurs cadres d’origine.",
+    "dimensions": "H 60 × L 50 cm (cad.)",
+    "description_it": "Deliziosa coppia di dipinti a olio su tela raffiguranti due composizioni floreali in vaso, realizzate con pennellate materiche e colori vivaci su fondo scuro. Le opere, firmate in basso a destra “A. Persico”, conservano le cornici originali in legno con profilo dorato.",
+    "description_en": "Charming pair of floral oil paintings on canvas, signed “A. Persico” lower right and retained in their original wooden frames with gilt profile.",
+    "description_fr": "Charmante paire de compositions florales à l’huile sur toile, signées « A. Persico » en bas à droite et conservées dans leurs cadres d’origine en bois à filet doré.",
     "images": [
-      "assets/images/A004/a004-01.jpg"
+      "assets/images/A004/a004-01.webp",
+      "assets/images/A004/a004-02.webp",
+      "assets/images/A004/a004-03.webp",
+      "assets/images/A004/a004-04.webp",
+      "assets/images/A004/a004-05.webp",
+      "assets/images/A004/a004-06.webp"
     ],
-    "status": "available"
+    "status": "available",
+    "epoch_it": "Metà XX secolo",
+    "style_it": "Classico",
+    "material_it": "Olio su tela, cornici originali in legno con profilo dorato",
+    "notes_private": "Stima privata: €600 la coppia."
   },
   "A005": {
     "category_key": "furniture",
-    "title_it": "Tavolino Luigi XV in alabastro e bronzo",
-    "title_en": "Louis XV Style Alabaster and Bronze Coffee Table",
-    "title_fr": "Table basse de style Louis XV en albâtre et bronze",
+    "title_it": "Tavolino in alabastro e bronzo massiccio stile Luigi XV",
+    "title_en": "Louis XV Style Solid Bronze and Alabaster Coffee Table",
+    "title_fr": "Table basse de style Louis XV en albâtre et bronze massif",
     "category_it": "Mobili",
     "category_en": "Furniture",
     "category_fr": "Mobilier",
-    "dimensions": "110 × 55 × H 40 cm",
-    "description_it": "Tavolino in stile Luigi XV con piano in alabastro naturale e struttura in bronzo riccamente lavorata.",
-    "description_en": "Louis XV style table with a natural alabaster top and a richly worked bronze frame.",
-    "description_fr": "Table de style Louis XV avec plateau en albâtre naturel et structure en bronze richement ouvragée.",
+    "dimensions": "H 43 × L 120 × P 60 cm",
+    "description_it": "Elegante tavolino da salotto con piano in alabastro naturale lucidato e struttura in bronzo massiccio finemente lavorato, realizzato in stile Luigi XV. Il piano presenta splendide venature naturali nei toni del verde, miele, avorio e rosato. La base è riccamente decorata con motivi rocaille e gambe cabriole. Il piano presenta una crepa che necessita di restauro, visibile nelle fotografie. Struttura molto solida e pesante.",
+    "description_en": "Elegant Louis XV style coffee table with a polished natural alabaster top and finely worked solid bronze frame. The richly veined top has a crack requiring restoration, visible in the photographs.",
+    "description_fr": "Élégante table basse de style Louis XV avec plateau en albâtre naturel poli et structure en bronze massif finement travaillé. Le plateau présente une fissure nécessitant une restauration, visible sur les photographies.",
     "images": [
-      "assets/images/A005/a005-01.jpg"
+      "assets/images/A005/a005-01.webp",
+      "assets/images/A005/a005-02.webp",
+      "assets/images/A005/a005-03.webp",
+      "assets/images/A005/a005-04.webp",
+      "assets/images/A005/a005-05.webp",
+      "assets/images/A005/a005-06.webp"
     ],
-    "status": "available"
+    "status": "available",
+    "epoch_it": "Metà XX secolo",
+    "style_it": "Luigi XV",
+    "material_it": "Alabastro naturale lucidato e bronzo massiccio",
+    "notes_private": "Crepa del piano da restaurare. Stima privata: €500–900."
   },
   "A006": {
     "category_key": "decorative",
@@ -97,7 +136,7 @@
     "description_en": "French “A Paris” clock in white and black marble, enriched with gilt-bronze mounts.",
     "description_fr": "Pendule française « A Paris » en marbre blanc et noir, ornée de bronzes dorés.",
     "images": [
-      "assets/images/A006/a006-01.jpg"
+      "assets/images/A006/a006-01.webp"
     ],
     "status": "available"
   },
@@ -114,7 +153,7 @@
     "description_en": "Set of six Italian Louis XVI style chairs, green-painted and upholstered in Cannetta Milano floral needlework.",
     "description_fr": "Suite de six chaises italiennes de style Louis XVI, laquées vert et garnies d’une broderie florale Cannetta Milan.",
     "images": [
-      "assets/images/A007/a007-01.jpg"
+      "assets/images/A007/a007-01.webp"
     ],
     "status": "available"
   },
@@ -131,10 +170,10 @@
     "description_en": "Set of five hand-painted decorative panels: one monumental lake landscape and four narrow vertical panels originally used as decorative doors, all with coordinated landscapes and trompe-l'œil ornamental borders.",
     "description_fr": "Ensemble de cinq panneaux décoratifs peints à la main : un grand paysage lacustre et quatre panneaux verticaux étroits, autrefois utilisés comme portes, avec bordures en trompe-l’œil.",
     "images": [
-      "assets/images/A008/a008-pannello-grande-ottimizzato.png",
-      "assets/images/A008/a008-09.jpg",
-      "assets/images/A008/a008-10.jpg",
-      "assets/images/A008/a008-12.jpg"
+      "assets/images/A008/a008-pannello-grande-ottimizzato.webp",
+      "assets/images/A008/a008-09.webp",
+      "assets/images/A008/a008-10.webp",
+      "assets/images/A008/a008-12.webp"
     ],
     "status": "available"
   },
@@ -151,7 +190,7 @@
     "description_en": "Large adjustable wrought iron wall lamp with an accordion scissor mechanism and floral details at the joints. A functional and striking decorative piece.",
     "description_fr": "Grande applique murale extensible en fer forgé, dotée d’un mécanisme en accordéon et de détails floraux aux articulations. Une pièce fonctionnelle et décorative de caractère.",
     "images": [
-      "assets/images/A009/a009-01.jpg"
+      "assets/images/A009/a009-01.webp"
     ],
     "status": "available"
   },
@@ -168,7 +207,7 @@
     "description_en": "Large executive desk of restrained design, with a wooden top, metal structure and integrated drawers, shown in its original study setting.",
     "description_fr": "Grand bureau de direction aux lignes sobres, avec plateau en bois, structure métallique et caissons intégrés, présenté dans son cadre d’origine.",
     "images": [
-      "assets/images/A010/a010-01.jpg"
+      "assets/images/A010/a010-01.webp"
     ],
     "status": "available"
   },
@@ -185,7 +224,7 @@
     "description_en": "Impressive full-wall bespoke bookcase with numerous open shelves and a spacious closed-door base, ideal for a private library or executive study.",
     "description_fr": "Importante bibliothèque murale réalisée sur mesure, avec de nombreuses étagères ouvertes et une base spacieuse à portes, idéale pour une bibliothèque privée ou un bureau.",
     "images": [
-      "assets/images/A011/a011-01.jpg"
+      "assets/images/A011/a011-01.webp"
     ],
     "status": "available"
   },
@@ -202,7 +241,7 @@
     "description_en": "Grand statement mirror with a richly carved and gilded wooden frame, decorated with scrolls, foliage and an elaborate Rocaille-style crest.",
     "description_fr": "Grand miroir spectaculaire à cadre en bois richement sculpté et doré, orné de volutes, feuillages et d’un important fronton de goût rocaille.",
     "images": [
-      "assets/images/A012/a012-01.png"
+      "assets/images/A012/a012-01.webp"
     ],
     "status": "available"
   },
@@ -219,7 +258,7 @@
     "description_en": "Elegant pair of two-arm wall sconces with gilt-bronze frames, shaped glass drip pans and abundant faceted crystal drops.",
     "description_fr": "Élégante paire d’appliques à deux bras, en bronze doré, avec bobèches en verre moulé et riche pendeloquerie en cristal taillé.",
     "images": [
-      "assets/images/A013/a013-01.png"
+      "assets/images/A013/a013-01.webp"
     ],
     "status": "available"
   },
@@ -239,8 +278,8 @@
     "subtitle_en": "Published as a work attributed to Giuseppe Cesari, called Cavaliere d’Arpino",
     "subtitle_fr": "Œuvre publiée comme attribuée à Giuseppe Cesari, dit le Cavalier d’Arpin",
     "images": [
-      "assets/images/A014/a014-02.png",
-      "assets/images/A014/a014-bibliografia-01.jpg"
+      "assets/images/A014/a014-02.webp",
+      "assets/images/A014/a014-bibliografia-01.webp"
     ],
     "status": "available",
     "special_request_it": "Richiedi informazioni e documentazione sull’opera",
@@ -357,7 +396,7 @@
     "description_en": "Pair of Italian solid-wood interior doors with fluted panels and finely carved central sunburst motifs. Retaining period hardware and a warm aged patina.",
     "description_fr": "Paire de portes intérieures italiennes en bois massif, à panneaux cannelés et motifs rayonnants sculptés. Ferrures anciennes et belle patine d’usage.",
     "images": [
-      "assets/images/A015/a015-optimized.png"
+      "assets/images/A015/a015-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -398,7 +437,7 @@
     "description_en": "Elegant Italian carved-walnut sofa with a shaped crest, generous scroll arms and richly carved feet. Later floral upholstery.",
     "description_fr": "Élégant canapé italien en noyer sculpté, à fronton chantourné, grands accotoirs en volute et pieds richement travaillés. Tissu floral postérieur.",
     "images": [
-      "assets/images/A016/a016-optimized.png"
+      "assets/images/A016/a016-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -439,7 +478,7 @@
     "description_en": "Large Italian solid-wood console with architectural proportions, a thick top, robust rectangular legs and a pronounced aged patina.",
     "description_fr": "Grande console italienne en bois massif, aux proportions architecturales, avec plateau épais, pieds robustes et patine ancienne marquée.",
     "images": [
-      "assets/images/A017/a017-optimized.png"
+      "assets/images/A017/a017-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -480,7 +519,7 @@
     "description_en": "Elegant Italian walnut desk with a dark leather writing surface, two front drawers, turned legs and stabilising stretchers.",
     "description_fr": "Élégant bureau italien en noyer, avec écritoire en cuir sombre, deux tiroirs, pieds tournés et entretoises.",
     "images": [
-      "assets/images/A018/a018-optimized.png"
+      "assets/images/A018/a018-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -521,7 +560,7 @@
     "description_en": "Large Italian wall-mounted wooden cabinet with four glazed doors and internal shelves. Its restrained design highlights the wood grain and practical storage.",
     "description_fr": "Grande vitrine murale italienne en bois, à quatre portes vitrées et étagères intérieures. Ses lignes sobres mettent en valeur le bois et sa fonctionnalité.",
     "images": [
-      "assets/images/A019/a019-optimized.png"
+      "assets/images/A019/a019-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -562,7 +601,7 @@
     "description_en": "Salon suite comprising a three-seat sofa and four matching walnut armchairs, upholstered with refined floral handworked needlepoint.",
     "description_fr": "Salon composé d’un canapé trois places et de quatre fauteuils assortis en noyer, garnis d’une fine broderie florale réalisée à la main au petit point.",
     "images": [
-      "assets/images/A020/a020-optimized.png"
+      "assets/images/A020/a020-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -603,7 +642,7 @@
     "description_en": "Sculptural ceiling light associated with Ingo Maurer, formed by a free, dynamic metal structure carrying numerous bulbs with distinctive white wings. A poetic and playful icon of contemporary lighting design.",
     "description_fr": "Plafonnier sculptural associé à la production d’Ingo Maurer, composé d’une structure métallique libre portant de nombreuses ampoules aux ailes blanches. Une création poétique et ludique du design lumineux contemporain.",
     "images": [
-      "assets/images/A021/a021-optimized.png"
+      "assets/images/A021/a021-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -644,7 +683,7 @@
     "description_en": "Elegant three-seat walnut settee with a broad pierced and shaped back, curving arms and cabriole-style legs. The long seat is upholstered in floral needlepoint.",
     "description_fr": "Élégante banquette trois places en noyer, à grand dossier ajouré et chantourné, accotoirs courbes et pieds galbés. La longue assise est garnie d’une broderie florale.",
     "images": [
-      "assets/images/A022/a022-optimized.png"
+      "assets/images/A022/a022-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -685,7 +724,7 @@
     "description_en": "Pair of tall polychrome porcelain vases with flared scalloped rims. Their rich decoration combines courtly figures, landscapes, flowers and geometric ornament. Each bears a red-painted mark requiring further identification.",
     "description_fr": "Paire de grands vases élancés en porcelaine polychrome, à large bord festonné. Le décor associe personnages en costume, paysages, fleurs et motifs géométriques. Marque rouge sous la base, à identifier.",
     "images": [
-      "assets/images/A023/a023-optimized.png"
+      "assets/images/A023/a023-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -726,7 +765,7 @@
     "description_en": "Important pair of large Japanese covered porcelain vases decorated in polychrome enamels and gilt highlights. The principal reserves depict armoured samurai, alternating with birds, flowers and dense ornamental patterns.",
     "description_fr": "Importante paire de grands vases couverts japonais en porcelaine, décorés d’émaux polychromes et d’or. Les réserves principales représentent des samouraïs en armure, alternant avec oiseaux, fleurs et motifs serrés.",
     "images": [
-      "assets/images/A024/a024-optimized.png"
+      "assets/images/A024/a024-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -785,7 +824,7 @@
     "description_en": "Grundig TK 42 reel-to-reel tape recorder, made in Germany during the 1960s and housed in its original portable case with built-in speakers and mechanical controls. Includes one reel; operating condition untested.",
     "description_fr": "Magnétophone à bandes Grundig TK 42, fabriqué en Allemagne dans les années 1960, présenté dans sa valise d’origine avec haut-parleurs intégrés et commandes mécaniques. Une bobine incluse; fonctionnement non testé.",
     "images": [
-      "assets/images/A025/a025-optimized.png"
+      "assets/images/A025/a025-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -826,7 +865,7 @@
     "description_en": "Large Flemish-style river landscape, described by the owner as oil on copper and bearing the monogram “DT”. The composition includes a village, shepherds, animals and figures beside the water, framed by dense woodland and an important carved and gilt wooden frame.",
     "description_fr": "Grand paysage fluvial de goût flamand, décrit par la propriété comme une huile sur cuivre et portant le monogramme «DT». La scène réunit village, bergers, animaux et personnages au bord de l’eau, dans une importante cadre sculpté et doré.",
     "images": [
-      "assets/images/A026/a026-optimized.png"
+      "assets/images/A026/a026-optimized.webp"
     ],
     "status": "available",
     "detail_sections_it": [
@@ -885,7 +924,7 @@
     "description_en": "Dipinto di genere con scena di vita quotidiana in un interno domestico, figure adulte e bambini, entro importante cornice lignea decorata. Firma, misure e datazione precisa da verificare.",
     "description_fr": "Dipinto di genere con scena di vita quotidiana in un interno domestico, figure adulte e bambini, entro importante cornice lignea decorata. Firma, misure e datazione precisa da verificare.",
     "images": [
-      "assets/images/A029/a029-optimized.png"
+      "assets/images/A029/a029-optimized.webp"
     ],
     "status": "available"
   },
@@ -902,7 +941,7 @@
     "description_en": "Natura morta decorativa con ricco mazzo di fiori in vaso ornato, entro cornice lignea scura con profili dorati. Tecnica, firma, misure e datazione precisa da verificare.",
     "description_fr": "Natura morta decorativa con ricco mazzo di fiori in vaso ornato, entro cornice lignea scura con profili dorati. Tecnica, firma, misure e datazione precisa da verificare.",
     "images": [
-      "assets/images/A031/a031-optimized.png"
+      "assets/images/A031/a031-optimized.webp"
     ],
     "status": "available"
   },
@@ -919,7 +958,7 @@
     "description_en": "Servizio composto da caffettiera, teiera, lattiera, zuccheriera con coperchio e vassoio ovale. Argento massiccio dichiarato; punzoni, titolo e peso complessivo da verificare.",
     "description_fr": "Servizio composto da caffettiera, teiera, lattiera, zuccheriera con coperchio e vassoio ovale. Argento massiccio dichiarato; punzoni, titolo e peso complessivo da verificare.",
     "images": [
-      "assets/images/A032/a032-optimized.png"
+      "assets/images/A032/a032-optimized.webp"
     ],
     "status": "available"
   },
@@ -936,7 +975,7 @@
     "description_en": "Servizio coordinato in argento massiccio con vassoio. La caffettiera visibile sullo sfondo nelle fotografie originali è esclusa dal lotto e dovrà essere catalogata separatamente.",
     "description_fr": "Servizio coordinato in argento massiccio con vassoio. La caffettiera visibile sullo sfondo nelle fotografie originali è esclusa dal lotto e dovrà essere catalogata separatamente.",
     "images": [
-      "assets/images/A033/a033-optimized.png"
+      "assets/images/A033/a033-optimized.webp"
     ],
     "status": "available"
   },
@@ -953,7 +992,7 @@
     "description_en": "Coppia di candelabri a due fiamme con fusto scanalato, base quadrata modanata, bracci sinuosi e portacandele riccamente decorati. Punzoni e peso da verificare.",
     "description_fr": "Coppia di candelabri a due fiamme con fusto scanalato, base quadrata modanata, bracci sinuosi e portacandele riccamente decorati. Punzoni e peso da verificare.",
     "images": [
-      "assets/images/A035/a035-optimized.png"
+      "assets/images/A035/a035-optimized.webp"
     ],
     "status": "available"
   },
@@ -970,7 +1009,7 @@
     "description_en": "Grande vaso decorativo in argento con corpo mosso, bocca a corolla e ricca lavorazione floreale e fogliacea. Punzoni, peso, misure e manifattura da verificare.",
     "description_fr": "Grande vaso decorativo in argento con corpo mosso, bocca a corolla e ricca lavorazione floreale e fogliacea. Punzoni, peso, misure e manifattura da verificare.",
     "images": [
-      "assets/images/A036/a036-optimized.png"
+      "assets/images/A036/a036-optimized.webp"
     ],
     "status": "available"
   },
@@ -987,7 +1026,7 @@
     "description_en": "Lampada con paralume in vetro colorato a motivo floreale e base metallica decorata. Funzionamento, firma o marchio del produttore e misure da verificare.",
     "description_fr": "Lampada con paralume in vetro colorato a motivo floreale e base metallica decorata. Funzionamento, firma o marchio del produttore e misure da verificare.",
     "images": [
-      "assets/images/A037/a037-optimized.png"
+      "assets/images/A037/a037-optimized.webp"
     ],
     "status": "available"
   },
@@ -1004,7 +1043,7 @@
     "description_en": "Legumiera ovale con coperchio bombato, pomolo decorativo e manici laterali lavorati. Punzoni, peso e dimensioni da verificare.",
     "description_fr": "Legumiera ovale con coperchio bombato, pomolo decorativo e manici laterali lavorati. Punzoni, peso e dimensioni da verificare.",
     "images": [
-      "assets/images/A038/a038-optimized.png"
+      "assets/images/A038/a038-optimized.webp"
     ],
     "status": "available"
   },
@@ -1021,7 +1060,7 @@
     "description_en": "Scultura decorativa raffigurante un gufo con forme stilizzate e dettagli delle piume. Titolo, punzoni, peso e misure da verificare.",
     "description_fr": "Scultura decorativa raffigurante un gufo con forme stilizzate e dettagli delle piume. Titolo, punzoni, peso e misure da verificare.",
     "images": [
-      "assets/images/A041/a041-optimized.png"
+      "assets/images/A041/a041-optimized.webp"
     ],
     "status": "available"
   },
@@ -1038,7 +1077,7 @@
     "description_en": "Scultura decorativa raffigurante un’ape con ali incise e corpo articolato. Titolo, punzoni, peso e misure da verificare.",
     "description_fr": "Scultura decorativa raffigurante un’ape con ali incise e corpo articolato. Titolo, punzoni, peso e misure da verificare.",
     "images": [
-      "assets/images/A042/a042-optimized.png"
+      "assets/images/A042/a042-optimized.webp"
     ],
     "status": "available"
   },
@@ -1055,7 +1094,7 @@
     "description_en": "Scultura decorativa raffigurante un elefante con proboscide, zanne e orecchie lavorate. Titolo, punzoni, peso e misure da verificare.",
     "description_fr": "Scultura decorativa raffigurante un elefante con proboscide, zanne e orecchie lavorate. Titolo, punzoni, peso e misure da verificare.",
     "images": [
-      "assets/images/A043/a043-optimized.png"
+      "assets/images/A043/a043-optimized.webp"
     ],
     "status": "available"
   },
@@ -1072,7 +1111,7 @@
     "description_en": "Vassoio rotondo con bordo mosso e ricca decorazione a sbalzo e cesello. Punzoni, peso, diametro e manifattura da verificare.",
     "description_fr": "Vassoio rotondo con bordo mosso e ricca decorazione a sbalzo e cesello. Punzoni, peso, diametro e manifattura da verificare.",
     "images": [
-      "assets/images/A044/a044-optimized.png"
+      "assets/images/A044/a044-optimized.webp"
     ],
     "status": "available"
   },
@@ -1089,7 +1128,7 @@
     "description_en": "Coppia di salierine decorate, complete di cucchiaini, con interni dorati e piedini mossi. Punzoni, titolo, peso e originalità dei cucchiaini da verificare.",
     "description_fr": "Coppia di salierine decorate, complete di cucchiaini, con interni dorati e piedini mossi. Punzoni, titolo, peso e originalità dei cucchiaini da verificare.",
     "images": [
-      "assets/images/A045/a045-optimized.png"
+      "assets/images/A045/a045-optimized.webp"
     ],
     "status": "available"
   },
@@ -1106,7 +1145,7 @@
     "description_en": "Teiera con corpo costolato, decoro fogliaceo, coperchio con pomolo e manico scuro isolante. Punzoni, titolo, peso e misure da verificare.",
     "description_fr": "Teiera con corpo costolato, decoro fogliaceo, coperchio con pomolo e manico scuro isolante. Punzoni, titolo, peso e misure da verificare.",
     "images": [
-      "assets/images/A046/a046-optimized.png"
+      "assets/images/A046/a046-optimized.webp"
     ],
     "status": "available"
   },
@@ -1123,7 +1162,7 @@
     "description_en": "Calamaio composto da vassoio rettangolare, due vaschette con inserti in vetro e coperchi decorativi, più poggiapenne centrale. Punzoni, titolo, peso, misure e completezza da verificare.",
     "description_fr": "Calamaio composto da vassoio rettangolare, due vaschette con inserti in vetro e coperchi decorativi, più poggiapenne centrale. Punzoni, titolo, peso, misure e completezza da verificare.",
     "images": [
-      "assets/images/A047/a047-optimized.png"
+      "assets/images/A047/a047-optimized.webp"
     ],
     "status": "available"
   },
@@ -1140,7 +1179,7 @@
     "description_en": "Landscape painting with lush vegetation, palms and trees, presented in a substantial moulded gilt frame. Medium, signature, date and support condition to be verified.",
     "description_fr": "Paysage à la végétation luxuriante, palmiers et arbres, présenté dans un important cadre doré mouluré. Technique, signature, époque et état du support à vérifier.",
     "images": [
-      "assets/images/A048/a048-01.jpg"
+      "assets/images/A048/a048-01.webp"
     ],
     "status": "available"
   },
@@ -1157,7 +1196,7 @@
     "description_en": "Expansive pastoral landscape with trees, water, figures and grazing animals, in a gilt frame. Medium, signature, date and condition to be verified.",
     "description_fr": "Vaste paysage pastoral avec arbres, cours d’eau, personnages et animaux au pâturage, dans un cadre doré. Technique, signature, époque et état à vérifier.",
     "images": [
-      "assets/images/A049/a049-01.jpg"
+      "assets/images/A049/a049-01.webp"
     ],
     "status": "available"
   },
@@ -1174,7 +1213,7 @@
     "description_en": "Pair of vertical painted panels with woodland landscapes, birds and vegetation, conceived as wall decoration. Date, medium, support and condition to be verified.",
     "description_fr": "Paire de panneaux verticaux peints de paysages boisés, oiseaux et végétation, conçus comme décor mural. Époque, technique, support et état à vérifier.",
     "images": [
-      "assets/images/A051/a051-01.jpg"
+      "assets/images/A051/a051-01.webp"
     ],
     "status": "available"
   },
@@ -1191,8 +1230,8 @@
     "description_en": "Coordinated suite upholstered in pale blue patterned fabric, comprising a three-seat sofa, two armchairs and two large ottomans. Frames to be checked; the upholstery requires replacement.",
     "description_fr": "Salon coordonné recouvert d’un tissu bleu clair à motif végétal, comprenant un canapé trois places, deux fauteuils et deux grands ottomans. Structures à vérifier ; tissu à refaire.",
     "images": [
-      "assets/images/A052/a052-01.jpg",
-      "assets/images/A052/a052-02.jpg"
+      "assets/images/A052/a052-01.webp",
+      "assets/images/A052/a052-02.webp"
     ],
     "status": "available"
   },
@@ -1209,8 +1248,8 @@
     "description_en": "Oval veneered and inlaid table with pale marble top, pierced metal gallery, front drawer and tapering legs. Second half of the eighteenth century according to family documentation.",
     "description_fr": "Table ovale plaquée et marquetée, plateau en marbre clair, galerie ajourée en métal, tiroir frontal et pieds fuselés. Seconde moitié du XVIIIe siècle selon la documentation familiale.",
     "images": [
-      "assets/images/A053/a053-01.jpg",
-      "assets/images/A053/a053-02.jpg"
+      "assets/images/A053/a053-01.webp",
+      "assets/images/A053/a053-02.webp"
     ],
     "status": "available"
   },
@@ -1227,9 +1266,9 @@
     "description_en": "Important Lombard Mazarine desk with richly figured veneer and numerous drawers arranged in the side sections and raised superstructure. Age-related wear; condition and restorations to be verified.",
     "description_fr": "Important bureau Mazarine lombard, richement plaqué et muni de nombreux tiroirs dans les caissons latéraux et le gradin. Usures du temps ; état et restaurations à vérifier.",
     "images": [
-      "assets/images/A054/a054-01.jpg",
-      "assets/images/A054/a054-02.jpg",
-      "assets/images/A054/a054-03.jpg"
+      "assets/images/A054/a054-01.webp",
+      "assets/images/A054/a054-02.webp",
+      "assets/images/A054/a054-03.webp"
     ],
     "status": "available"
   },
@@ -1246,8 +1285,8 @@
     "description_en": "Four dark lacquered wooden chairs with polychrome and gilt chinoiserie decoration, open backs, cabriole legs and red velvet seats. Possible Lucca or Venetian origin, with Dutch influence, to be verified. Age-consistent patina and wear.",
     "description_fr": "Quatre chaises en bois laqué sombre à décor polychrome et doré de chinoiseries, dossiers ajourés, pieds galbés et assises en velours rouge. Attribution lucquoise ou vénitienne, avec influence hollandaise possible, à vérifier. Patine et usures anciennes.",
     "images": [
-      "assets/images/A055/a055-01.jpg",
-      "assets/images/A055/a055-02.jpg"
+      "assets/images/A055/a055-01.webp",
+      "assets/images/A055/a055-02.webp"
     ],
     "status": "available"
   },
@@ -1264,8 +1303,8 @@
     "description_en": "Suite of twelve veneered and finely inlaid chairs with cabriole legs, upholstered backs and decoration featuring classical figures, profiles, griffins, putti, coats of arms and foliage. Pale upholstery; age-related cracks and minor lifting to the veneer.",
     "description_fr": "Suite de douze chaises plaquées et finement marquetées, pieds galbés, dossiers garnis et décors de figures classiques, profils, griffons, putti, armoiries et rinceaux. Garniture claire ; fissures et petits soulèvements du placage liés à l’âge.",
     "images": [
-      "assets/images/A056/a056-01.jpg",
-      "assets/images/A056/a056-02.jpg"
+      "assets/images/A056/a056-01.webp",
+      "assets/images/A056/a056-02.webp"
     ],
     "status": "available"
   },
@@ -1282,8 +1321,8 @@
     "description_en": "Near-square games or writing table with refined veneered and inlaid top, lobed shaped corners, front drawer, cabriole legs and turned stretchers. Eighteenth-century Venetian production according to family documentation.",
     "description_fr": "Table à jeux ou bureau de forme presque carrée, plateau plaqué et marqueté, angles lobés, tiroir frontal, pieds galbés et entretoises tournées. Production vénitienne du XVIIIe siècle selon la documentation familiale.",
     "images": [
-      "assets/images/A057/a057-01.jpg",
-      "assets/images/A057/a057-02.jpg"
+      "assets/images/A057/a057-01.webp",
+      "assets/images/A057/a057-02.webp"
     ],
     "status": "available"
   },
@@ -1300,15 +1339,15 @@
     "description_en": "Imposing hand-knotted Persian wool rug with a midnight-blue field, polychrome medallions and a richly floral border in ivory, burgundy, sage and pale blue. Natural patina and wear; the fringes are worn and require restoration.",
     "description_fr": "Imposant tapis persan en laine noué main, champ bleu nuit, médaillons polychromes et riche bordure florale ivoire, bordeaux, vert sauge et bleu clair. Patine et usures naturelles ; franges usées à restaurer.",
     "images": [
-      "assets/images/A058/a058-01.jpg",
-      "assets/images/A058/a058-02.jpg",
-      "assets/images/A058/a058-03.jpg",
-      "assets/images/A058/a058-04.jpg",
-      "assets/images/A058/a058-05.jpg",
-      "assets/images/A058/a058-06.jpg",
-      "assets/images/A058/a058-07.jpg",
-      "assets/images/A058/a058-08.jpg",
-      "assets/images/A058/a058-09.jpg"
+      "assets/images/A058/a058-01.webp",
+      "assets/images/A058/a058-02.webp",
+      "assets/images/A058/a058-03.webp",
+      "assets/images/A058/a058-04.webp",
+      "assets/images/A058/a058-05.webp",
+      "assets/images/A058/a058-06.webp",
+      "assets/images/A058/a058-07.webp",
+      "assets/images/A058/a058-08.webp",
+      "assets/images/A058/a058-09.webp"
     ],
     "status": "available"
   },
@@ -1325,7 +1364,7 @@
     "description_en": "Coppia di poltroncine imbottite, rivestite in tessuto leopardato con passamaneria bicolore. Linea compatta e decorativa, ideali come sedute da conversazione o da camera.",
     "description_fr": "Coppia di poltroncine imbottite, rivestite in tessuto leopardato con passamaneria bicolore. Linea compatta e decorativa, ideali come sedute da conversazione o da camera.",
     "images": [
-      "assets/images/A059/a059-01.png"
+      "assets/images/A059/a059-01.webp"
     ],
     "status": "available"
   },
@@ -1342,7 +1381,7 @@
     "description_en": "Gruppo decorativo composto da quattro figure cinesi in porcellana policroma, raffiguranti personaggi seduti e stanti. Manifattura ed epoca da verificare.",
     "description_fr": "Gruppo decorativo composto da quattro figure cinesi in porcellana policroma, raffiguranti personaggi seduti e stanti. Manifattura ed epoca da verificare.",
     "images": [
-      "assets/images/A060/a060-01.png"
+      "assets/images/A060/a060-01.webp"
     ],
     "status": "available"
   },
@@ -1359,7 +1398,7 @@
     "description_en": "Scultura luminosa sferica in filo di alluminio intrecciato con numerosi punti luce, modello Fil de Fer di Catellani & Smith.",
     "description_fr": "Scultura luminosa sferica in filo di alluminio intrecciato con numerosi punti luce, modello Fil de Fer di Catellani & Smith.",
     "images": [
-      "assets/images/A061/a061-01.png"
+      "assets/images/A061/a061-01.webp"
     ],
     "status": "available"
   },
@@ -1376,7 +1415,7 @@
     "description_en": "Pianoforte verticale Kawai in finitura scura, completo di tastiera e mobile. Stato meccanico, accordatura e numero di serie da verificare.",
     "description_fr": "Pianoforte verticale Kawai in finitura scura, completo di tastiera e mobile. Stato meccanico, accordatura e numero di serie da verificare.",
     "images": [
-      "assets/images/A062/a062-01.png"
+      "assets/images/A062/a062-01.webp"
     ],
     "status": "available"
   },
@@ -1393,7 +1432,7 @@
     "description_en": "Testiera matrimoniale imbottita con profilo sagomato e rivestimento decorativo. Condizioni e misure da verificare.",
     "description_fr": "Testiera matrimoniale imbottita con profilo sagomato e rivestimento decorativo. Condizioni e misure da verificare.",
     "images": [
-      "assets/images/A063/a063-01.png"
+      "assets/images/A063/a063-01.webp"
     ],
     "status": "available"
   },
@@ -1410,7 +1449,7 @@
     "description_en": "Specchio antico con importante cornice scolpita e dorata, dal profilo mosso e riccamente ornato. Lastra con naturale patina del tempo.",
     "description_fr": "Specchio antico con importante cornice scolpita e dorata, dal profilo mosso e riccamente ornato. Lastra con naturale patina del tempo.",
     "images": [
-      "assets/images/A064/a064-01.png"
+      "assets/images/A064/a064-01.webp"
     ],
     "status": "available"
   },
@@ -1427,7 +1466,7 @@
     "description_en": "Importante trumeau-scrittoio antico con fronte mosso, ricca impiallacciatura, ribalta attrezzata, numerosi cassetti e alzata a due ante specchiate.",
     "description_fr": "Importante trumeau-scrittoio antico con fronte mosso, ricca impiallacciatura, ribalta attrezzata, numerosi cassetti e alzata a due ante specchiate.",
     "images": [
-      "assets/images/A065/a065-01.png"
+      "assets/images/A065/a065-01.webp"
     ],
     "status": "available"
   },
@@ -1444,7 +1483,7 @@
     "description_en": "Consolle in legno laccato nero con piano rettangolare, quattro sostegni e profili sagomati di gusto orientale.",
     "description_fr": "Consolle in legno laccato nero con piano rettangolare, quattro sostegni e profili sagomati di gusto orientale.",
     "images": [
-      "assets/images/A066/a066-01.png"
+      "assets/images/A066/a066-01.webp"
     ],
     "status": "available"
   },
@@ -1461,7 +1500,7 @@
     "description_en": "Calligrafia cinese su carta con sigilli rossi, montata su supporto decorativo e presentata entro cornice nera.",
     "description_fr": "Calligrafia cinese su carta con sigilli rossi, montata su supporto decorativo e presentata entro cornice nera.",
     "images": [
-      "assets/images/A067/a067-01.png"
+      "assets/images/A067/a067-01.webp"
     ],
     "status": "available"
   },
@@ -1478,7 +1517,7 @@
     "description_en": "Lampada da tavolo in ottone con fusto tornito, base sagomata e tre bracci curvilinei, completa di paralume color prugna.",
     "description_fr": "Lampada da tavolo in ottone con fusto tornito, base sagomata e tre bracci curvilinei, completa di paralume color prugna.",
     "images": [
-      "assets/images/A068/a068-01.png"
+      "assets/images/A068/a068-01.webp"
     ],
     "status": "available"
   },
@@ -1495,7 +1534,7 @@
     "description_en": "Tavolino basso di forma ottagonale in legno, con quattro sostegni laterali e ripiano inferiore, senza piano intermedio.",
     "description_fr": "Tavolino basso di forma ottagonale in legno, con quattro sostegni laterali e ripiano inferiore, senza piano intermedio.",
     "images": [
-      "assets/images/A069/a069-01.png"
+      "assets/images/A069/a069-01.webp"
     ],
     "status": "available"
   },
@@ -1512,7 +1551,7 @@
     "description_en": "Carrello da servizio pieghevole con struttura in legno, dettagli in ottone, due ripiani in vetro e ruote.",
     "description_fr": "Carrello da servizio pieghevole con struttura in legno, dettagli in ottone, due ripiani in vetro e ruote.",
     "images": [
-      "assets/images/A070/a070-01.png"
+      "assets/images/A070/a070-01.webp"
     ],
     "status": "available"
   },
@@ -1529,7 +1568,7 @@
     "description_en": "Tappeto annodato a mano con campo blu scuro, grandi medaglioni geometrici color rosa antico e ricca bordura policroma.",
     "description_fr": "Tappeto annodato a mano con campo blu scuro, grandi medaglioni geometrici color rosa antico e ricca bordura policroma.",
     "images": [
-      "assets/images/A071/a071-01.png"
+      "assets/images/A071/a071-01.webp"
     ],
     "status": "available"
   },
@@ -1546,7 +1585,7 @@
     "description_en": "Grande tappeto annodato a mano con fondo rosso, motivi geometrici stilizzati e bordure multiple nei toni del blu, avorio e arancio.",
     "description_fr": "Grande tappeto annodato a mano con fondo rosso, motivi geometrici stilizzati e bordure multiple nei toni del blu, avorio e arancio.",
     "images": [
-      "assets/images/A072/a072-01.png"
+      "assets/images/A072/a072-01.webp"
     ],
     "status": "available"
   },
@@ -1563,7 +1602,7 @@
     "description_en": "Divanetto a tre posti con struttura lignea sagomata e intagliata, gambe mosse e rivestimento a righe nei toni beige e marrone.",
     "description_fr": "Divanetto a tre posti con struttura lignea sagomata e intagliata, gambe mosse e rivestimento a righe nei toni beige e marrone.",
     "images": [
-      "assets/images/A073/a073-01.png"
+      "assets/images/A073/a073-01.webp"
     ],
     "status": "available"
   },
@@ -1580,7 +1619,7 @@
     "description_en": "Dipinto di gusto vedutista raffigurante il Colosseo e le rovine circostanti, animato da numerose figure, entro cornice dorata. Autore, tecnica ed epoca da verificare.",
     "description_fr": "Dipinto di gusto vedutista raffigurante il Colosseo e le rovine circostanti, animato da numerose figure, entro cornice dorata. Autore, tecnica ed epoca da verificare.",
     "images": [
-      "assets/images/A074/a074-01.png"
+      "assets/images/A074/a074-01.webp"
     ],
     "status": "available"
   },
@@ -1597,7 +1636,7 @@
     "description_en": "Coppia di appliques a due luci con struttura metallica, fiori e pendenti in cristallo trasparente e ametista, complete di piccoli paralumi plissettati.",
     "description_fr": "Coppia di appliques a due luci con struttura metallica, fiori e pendenti in cristallo trasparente e ametista, complete di piccoli paralumi plissettati.",
     "images": [
-      "assets/images/A075/a075-01.png"
+      "assets/images/A075/a075-01.webp"
     ],
     "status": "available"
   },
@@ -1614,7 +1653,7 @@
     "description_en": "Coppia di urne decorative dorate, riccamente lavorate a rilievo con figure, mascheroni e motivi vegetali, su basi cilindriche in marmo scuro.",
     "description_fr": "Coppia di urne decorative dorate, riccamente lavorate a rilievo con figure, mascheroni e motivi vegetali, su basi cilindriche in marmo scuro.",
     "images": [
-      "assets/images/A076/a076-01.png"
+      "assets/images/A076/a076-01.webp"
     ],
     "status": "available"
   },
@@ -1631,7 +1670,7 @@
     "description_en": "Coppia di elementi decorativi dorati raffiguranti putti con uccelli, adagiati su elaborate volute rocaille.",
     "description_fr": "Coppia di elementi decorativi dorati raffiguranti putti con uccelli, adagiati su elaborate volute rocaille.",
     "images": [
-      "assets/images/A077/a077-01.png"
+      "assets/images/A077/a077-01.webp"
     ],
     "status": "available"
   }

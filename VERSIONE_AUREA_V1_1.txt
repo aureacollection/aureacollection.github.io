@@ -1,2 +1,0 @@
-AUREA Collection — Versione 1.1
-Menu mobile, SEO, lazy loading, animazioni, lightbox con zoom, miniature, swipe e contatore.

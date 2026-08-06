@@ -1,0 +1,30 @@
+{
+  "order": [
+    "furniture",
+    "desks",
+    "seating",
+    "mirrors",
+    "paintings",
+    "lighting",
+    "rugs",
+    "silver",
+    "decorative",
+    "decorative_panels",
+    "architectural",
+    "musical"
+  ],
+  "images": {
+    "furniture": "assets/images/A065/a065-01.webp",
+    "desks": "assets/images/A018/a018-optimized.webp",
+    "seating": "assets/images/A073/a073-01.webp",
+    "mirrors": "assets/images/A064/a064-01.webp",
+    "paintings": "assets/images/A074/a074-01.webp",
+    "lighting": "assets/images/A061/a061-01.webp",
+    "rugs": "assets/images/A058/a058-01.webp",
+    "silver": "assets/images/A032/a032-optimized.webp",
+    "decorative": "assets/images/A076/a076-01.webp",
+    "decorative_panels": "assets/images/A051/a051-01.webp",
+    "architectural": "assets/images/A015/a015-optimized.webp",
+    "musical": "assets/images/A062/a062-01.webp"
+  }
+}

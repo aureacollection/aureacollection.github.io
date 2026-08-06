@@ -1,0 +1,19 @@
+AUREA COLLECTION — RELEASE 2.0
+
+Aggiornamenti principali
+- Homepage: hero attuale, testo famiglia, tutte le categorie e nessuna griglia articoli iniziale.
+- Menu semplificato: LA COLLEZIONE, CONTATTI e ricerca; rimossa la freccia.
+- Stesse immagini ufficiali per le categorie nel menu e nella homepage.
+- Tutte le categorie presenti nel catalogo sono visibili in entrambi i punti.
+- Catalogo mostrato solo quando si seleziona una categoria, Tutti o la ricerca.
+- Schede articolo con foto principale e miniature verticali laterali.
+- Zoom corretto con controlli, trascinamento, tastiera e miniature.
+- Scheda PDF A4 orizzontale a una pagina, con collage e solo logo nel footer.
+- Aggiornati contenuti e fotografie A001–A005.
+- Immagini convertite e compresse in WebP con caricamento lazy.
+- Rimossi .git e vecchi file di versione dal pacchetto finale.
+- CSS e JavaScript riscritti e semplificati.
+
+Pubblicazione
+Copia il contenuto di questa cartella nella cartella locale del repository,
+quindi esegui Commit e Push origin con GitHub Desktop.
