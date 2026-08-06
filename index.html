@@ -1,17 +1,95 @@
-<!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#17130f"><title>AUREA Collection — Collezione privata italiana</title><meta name="description" content="AUREA Collection presenta una collezione privata italiana di mobili, dipinti e oggetti decorativi."><link rel="preload" href="assets/css/style.css" as="style"><link rel="stylesheet" href="assets/css/style.css"></head>
-<body id="top">
-<header class="site-header"><div class="navbar"><a class="brand" href="#top"><span class="brand-main">AUREA</span><span class="brand-sub">PRIVATE ITALIAN FAMILY COLLECTION</span></a><button class="menu-toggle" id="menuToggle" aria-label="Apri menu"><span></span><span></span><span></span></button><nav class="menu" id="siteMenu"><div class="collection-menu"><button id="navCollection" class="nav-dropdown-trigger" type="button">LA COLLEZIONE</button><div class="category-dropdown" id="categoryDropdown"></div></div><a id="navContact" href="#contact">CONTATTI</a><button class="search-trigger" id="searchTrigger" aria-label="Cerca">⌕</button><div class="langs"><button class="lang-btn active" data-lang="it">IT</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="fr">FR</button></div></nav></div></header>
-<section class="hero" id="hero"><div class="hero-content"><h1>AUREA</h1><div class="hero-rule"></div><div class="hero-tag" id="heroTag"></div><div class="hero-copy" id="heroCopy"></div><a class="cta" id="heroExplore" href="#categories"></a></div></section>
-<main>
-<section class="intro" id="categories"><h2 id="artTitle"></h2><div class="gold-line centered"></div><p id="artCopy"></p></section>
-<section class="category-band"><div class="category-grid" id="homeCategories"></div></section>
-<section class="collection is-hidden" id="collection"><div class="collection-head"><div><h2 id="collectionTitle"></h2><div class="gold-line"></div></div><p id="collectionIntro"></p></div><div class="filters" id="filters"></div><div class="catalog-grid" id="catalogGrid"></div></section>
-<div id="details"></div>
-<section class="info" id="contact"><h2 id="contactTitle"></h2><p id="contactCopy"></p><button class="cta" data-open-contact="true" id="contactButton">Richiedi informazioni</button></section>
-</main>
-<footer class="minimal-footer"><span class="footer-logo">AUREA</span><span>COLLECTION</span></footer>
-<div class="search-panel" id="searchPanel"><button class="search-close" id="searchClose">×</button><div class="search-inner"><label for="globalSearch" id="searchLabel">Cerca nella collezione</label><input id="globalSearch" type="search" placeholder="Codice, titolo, categoria, materiale..."><p id="searchCount"></p></div></div>
-<div class="modal" id="inquiryModal" role="dialog" aria-modal="true"><div class="modal-panel"><button class="modal-close" id="modalClose">×</button><h2 id="modalTitle">Richiedi informazioni</h2><form id="inquiryForm" action="https://formsubmit.co/carolina.egro@me.com" method="POST"><input type="hidden" name="_cc" value="graziacasiraghi@me.com"><input type="hidden" name="_subject" id="formSubject" value="Richiesta informazioni AUREA"><input type="hidden" name="_template" value="table"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_next" value="https://aureacollection.github.io/?messaggio=inviato"><input type="hidden" name="Codice oggetto" id="itemCode"><input type="hidden" name="Titolo oggetto" id="itemTitle"><label><span id="labelName">Nome e cognome</span><input name="Nome" required></label><label><span id="labelEmail">Email</span><input name="Email" type="email" required></label><label><span id="labelMessage">Messaggio</span><textarea id="message" name="Messaggio" rows="5" required></textarea></label><button id="formSubmit" class="cta" type="submit">Invia richiesta</button></form></div></div>
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true"><div class="lb-toolbar"><span id="lbCounter"></span><button id="lbZoomOut">−</button><button id="lbZoomReset">100%</button><button id="lbZoomIn">+</button><button id="lbClose">×</button></div><button class="lb-nav lb-prev" id="lbPrev">‹</button><div class="lb-stage" id="lbStage"><img id="lbImage" draggable="false"></div><button class="lb-nav lb-next" id="lbNext">›</button><div class="lb-thumbs" id="lbThumbs"></div></div>
-<script src="data/catalog.js" defer></script><script src="assets/js/app.js" defer></script></body></html>
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#17130f"><title>AUREA Collection — Collezione privata italiana</title><meta name="description" content="AUREA Collection presenta una collezione privata italiana di mobili, dipinti, specchi, sedute, illuminazione e oggetti decorativi."><link rel="stylesheet" href="assets/css/style.css"></head><body id="top">
+<header class="site-header"><div class="navbar"><a class="brand brand-link" href="#top"><span class="brand-main">AUREA</span><span class="brand-sub">PRIVATE ITALIAN FAMILY COLLECTION</span></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Apri menu"><span></span><span></span><span></span></button><nav class="menu" id="siteMenu"><div class="collection-menu"><button id="navCollection" class="nav-dropdown-trigger" type="button">LA COLLEZIONE</button><div class="category-dropdown" id="categoryDropdown"></div></div><a id="navContact" href="#" data-open-contact="true">CONTATTI</a><button class="search-trigger" id="searchTrigger" type="button" aria-label="Cerca">⌕</button><div class="langs"><button class="lang-btn active" data-lang="it">IT</button><button class="lang-btn" data-lang="en">EN</button><button class="lang-btn" data-lang="fr">FR</button></div></nav></div></header>
+<section class="hero" id="hero"><div class="hero-content"><h1>AUREA</h1><div class="hero-rule"></div><div class="hero-tag" id="heroTag"></div><div class="hero-copy" id="heroCopy"></div><a class="cta" id="heroExplore" href="#collection"></a></div></section>
+<div class="search-panel" id="searchPanel"><button class="search-close" id="searchClose">×</button><div class="search-inner"><label for="globalSearch">Cerca nella collezione</label><input id="globalSearch" type="search" placeholder="Codice, titolo, categoria, materiale..."><p id="searchCount"></p></div></div>
+<main><section class="family-intro"><h2 id="artTitle"></h2><div class="gold-line"></div><p id="artCopy"></p></section><section class="category-band" id="homeCategories"></section>
+<section class="collection hidden" id="collection"><div class="collection-head"><div><h2 class="collection-title" id="collectionTitle"></h2><div class="gold-line"></div></div><p id="collectionIntro"></p></div><div class="filters" id="filters"></div><div class="catalog-grid" id="catalogGrid"></div></section><div id="details"></div><section class="info" id="contact"><h2 id="contactTitle"></h2><p id="contactCopy"></p></section></main><footer class="minimal-footer"><div class="footer-logo">AUREA <span>COLLECTION</span></div></footer>
+  <div class="modal" id="inquiryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Chiudi">×</button>
+      <h2 id="modalTitle">Richiedi informazioni</h2>
+
+      <form id="inquiryForm"
+            action="https://formsubmit.co/carolina.egro@me.com"
+            method="POST">
+        <input type="hidden" name="_cc" value="graziacasiraghi@me.com">
+        <input type="hidden" name="_subject" id="formSubject" value="Richiesta informazioni AUREA">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://aureacollection.github.io/?messaggio=inviato">
+        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="Codice oggetto" id="itemCode">
+        <input type="hidden" name="Titolo oggetto" id="itemTitle">
+        <input type="hidden" name="Preferenza di contatto" id="preferenceHidden">
+
+        <label>
+          <span id="labelName">Nome e cognome</span>
+          <input id="name" name="Nome" type="text" autocomplete="name" required>
+        </label>
+
+        <label>
+          <span id="labelEmail">Email</span>
+          <input id="email" name="Email" type="email" autocomplete="email" required>
+        </label>
+
+        
+        <label>
+          <span id="labelRole">Lei è</span>
+          <select id="clientRole" name="Tipologia cliente" required>
+            <option value="" id="rolePlaceholder">Seleziona</option>
+            <option value="private" id="rolePrivate">Privato</option>
+            <option value="collector" id="roleCollector">Collezionista</option>
+            <option value="antique_dealer" id="roleAntiqueDealer">Antiquario</option>
+            <option value="gallery" id="roleGallery">Galleria</option>
+            <option value="interior_designer" id="roleInteriorDesigner">Interior Designer</option>
+            <option value="architect" id="roleArchitect">Architetto</option>
+            <option value="other" id="roleOther">Altro</option>
+          </select>
+        </label>
+
+        <label id="otherRoleWrap" hidden>
+          <span id="labelOtherRole">Specificare</span>
+          <input id="otherRole" name="Altro - specificare" type="text">
+        </label>
+
+        <label>
+          <span id="labelPreferred">Come preferisce essere contattato?</span>
+          <select id="contactPreference" name="Metodo scelto" required>
+            <option value="email" id="emailOptionText">Email</option>
+            <option value="phone" id="phoneOptionText">Cellulare</option>
+          </select>
+        </label>
+
+        <label id="phoneWrap" hidden>
+          <span id="labelPhone">Numero di cellulare</span>
+          <input id="phone" name="Cellulare" type="tel" autocomplete="tel">
+        </label>
+
+        <label>
+          <span id="labelMessage">Messaggio</span>
+          <textarea id="message" name="Messaggio" rows="5" required></textarea>
+        </label>
+
+        <button id="formSubmit" class="cta form-submit" type="submit">Invia richiesta</button>
+        
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galleria fotografica">
+  <div class="lb-toolbar">
+    <span id="lbCounter" class="lb-counter"></span>
+    <button class="lb-tool" id="lbZoomOut" type="button" aria-label="Riduci">−</button>
+    <button class="lb-tool" id="lbZoomReset" type="button" aria-label="Dimensione originale">100%</button>
+    <button class="lb-tool" id="lbZoomIn" type="button" aria-label="Ingrandisci">+</button>
+    <button class="lb-tool lb-close" id="lbClose" type="button" aria-label="Chiudi">×</button>
+  </div>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Foto precedente">‹</button>
+  <div class="lb-stage" id="lbStage">
+    <img id="lbImage" alt="" draggable="false">
+  </div>
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Foto successiva">›</button>
+  <div class="lb-thumbs" id="lbThumbs"></div>
+</div>
+
+<script src="data/catalog.js"></script><script src="assets/js/app.js"></script></body></html>
