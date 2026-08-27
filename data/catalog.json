@@ -5431,5 +5431,185 @@
     "epoch_it": "da verificare dal vivo; prudenzialmente XX secolo",
     "style_it": "storicista / gusto neoclassico",
     "material_it": "legno impiallacciato in radica, essenze lignee a contrasto e metallo"
+  },
+  "A126": {
+    "category_key": "sculptures",
+    "title_it": "Paolo Troubetzkoy (1866–1938), Cowboy su cavallo che scalcia",
+    "category_it": "Sculture",
+    "category_en": "Sculptures",
+    "category_fr": "Sculptures",
+    "dimensions": "H 37 × L 20 × P 27 cm",
+    "description_it": "Importante scultura equestre in bronzo patinato di Paolo Troubetzkoy (Intra, 1866 – Pallanza, 1938), raffigurante un cowboy su un cavallo nell’atto di scalciare.\n\nLa composizione, di grande dinamismo, mostra il cavallo con il capo fortemente abbassato e il corpo in tensione, mentre il cavaliere trattiene le redini con una mano e protende energicamente l’altro braccio. Il modellato rapido e vibrante, la superficie movimentata e l’immediatezza della rappresentazione sono caratteristiche della produzione scultorea di Troubetzkoy.\n\nIl soggetto trova preciso riscontro nel modello “Cowboy su cavallo che scalcia” conservato in gesso presso il Museo del Paesaggio di Verbania (inv. T n. 76), opera appartenente alla produzione tarda dell’artista e databile agli anni Trenta.\n\nEsemplare in bronzo a patina scura, firmato sulla base. La base naturalistica è modellata unitamente alla composizione e riproduce il terreno sul quale si svolge la scena.",
+    "images": [
+      "assets/images/A126/A126-01.png",
+      "assets/images/A126/A126-02.png",
+      "assets/images/A126/A126-03.jpeg",
+      "assets/images/A126/A126-04.jpeg",
+      "assets/images/A126/A126-05.jpeg",
+      "assets/images/A126/A126-06.jpeg",
+      "assets/images/A126/A126-07.jpeg",
+      "assets/images/A126/A126-08.jpeg"
+    ],
+    "status": "available",
+    "specs_it": [
+      {
+        "label": "Autore",
+        "value": "Paolo Troubetzkoy (1866–1938)"
+      },
+      {
+        "label": "Soggetto",
+        "value": "Cowboy su cavallo che scalcia"
+      },
+      {
+        "label": "Epoca",
+        "value": "circa 1930–1937"
+      },
+      {
+        "label": "Materiale",
+        "value": "bronzo patinato"
+      },
+      {
+        "label": "Firma",
+        "value": "firmata sulla base"
+      },
+      {
+        "label": "Dimensioni",
+        "value": "H 37 × L 20 × P 27 cm"
+      }
+    ],
+    "epoch_it": "circa 1930–1937",
+    "material_it": "bronzo patinato"
+  },
+  "A127": {
+    "category_key": "sculptures",
+    "title_it": "Paolo Troubetzkoy (1866–1938) - Giovane con asinello, scultura in bronzo",
+    "category_it": "Sculture",
+    "category_en": "Sculptures",
+    "category_fr": "Sculptures",
+    "dimensions": "H 32 × L 17 × P 26 cm",
+    "description_it": "Gruppo scultoreo in bronzo patinato attribuito a Paolo Troubetzkoy (Intra, 1866 – Pallanza, 1938), raffigurante un giovane viandante o contadino accompagnato da un asinello.\n\nLa figura maschile è rappresentata scalza, con pantaloni corti, fazzoletto annodato al collo e ampio cappello. La posa, con il capo inclinato e appoggiato alla mano, conferisce alla composizione un carattere spontaneo e narrativo. Accanto al giovane, l'asinello è modellato con particolare attenzione alla fisionomia e ai dettagli dei finimenti.\n\nIl gruppo poggia su una base naturalistica irregolare, lavorata a imitazione del terreno. La modellazione vivace delle superfici, l'interesse per la figura colta in un atteggiamento quotidiano e la presenza dell'animale sono coerenti con soggetti ricorrenti nella produzione di Troubetzkoy, che dedicò numerose opere anche al rapporto tra figure umane e animali. È documentata, ad esempio, la presenza di un suo Ragazzo e cane alla Mostra Nazionale di Belle Arti di Milano del 1906. (https://dizionariodartesartori.it/artisti/troubetzkoy-paolo)",
+    "images": [
+      "assets/images/A127/A127-01.png",
+      "assets/images/A127/A127-02.png",
+      "assets/images/A127/A127-03.jpeg",
+      "assets/images/A127/A127-04.jpeg",
+      "assets/images/A127/A127-05.jpeg",
+      "assets/images/A127/A127-06.jpeg",
+      "assets/images/A127/A127-07.jpeg",
+      "assets/images/A127/A127-08.jpeg",
+      "assets/images/A127/A127-09.jpeg"
+    ],
+    "status": "available",
+    "specs_it": [
+      {
+        "label": "Autore",
+        "value": "Paolo Troubetzkoy (1866–1938)"
+      },
+      {
+        "label": "Soggetto",
+        "value": "giovane con asinello"
+      },
+      {
+        "label": "Materiale",
+        "value": "bronzo patinato"
+      },
+      {
+        "label": "Epoca",
+        "value": "prima metà XX secolo"
+      },
+      {
+        "label": "Dimensioni",
+        "value": "H 32 × L 17 × P 26 cm"
+      }
+    ],
+    "material_it": "bronzo patinato",
+    "epoch_it": "prima metà XX secolo"
+  },
+  "A128": {
+    "category_key": "sculptures",
+    "title_it": "Paolo Troubetzkoy (1866–1938), scultura in bronzo “Giovane pastore con capra”",
+    "category_it": "Sculture",
+    "category_en": "Sculptures",
+    "category_fr": "Sculptures",
+    "dimensions": "H 40 × L 20 × P 23 cm",
+    "description_it": "Scultura figurativa in bronzo patinato raffigurante un giovane pastore scalzo accompagnato da una capra. Il giovane, con ampio cappello e pantaloni arrotolati, è rappresentato in una posa vivace mentre sostiene sottili rami con foglie; al suo fianco la capra è raffigurata con campanaccio al collo.\n\nLa composizione poggia su una base naturalistica irregolare, modellata a simulare il terreno. Particolarmente accurata la resa dei dettagli anatomici, dell’espressione del volto, degli abiti e del manto dell’animale.\n\nLa superficie conserva una patina scura con sfumature brune e naturali variazioni dovute al tempo. Visibili elementi di fissaggio nella parte inferiore della base.",
+    "images": [
+      "assets/images/A128/A128-01.png",
+      "assets/images/A128/A128-02.png",
+      "assets/images/A128/A128-03.jpg",
+      "assets/images/A128/A128-04.jpg",
+      "assets/images/A128/A128-05.jpg",
+      "assets/images/A128/A128-06.jpg",
+      "assets/images/A128/A128-07.jpg",
+      "assets/images/A128/A128-08.jpg",
+      "assets/images/A128/A128-09.jpg"
+    ],
+    "status": "available",
+    "specs_it": [
+      {
+        "label": "Autore",
+        "value": "Paolo Troubetzkoy (1866–1938)"
+      },
+      {
+        "label": "Epoca",
+        "value": "fine XIX – inizi XX secolo"
+      },
+      {
+        "label": "Materiale",
+        "value": "bronzo patinato"
+      },
+      {
+        "label": "Soggetto",
+        "value": "giovane pastore con capra"
+      },
+      {
+        "label": "Dimensioni",
+        "value": "H 40 × L 20 × P 23 cm"
+      }
+    ],
+    "epoch_it": "fine XIX – inizi XX secolo",
+    "material_it": "bronzo patinato"
+  },
+  "A129": {
+    "category_key": "seating",
+    "title_it": "Divanetto Luigi XV con ricamo floreale Cannetta Milano",
+    "category_it": "Sedute e salotti",
+    "category_en": "Seating and salons",
+    "category_fr": "Sièges et salons",
+    "dimensions": "H 74 × L 113 × P 50 cm",
+    "description_it": "Elegante divanetto a due posti in stile Luigi XV, caratterizzato da una struttura in legno sagomato e intagliato, con linea avvolgente dello schienale e dei fianchi, grembiale mosso e gambe arcuate di gusto rocaille.\n\nLa seduta e lo schienale sono rivestiti in tessuto nei toni naturali del beige, impreziosito da importanti ricami floreali policromi raffiguranti composizioni di rose e altri fiori nei toni del rosa, avorio, verde e lilla. Il ricamo è stato realizzato dal noto atelier Cannetta di Milano, elemento particolarmente interessante per la qualità decorativa e la provenienza milanese della lavorazione tessile.\n\nIl rivestimento è rifinito lungo il profilo della struttura con una fila continua di borchie decorative. La struttura lignea presenta intagli floreali e motivi a volute, particolarmente evidenti sul grembiale anteriore e in corrispondenza delle gambe.\n\nL'insieme conserva un aspetto elegante e decorativo, con normale patina e segni del tempo sulla struttura lignea e sul rivestimento, coerenti con l'età e l'uso. I ricami costituiscono l'elemento distintivo del pezzo e sono particolarmente adatti a valorizzare il divanetto in un ambiente classico o in contrasto con un arredamento contemporaneo.",
+    "images": [
+      "assets/images/A129/A129-01.jpg",
+      "assets/images/A129/A129-02.png"
+    ],
+    "status": "available",
+    "specs_it": [
+      {
+        "label": "Tipologia",
+        "value": "divanetto / canapé a due posti"
+      },
+      {
+        "label": "Epoca",
+        "value": "Luigi XV / Rocaille"
+      },
+      {
+        "label": "Materiale",
+        "value": "legno intagliato, tessuto e ricamo policromo"
+      },
+      {
+        "label": "Ricamo",
+        "value": "Cannetta, Milano"
+      },
+      {
+        "label": "Decorazione",
+        "value": "composizioni floreali con rose e fiori"
+      },
+      {
+        "label": "Dimensioni",
+        "value": "H 74 × L 113 × P 50 cm"
+      }
+    ],
+    "epoch_it": "Luigi XV / Rocaille",
+    "material_it": "legno intagliato, tessuto e ricamo policromo"
   }
 }
