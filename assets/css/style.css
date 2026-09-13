@@ -788,3 +788,33 @@ img {
     opacity: .9;
   }
 }
+
+/* Compact single-row category navigation. */
+.filters {
+  flex-wrap: nowrap;
+  gap: 6px;
+  margin-bottom: 22px;
+  padding: 9px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+.filters::-webkit-scrollbar { height: 5px; }
+.filters::-webkit-scrollbar-track { background: transparent; }
+.filters::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--gold);
+}
+.filter-btn {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  font-size: .61rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+@media (max-width: 599px) {
+  .filters { padding: 7px 0; }
+  .filter-btn { padding: 8px 10px; }
+}
