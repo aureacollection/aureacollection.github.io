@@ -5253,39 +5253,6 @@
     "description_en": "",
     "description_fr": ""
   },
-  "A125": {
-    "category_key": "furniture",
-    "title_it": "Credenza bombata in radica con intarsi geometrici",
-    "category_it": "Mobili",
-    "dimensions": "H 97 × L 150 × P 46 cm",
-    "description_it": "Elegante credenza a tre ante caratterizzata da una raffinata struttura a fronte mosso, con fianchi laterali arrotondati. Il mobile è interamente impiallacciato in radica dai caldi toni ambrati, valorizzata da filettature e intarsi geometrici in essenze lignee a contrasto.\n\nIl fronte presenta una grande anta centrale incorniciata, decorata da un motivo intarsiato a losanghe entro medaglione ovale, affiancata da due ante laterali curve. Lesene verticali e fascia superiore sono impreziosite da ulteriori motivi geometrici, mentre le serrature conservano le rispettive bocchette metalliche.\n\nLa ricchezza della radica, la lavorazione dei fianchi bombati e l'impianto decorativo conferiscono al mobile un aspetto particolarmente scenografico. Esemplare di gusto storicista, verosimilmente ispirato alla produzione italiana ed europea tra Settecento e Ottocento.",
-    "images": [
-      "assets/images/A125/A125-01.webp",
-      "assets/images/A125/A125-02.webp",
-      "assets/images/A125/A125-03.webp",
-      "assets/images/A125/A125-04.webp"
-    ],
-    "status": "available",
-    "specs_it": [
-      {
-        "label": "Materiale",
-        "value": "legno impiallacciato in radica, essenze lignee a contrasto e metallo"
-      },
-      {
-        "label": "Stile",
-        "value": "storicista / gusto neoclassico"
-      },
-      {
-        "label": "Epoca",
-        "value": "da verificare dal vivo; prudenzialmente XX secolo"
-      }
-    ],
-    "epoch_it": "da verificare dal vivo; prudenzialmente XX secolo",
-    "style_it": "storicista / gusto neoclassico",
-    "material_it": "legno impiallacciato in radica, essenze lignee a contrasto e metallo",
-    "description_en": "",
-    "description_fr": ""
-  },
   "A126": {
     "category_key": "sculptures",
     "title_it": "Paolo Troubetzkoy (1866–1938), Cowboy su cavallo che scalcia",
@@ -5568,15 +5535,15 @@
   "A132": {
     "category_key": "seating",
     "title_it": "Set di sei sedie intarsiate",
-    "title_en": "Set of Twelve Italian Neoclassical Carved Wood Chairs",
-    "title_fr": "Suite de douze chaises italiennes néoclassiques en bois sculpté",
+    "title_en": "Set of Six Italian Neoclassical Inlaid Wood Chairs",
+    "title_fr": "Suite de six chaises italiennes néoclassiques en bois marqueté",
     "category_it": "Sedute e salotti",
     "category_en": "Seating",
     "category_fr": "Sièges",
     "dimensions": "Da misurare",
     "description_it": "Set di sei sedie in legno, caratterizzate da schienale a giorno con elemento centrale sagomato e fascia superiore decorata da intarsio a motivo floreale. Gambe anteriori rastremate e struttura dalle linee sobrie di gusto neoclassico.\n\nSedute rivestite in tessuto bianco.",
-    "description_en": "Set of twelve Italian Neoclassical chairs in carved wood, with rectangular backs centred by pierced lyre-form splats. Tapered front legs and white upholstered seats give the ensemble a balanced architectural character.",
-    "description_fr": "Suite de douze chaises italiennes néoclassiques en bois sculpté, à dossier rectangulaire centré d’un motif ajouré en forme de lyre. Les pieds antérieurs fuselés et les assises garnies de tissu blanc soulignent l’équilibre de l’ensemble.",
+    "description_en": "Set of six Italian Neoclassical chairs in wood, with open rectangular backs centred by shaped splats and upper rails decorated with floral inlay. Tapered front legs and white upholstered seats complete the restrained design.",
+    "description_fr": "Suite de six chaises italiennes néoclassiques en bois, à dossiers ajourés ornés d’un élément central découpé et d’une traverse supérieure à décor floral marqueté. Les pieds antérieurs fuselés et les assises garnies de tissu blanc complètent cet ensemble aux lignes sobres.",
     "images": [
       "assets/images/A132/A132-01.webp",
       "assets/images/A132/A132-02.webp"
@@ -5588,7 +5555,7 @@
     "specs_it": [
       {
         "label": "Composizione",
-        "value": "dodici sedie"
+        "value": "sei sedie"
       },
       {
         "label": "Epoca",
