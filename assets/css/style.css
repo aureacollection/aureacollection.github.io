@@ -80,6 +80,8 @@ dd{margin:0}
 .info{padding:100px 44px;border-top:1px solid var(--line);text-align:center}
 .info h2{font-family:Georgia,serif;font-size:3rem;font-weight:400}
 .info p{max-width:700px;margin:auto;font-family:Georgia,serif;font-size:1.08rem;line-height:1.8;color:#4a443d}
+.contact-cta{margin-top:28px;background:var(--dark);color:white;cursor:pointer}
+.contact-cta:hover{background:var(--gold)}
 footer{background:var(--dark);color:white;padding:32px;text-align:center;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase}
 .lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.97);z-index:60;align-items:center;justify-content:center}
 .lightbox.open{display:flex}
@@ -675,4 +677,114 @@ img {
 }
 .lot-card.category-sculptures .lot-photo:hover img {
   transform: none;
+}
+
+/* Compact marketplace-style catalogue grid. */
+@media (min-width: 1200px) {
+  .collection {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .catalog-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 28px 18px;
+  }
+  .lot-info {
+    padding: 14px;
+  }
+  .lot-card h3 {
+    font-size: 1.12rem;
+    line-height: 1.3;
+    margin: 9px 0 6px;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1199px) {
+  .catalog-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px 20px;
+  }
+  .lot-info {
+    padding: 15px;
+  }
+  .lot-card h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 950px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px 16px;
+  }
+  .lot-info {
+    padding: 14px;
+  }
+  .lot-card h3 {
+    font-size: 1.1rem;
+  }
+}
+
+
+/* In-card image carousel and return-to-results navigation. */
+.lot-media {
+  position: relative;
+  overflow: hidden;
+  background: #eee;
+}
+.lot-media .lot-photo {
+  display: block;
+}
+.card-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  width: 34px;
+  height: 44px;
+  border: 0;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, .88);
+  color: #211b16;
+  font: 400 2rem/1 Georgia, serif;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity .2s, background .2s;
+}
+.card-arrow-prev { left: 8px; }
+.card-arrow-next { right: 8px; }
+.lot-media:hover .card-arrow,
+.card-arrow:focus-visible { opacity: 1; }
+.card-arrow:hover { background: #fff; }
+.card-counter {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 2;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background: rgba(24, 19, 15, .68);
+  color: #fff;
+  font-size: .7rem;
+  letter-spacing: .04em;
+  pointer-events: none;
+}
+.back-to-results {
+  margin: 0 0 22px;
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 1px solid #a57839;
+  background: transparent;
+  color: #211b16;
+  font: inherit;
+  letter-spacing: .06em;
+  cursor: pointer;
+}
+.back-to-results:hover { color: #a57839; }
+@media (max-width: 760px) {
+  .card-arrow {
+    width: 32px;
+    height: 40px;
+    opacity: .9;
+  }
 }
